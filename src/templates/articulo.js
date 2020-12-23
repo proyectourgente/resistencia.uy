@@ -6,9 +6,11 @@ import Layout from "../components/layout"
 import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer';
 
 function limpiarTexto(texto) {
-    texto = texto.replaceAll('\n','')
-    texto = texto.replaceAll('(*)','')
-    texto = texto.trim()
+    if (texto) {
+        texto = texto.replaceAll('\n', '')
+        texto = texto.replaceAll('(*)', '')
+        texto = texto.trim()
+    }
 
     return texto
 }
