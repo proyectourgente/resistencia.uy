@@ -11,6 +11,8 @@ function limpiarTexto(texto) {
         texto = texto.replaceAll('(*)', '')
         texto = texto.trim()
         return texto
+    } else if (texto) {
+        return texto.toString()
     } else
         return ''
 }
