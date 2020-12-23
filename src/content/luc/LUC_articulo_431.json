@@ -1,16 +1,19 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  ",
-    "nombreArticulo": "Art\u00edculo  ",
-    "textoArticulo": "  ",
-    "textoArticuloMarkdown": " ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N IX - NORMATIVA SOBRE LA EMERGENCIA EN VIVIENDA  CAP\u00cdTULO II - R\u00c9GIMEN DE ARRENDAMIENTO SIN GARANT\u00cdA  ",
+        "nombreArticulo": "Art\u00edculo 431 ",
+        "textoArticulo": "    (Tr\u00e1mite del proceso de desalojo por vencimiento del plazo. Citaci\u00f3n de excepciones).- En el mismo decreto que se dispone el desalojo se citar\u00e1 al arrendatario de excepciones por el plazo de seis d\u00edas h\u00e1biles. El arrendatario podr\u00e1 oponer exclusivamente las excepciones establecidas en el art\u00edculo 133 del C\u00f3digo General del Proceso y la de falta de cumplimiento de los requisitos establecidos en el art\u00edculo 421 de la presente ley.\r\n\r\n   El Juez rechazar\u00e1 sin sustanciar cualquier excepci\u00f3n que no sea de las previstas en el inciso anterior. El Tribunal tambi\u00e9n rechazar\u00e1 sin sustanciar cualquier otro escrito o solicitud que a su juicio tenga una finalidad dilatoria, salvo aquellas que puedan producir la nulidad total o parcial del proceso a criterio del Tribunal.\r\n "
+    },
+    "numeroArticulo": "431",
+    "seccionArticulo": "IX",
+    "capituloArticulo": "II",
+    "textoArticuloMarkdown": " (Tr\u00e1mite del proceso de desalojo por vencimiento del plazo. Citaci\u00f3n de excepciones).- En el mismo decreto que se dispone el desalojo se citar\u00e1 al arrendatario de excepciones por el plazo de seis d\u00edas h\u00e1biles. El arrendatario podr\u00e1 oponer exclusivamente las excepciones establecidas en el art\u00edculo 133 del C\u00f3digo General del Proceso y la de falta de cumplimiento de los requisitos establecidos en el art\u00edculo 421 de la presente ley. El Juez rechazar\u00e1 sin sustanciar cualquier excepci\u00f3n que no sea de las previstas en el inciso anterior. El Tribunal tambi\u00e9n rechazar\u00e1 sin sustanciar cualquier otro escrito o solicitud que a su juicio tenga una finalidad dilatoria, salvo aquellas que puedan producir la nulidad total o parcial del proceso a criterio del Tribunal. "
 }

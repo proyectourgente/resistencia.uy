@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO I - DE LOS DELITOS  CAPITULO II - DE LA APLICACION DE LAS LEYES PENALES  ",
-    "nombreArticulo": "Art\u00edculo 13 ",
-    "textoArticulo": "    (Extradici\u00f3n)\r\n   La extradici\u00f3n no es admitida por delitos pol\u00edticos, por delitos\r\ncomunes conexos a delitos pol\u00edticos ni por delitos comunes cuya represi\u00f3n\r\nobedezca a fines pol\u00edticos.\r\n   Tampoco es admisible, cuando el hecho que motiva el pedido no ha sido\r\nprevisto como delito por la legislaci\u00f3n nacional.\r\n   La extradici\u00f3n puede otorgarse u ofrecerse a\u00fan por delitos no\r\ncontemplados en los Tratados, siempre que no existiera prohibici\u00f3n en\r\nellos. ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/13?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Extradici\u00f3n) La extradici\u00f3n no es admitida por delitos pol\u00edticos, por delitos comunes conexos a delitos pol\u00edticos ni por delitos comunes cuya represi\u00f3n obedezca a fines pol\u00edticos. Tampoco es admisible, cuando el hecho que motiva el pedido no ha sido previsto como delito por la legislaci\u00f3n nacional. La extradici\u00f3n puede otorgarse u ofrecerse a\u00fan por delitos no contemplados en los Tratados, siempre que no existiera prohibici\u00f3n en ellos. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO I - NORMAS PENALES  ",
+        "nombreArticulo": "Art\u00edculo 13 ",
+        "textoArticulo": "    (Autoevasi\u00f3n).-\r\n \r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> C\u00f3digo Penal de 04/12/1933 art\u00edculo <a href=\"/bases/codigo-penal/9155-1933/184\" >\r\n184</a>.\r\n"
+    },
+    "numeroArticulo": "13",
+    "seccionArticulo": "I",
+    "capituloArticulo": "I",
+    "textoArticuloMarkdown": " (Autoevasi\u00f3n).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** C\u00f3digo Penal de 04/12/1933 art\u00edculo  [184](https://www.impo.com.uy/bases/codigo-penal/9155-1933/184). ",
+    "textoOriginalMarkdown": " Modif\u00edcase el art\u00edculo 184 del C\u00f3digo Penal, el que quedar\u00e1 redactado de\r\nla siguiente manera:\r\n\r\n   \"ARTICULO 184. (Autoevaci\u00f3n).- El que hall\u00e1ndose legalmente preso o\r\n   detenido se evadiere empleando violencia en las cosas, ser\u00e1 castigado\r\n   con seis meses de prisi\u00f3n a cuatro a\u00f1os de penitenciar\u00eda.\r\n\r\n     Igual pena se aplicar\u00e1 al que, autorizado por la autoridad competente\r\n   a ausentarse de su lugar de reclusi\u00f3n, en r\u00e9gimen de salidas\r\n   transitorias, no regresare al mismo, en el plazo fijado\".\r\n ",
+    "textoModificadoMarkdown": " (Autoevasi\u00f3n).- El que hall\u00e1ndose legalmente preso o detenido se evadiera, ser\u00e1 castigado con seis meses de prisi\u00f3n a cuatro a\u00f1os de penitenciar\u00eda. Igual pena se aplicar\u00e1 al que, autorizado por la autoridad competente a ausentarse de su lugar de reclusi\u00f3n, en r\u00e9gimen de salidas transitorias, no regresare al mismo, en el plazo fijado. Si la evasi\u00f3n se perpetrare empleando violencia o intimidaci\u00f3n en las personas o violencia o fuerza en las cosas, la pena ser\u00e1 de doce meses de prisi\u00f3n a cinco a\u00f1os de penitenciar\u00eda. (*) "
 }

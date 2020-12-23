@@ -1,23 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO XIII - DELITOS CONTRA LA PROPIEDAD  CAPITULO VI - DELITOS CONTRA LA PROPIEDAD MUEBLE O INMUEBLE  ",
-    "nombreArticulo": "Art\u00edculo 358 ",
-    "textoArticulo": "    (Da\u00f1o) \r\n   El que destruyere, deteriorare o de cualquier manera inutilizare en todo o en parte alguna cosa mueble o inmueble ajena, ser\u00e1 castigado, a denuncia de parte, cuando el hecho no constituya delito m\u00e1s grave, con 20 U.R. (veinte unidades reajustables) a 900 U.R. (novecientas unidades reajustables) de multa. (*)\r\n ",
-    "notasArticulo": "<b><font color=\"#0000FF\">Redacci\u00f3n dada por:</font></b> Ley N\u00ba 15.903 de 10/11/1987 art\u00edculo <a href=\"/bases/leyes/15903-1987/216\" >216</a>.\r\n<br><b><font color=\"#008200\">TEXTO ORIGINAL:</font></b> Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo <a href=\"/bases/textos-originales-ley/9155-1933/358\" >358</a>.\r\n",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/358?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Da\u00f1o) El que destruyere, deteriorare o de cualquier manera inutilizare en todo o en parte alguna cosa mueble o inmueble ajena, ser\u00e1 castigado, a denuncia de parte, cuando el hecho no constituya delito m\u00e1s grave, con 20 U.R. (veinte unidades reajustables) a 900 U.R. (novecientas unidades reajustables) de multa. (*) ",
-    "anteriorOriginal": {
-        "referencia": "Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo 358.",
-        "link": "https://www.impo.com.uy/bases/textos-originales-ley/9155-1933/358",
-        "textoArticulo": "    (Da\u00f1o) \r\n   El que destruyere, deteriorare o de cualquier manera inutilizare en todo o en parte alguna cosa mueble o inmueble ajena, ser\u00e1 castigado, a denuncia de parte, cuando el hecho no constituya delito m\u00e1s grave, con multa de cien a dos mil pesos. ",
-        "textoArticuloMarkdown": " (Da\u00f1o) El que destruyere, deteriorare o de cualquier manera inutilizare en todo o en parte alguna cosa mueble o inmueble ajena, ser\u00e1 castigado, a denuncia de parte, cuando el hecho no constituya delito m\u00e1s grave, con multa de cien a dos mil pesos. "
-    }
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N VI - SECTOR AGROPECUARIO  CAP\u00cdTULO I - DEL INSTITUTO NACIONAL DE COLONIZACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 358 ",
+        "textoArticulo": "    (Excepci\u00f3n a la obligaci\u00f3n prevista en la norma).\r\n\r\n   (*)\r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 11.029 de 12/01/1948 art\u00edculo \r\n<a href=\"/bases/leyes/11029-1948/61\" >61</a> literal B).\r\n"
+    },
+    "numeroArticulo": "358",
+    "seccionArticulo": "VI",
+    "capituloArticulo": "I",
+    "textoArticuloMarkdown": " (Excepci\u00f3n a la obligaci\u00f3n prevista en la norma). (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 11.029 de 12/01/1948 art\u00edculo [61](https://www.impo.com.uy/bases/leyes/11029-1948/61) literal B). ",
+    "textoOriginalMarkdown": "    Ser\u00e1n obligaciones principales de los colonos:\r\n\r\nA) Hacer efectivos los pagos dentro de los plazos fijados, en dinero o en\r\n   especie seg\u00fan se hubiera convenido.\r\nB) Trabajar directamente el predio y habilitarlo con su familia, salvo,\r\n   en este \u00faltimo caso, que la colonia est\u00e9 organizada o se organice bajo\r\n   el sistema de viviendas agrupadas en poblados.\r\nC) Ajustar la explotaci\u00f3n del predio a las normas generales que\r\n   establezca el Instituto cuando se trate de colonizaci\u00f3n orientada \r\n   (apartado B) del inciso 10) del art\u00edculo 7\u00b0).\r\nD) Cumplir los destinos para los cuales se le acuerden los cr\u00e9ditos, \r\n   cuando se trate de colonizaci\u00f3n condicionada (apartado C) del inciso \r\n   10) del art\u00edculo 7\u00b0).\r\nE) Cumplir las indicaciones de orden general y particular que se le \r\n   formulen sobre la conducci\u00f3n de la explotaci\u00f3n y destino de sus \r\n   frutos, cuando se trate de colonizaci\u00f3n dirigida (apartado D) del \r\n   inciso 10) del art\u00edculo 7\u00b0).\r\nF) Asegurar sus cultivos e instalaciones, para lo cual el Instituto \r\n   convendr\u00e1 con el Banco de Seguros del Estado, una p\u00f3liza en\r\n   condiciones especiales.\r\nG) Aceptar y cumplir, aun cuando se trate de colonizaci\u00f3n libre, las \r\n   normas generales que establezca el Instituto sobre conservaci\u00f3n del \r\n   suelo, erradicaci\u00f3n de malezas y destrucci\u00f3n de todo agente nocivo\r\n   para la producci\u00f3n.\r\n\r\n                     XI - De la adjudicaci\u00f3n de tierras ",
+    "textoModificadoMarkdown": " Ser\u00e1n obligaciones principales de los colonos: A) Hacer efectivos los pagos dentro de los plazos fijados, en dinero o en especie seg\u00fan se hubiera convenido. B) Trabajar en el predio, supervisar el trabajo y habitarlo, salvo, en este \u00faltimo caso, que la colonia est\u00e9 organizada o se organice bajo el sistema de viviendas agrupadas en poblados. El Directorio del Instituto podr\u00e1 autorizar la excepci\u00f3n a la obligaci\u00f3n establecida en el inciso anterior, cuando se trate de colonos que cumplan los siguientes requisitos: 1) Hayan tenido una radicaci\u00f3n por un plazo m\u00ednimo de diez a\u00f1os. 2) Hayan cumplido con el plan de inversiones comprometido si lo hubiere. 3) Invoquen razones fundadas de salud, educaci\u00f3n o trabajo del colono o los integrantes del n\u00facleo familiar. En caso de que se invocaren razones de salud debidamente fundadas antes de los diez a\u00f1os de radicaci\u00f3n se podr\u00e1 excepcionar de tal obligaci\u00f3n con el voto conforme de cuatro miembros del Directorio. (*) C) Ajustar la explotaci\u00f3n del predio a las normas generales que establezca el Instituto cuando se trate de colonizaci\u00f3n orientada (apartado B) del inciso 10) del art\u00edculo 7\u00b0). D) Cumplir los destinos para los cuales se le acuerden los cr\u00e9ditos, cuando se trate de colonizaci\u00f3n condicionada (apartado C) del inciso 10) del art\u00edculo 7\u00b0). E) Cumplir las indicaciones de orden general y particular que se le formulen sobre la conducci\u00f3n de la explotaci\u00f3n y destino de sus frutos, cuando se trate de colonizaci\u00f3n dirigida (apartado D) del inciso 10) del art\u00edculo 7\u00b0). F) Asegurar sus cultivos e instalaciones, para lo cual el Instituto convendr\u00e1 con el Banco de Seguros del Estado, una p\u00f3liza en condiciones especiales. G) Aceptar y cumplir, aun cuando se trate de colonizaci\u00f3n libre, las normas generales que establezca el Instituto sobre conservaci\u00f3n del suelo, erradicaci\u00f3n de malezas y destrucci\u00f3n de todo agente nocivo para la producci\u00f3n. "
 }

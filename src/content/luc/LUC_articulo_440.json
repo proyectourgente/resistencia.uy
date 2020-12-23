@@ -1,16 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  ",
-    "nombreArticulo": "Art\u00edculo  ",
-    "textoArticulo": "  ",
-    "textoArticuloMarkdown": " ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N IX - NORMATIVA SOBRE LA EMERGENCIA EN VIVIENDA  CAP\u00cdTULO II - R\u00c9GIMEN DE ARRENDAMIENTO SIN GARANT\u00cdA  ",
+        "nombreArticulo": "Art\u00edculo 440 ",
+        "textoArticulo": "    (Desalojo por mal pagador. Citaci\u00f3n de excepciones).- En el mismo decreto que se dispone el desalojo se citar\u00e1 al arrendatario de excepciones por el plazo de seis d\u00edas h\u00e1biles. El arrendatario podr\u00e1 oponer exclusivamente las excepciones establecidas en el art\u00edculo 133 del C\u00f3digo General del Proceso, la de falta de cumplimiento de los requisitos establecidos en el art\u00edculo 421 de la presente ley, y la excepci\u00f3n de pago. No se admitir\u00e1 la excepci\u00f3n de pago parcial. \r\n\r\n   El Tribunal relevar\u00e1 las excepciones opuestas con especial diligencia y celeridad, y rechazar\u00e1 sin sustanciar toda excepci\u00f3n que no fuere de las enumeradas en el inciso anterior, o que no se opusiere en forma clara y concreta, cualquiera sea el nombre que el arrendatario les diere, o que no se acompa\u00f1are con medios probatorios suficientes. El Tribunal tambi\u00e9n rechazar\u00e1 sin sustanciar toda excepci\u00f3n de pago que no sea acompa\u00f1ada con probanza documental que demuestre fehacientemente el pago del arriendo y cualquier otro escrito o solicitud que a su juicio tenga una finalidad dilatoria.\r\n ",
+        "notasArticulo": "<b>Ver en esta norma, art\u00edculo:</b> <a href=\"/bases/leyes/19889-2020/453\" >453</a>.\r\n"
+    },
+    "numeroArticulo": "440",
+    "seccionArticulo": "IX",
+    "capituloArticulo": "II",
+    "textoArticuloMarkdown": " (Desalojo por mal pagador. Citaci\u00f3n de excepciones).- En el mismo decreto que se dispone el desalojo se citar\u00e1 al arrendatario de excepciones por el plazo de seis d\u00edas h\u00e1biles. El arrendatario podr\u00e1 oponer exclusivamente las excepciones establecidas en el art\u00edculo 133 del C\u00f3digo General del Proceso, la de falta de cumplimiento de los requisitos establecidos en el art\u00edculo 421 de la presente ley, y la excepci\u00f3n de pago. No se admitir\u00e1 la excepci\u00f3n de pago parcial. El Tribunal relevar\u00e1 las excepciones opuestas con especial diligencia y celeridad, y rechazar\u00e1 sin sustanciar toda excepci\u00f3n que no fuere de las enumeradas en el inciso anterior, o que no se opusiere en forma clara y concreta, cualquiera sea el nombre que el arrendatario les diere, o que no se acompa\u00f1are con medios probatorios suficientes. El Tribunal tambi\u00e9n rechazar\u00e1 sin sustanciar toda excepci\u00f3n de pago que no sea acompa\u00f1ada con probanza documental que demuestre fehacientemente el pago del arriendo y cualquier otro escrito o solicitud que a su juicio tenga una finalidad dilatoria. ",
+    "notasArticuloMarkdown": "**Ver en esta norma, art\u00edculo:** [453](https://www.impo.com.uy/bases/leyes/19889-2020/453). ",
+    "textoOriginalMarkdown": " (Desalojo por mal pagador. Citaci\u00f3n de excepciones).- En el mismo decreto que se dispone el desalojo se citar\u00e1 al arrendatario de excepciones por el plazo de seis d\u00edas h\u00e1biles. El arrendatario podr\u00e1 oponer exclusivamente las excepciones establecidas en el art\u00edculo 133 del C\u00f3digo General del Proceso, la de falta de cumplimiento de los requisitos establecidos en el art\u00edculo 421 de la presente ley, y la excepci\u00f3n de pago. No se admitir\u00e1 la excepci\u00f3n de pago parcial. El Tribunal relevar\u00e1 las excepciones opuestas con especial diligencia y celeridad, y rechazar\u00e1 sin sustanciar toda excepci\u00f3n que no fuere de las enumeradas en el inciso anterior, o que no se opusiere en forma clara y concreta, cualquiera sea el nombre que el arrendatario les diere, o que no se acompa\u00f1are con medios probatorios suficientes. El Tribunal tambi\u00e9n rechazar\u00e1 sin sustanciar toda excepci\u00f3n de pago que no sea acompa\u00f1ada con probanza documental que demuestre fehacientemente el pago del arriendo y cualquier otro escrito o solicitud que a su juicio tenga una finalidad dilatoria. ",
+    "textoModificadoMarkdown": null
 }

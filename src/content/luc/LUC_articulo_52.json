@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO III - DE LAS CIRCUNSTANCIAS QUE ALTERAN EL GRADO DE LA PENA  CAPITULO III - EFECTOS DE LAS CIRCUNSTANCIAS AGRAVANTES Y ATENUANTES DE\r\nSU CONCURRENCIA, Y SU COMUNICABILIDAD  ",
-    "nombreArticulo": "Art\u00edculo 52 ",
-    "textoArticulo": "    (Normas sobre la comunicabilidad)\r\n   No se comunican las circunstancias agravantes o atenuantes personales.\r\nSe comunican en cambio las agravantes reales y a\u00fan las personales que\r\nsiendo conocidas por los part\u00edcipes, contribuyeren a facilitar la\r\nejecuci\u00f3n del hecho. \r\n   Se llaman personales las que, por causas f\u00edsicas, morales o sociales,\r\ns\u00f3lo concurren en determinados agentes del delito; y se denominan reales,\r\nlas que derivan su car\u00e1cter del modo, del lugar, de la ocasi\u00f3n, de la\r\nhora y de los dem\u00e1s factores que ata\u00f1en a la ejecuci\u00f3n material del hecho,\r\nconocidas por los part\u00edcipes antes o durante la ejecuci\u00f3n. \r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/52?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Normas sobre la comunicabilidad) No se comunican las circunstancias agravantes o atenuantes personales. Se comunican en cambio las agravantes reales y a\u00fan las personales que siendo conocidas por los part\u00edcipes, contribuyeren a facilitar la ejecuci\u00f3n del hecho. Se llaman personales las que, por causas f\u00edsicas, morales o sociales, s\u00f3lo concurren en determinados agentes del delito; y se denominan reales, las que derivan su car\u00e1cter del modo, del lugar, de la ocasi\u00f3n, de la hora y de los dem\u00e1s factores que ata\u00f1en a la ejecuci\u00f3n material del hecho, conocidas por los part\u00edcipes antes o durante la ejecuci\u00f3n. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO III - LEGISLACI\u00d3N PROFESIONAL POLICIAL  ",
+        "nombreArticulo": "Art\u00edculo 52 ",
+        "textoArticulo": "    (Conducci\u00f3n policial de personas eventualmente implicadas).-\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.315 de 05/07/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18315-2008/48\" >48</a>.\r\n"
+    },
+    "numeroArticulo": "52",
+    "seccionArticulo": "I",
+    "capituloArticulo": "III",
+    "textoArticuloMarkdown": " (Conducci\u00f3n policial de personas eventualmente implicadas).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.315 de 05/07/2008 art\u00edculo [48](https://www.impo.com.uy/bases/leyes/18315-2008/48). ",
+    "textoOriginalMarkdown": "  (Conducci\u00f3n de personas eventualmente responsables de un hecho\r\ndelictivo).-\r\n1)     La polic\u00eda deber\u00e1 conducir a dependencias policiales a cualquier\r\n       persona si cuenta con motivos suficientes o fundados sobre su\r\n       responsabilidad en un hecho con apariencia delictiva recientemente\r\n       acaecido y exista riesgo de que pueda fugarse del lugar donde el\r\n       mismo se ha cometido o incidir sobre eventuales elementos\r\n       probatorios. En todo caso, se dar\u00e1 cuenta de inmediato al Juez\r\n       competente, conforme con lo dispuesto por el art\u00edculo 6\u00ba de la\r\n       presente ley.\r\n2)     Fuera de la hip\u00f3tesis de conducci\u00f3n incorporada al numeral\r\n       anterior, en procedimientos de investigaci\u00f3n de hechos il\u00edcitos, la\r\n       polic\u00eda no podr\u00e1 detener a ninguna persona ni testigos a\u00fan cuando\r\n       se nieguen a concurrir voluntariamente a dependencias policiales\r\n       sin la correspondiente orden del Juez competente.\r\n ",
+    "textoModificadoMarkdown": " (Conducci\u00f3n policial de personas eventualmente implicadas).- La Polic\u00eda deber\u00e1 conducir a dependencias policiales a cualquier persona cuando existan indicios fundados de que esta ha participado en un hecho con apariencia delictiva y puede fugarse del lugar donde el mismo se ha cometido, o entorpecer la investigaci\u00f3n policial incidiendo en perjuicio de los elementos probatorios. Asimismo, si en ocasi\u00f3n de procedimientos tendientes al esclarecimiento de hechos con apariencia delictiva, se verifica la negativa de personas eventualmente implicadas en los mismos a concurrir a dependencias policiales, la Polic\u00eda podr\u00e1 conducirles y mantenerles en tales dependencias con la finalidad de obtener la informaci\u00f3n que fuera necesaria. En los casos referidos en los incisos precedentes la Polic\u00eda deber\u00e1 dar cuenta de inmediato al Ministerio P\u00fablico. (*) "
 }

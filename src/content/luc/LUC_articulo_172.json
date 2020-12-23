@@ -1,23 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO IV - DELITOS CONTRA LA ADMINISTRACION PUBLICA  CAPITULO V - DE LA VIOLENCIA Y LA OFENSA A LA AUTORIDAD PUBLICA  ",
-    "nombreArticulo": "Art\u00edculo 172 ",
-    "textoArticulo": "    (Circunstancias agravantes)\r\n   Son circunstancias agravantes:\r\n   1. El que la violencia o amenaza se ejerciera por m\u00e1s de tres personas\r\ny menos de quince.\r\n   2. El que la violencia o amenaza se ejecutare contra m\u00e1s de dos\r\nfuncionarios o contra un cuerpo pol\u00edtico, administrativo o judicial, de\r\norganizaci\u00f3n jer\u00e1rquica o colegiada, o contra un funcionario del orden\r\njudicial o policial.\r\n   3. El que la violencia o amenaza se efectuare con armas.\r\n   4. La calidad de jefe o promotor.\r\n   5. La elevaci\u00f3n jer\u00e1rquica del funcionario ofendido. (*) ",
-    "notasArticulo": "<b><font color=\"#0000FF\">Redacci\u00f3n dada por:</font></b> Ley N\u00ba 16.707 de 12/07/1995 art\u00edculo <a href=\"/bases/leyes/16707-1995/7\" >7</a>.\r\n<b>Ver en esta norma, art\u00edculo:</b> <a href=\"/bases/codigo-penal/9155-1933/174\" >174</a>.\r\n<br><b><font color=\"#008200\">TEXTO ORIGINAL:</font></b> Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo <a href=\"/bases/textos-originales-ley/9155-1933/172\" >172</a>.\r\n",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/172?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Circunstancias agravantes) Son circunstancias agravantes: 1. El que la violencia o amenaza se ejerciera por m\u00e1s de tres personas y menos de quince. 2. El que la violencia o amenaza se ejecutare contra m\u00e1s de dos funcionarios o contra un cuerpo pol\u00edtico, administrativo o judicial, de organizaci\u00f3n jer\u00e1rquica o colegiada, o contra un funcionario del orden judicial o policial. 3. El que la violencia o amenaza se efectuare con armas. 4. La calidad de jefe o promotor. 5. La elevaci\u00f3n jer\u00e1rquica del funcionario ofendido. (*) ",
-    "anteriorOriginal": {
-        "referencia": "Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo 172.",
-        "link": "https://www.impo.com.uy/bases/textos-originales-ley/9155-1933/172",
-        "textoArticulo": "    (Circunstancias agravantes)\r\n   Son circunstancias agravantes:\r\n   1.o El que la violencia o amenaza se ejerciera por m\u00e1s de tres personas\r\ny menos de quince.\r\n   2.o El que la violencia o amenaza se ejecutare contra m\u00e1s de dos\r\nfuncionarios o contra un cuerpo pol\u00edtico o administrativo, de\r\norganizaci\u00f3n jer\u00e1rquica o colegiada, o contra un funcionario del orden\r\njudicial.\r\n   3.o El que la violencia o amenaza se efectuare con armas.\r\n   4.o La calidad de jefe o promotor.\r\n   5.o La elevaci\u00f3n jer\u00e1rquica del funcionario ofendido. ",
-        "textoArticuloMarkdown": " (Circunstancias agravantes) Son circunstancias agravantes: 1.o El que la violencia o amenaza se ejerciera por m\u00e1s de tres personas y menos de quince. 2.o El que la violencia o amenaza se ejecutare contra m\u00e1s de dos funcionarios o contra un cuerpo pol\u00edtico o administrativo, de organizaci\u00f3n jer\u00e1rquica o colegiada, o contra un funcionario del orden judicial. 3.o El que la violencia o amenaza se efectuare con armas. 4.o La calidad de jefe o promotor. 5.o La elevaci\u00f3n jer\u00e1rquica del funcionario ofendido. "
-    }
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 172 ",
+        "textoArticulo": "    (Creaci\u00f3n de las Comisiones Departamentales de Educaci\u00f3n).- \r\n\r\n   (*)\r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/90\" >90</a>.\r\n"
+    },
+    "numeroArticulo": "172",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (Creaci\u00f3n de las Comisiones Departamentales de Educaci\u00f3n).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [90](https://www.impo.com.uy/bases/leyes/18437-2008/90). ",
+    "textoOriginalMarkdown": "  (Creaci\u00f3n de las Comisiones Departamentales de Educaci\u00f3n).- Cr\u00e9anse por\r\ncada departamento de la Rep\u00fablica una Comisi\u00f3n Coordinadora Departamental\r\nde la Educaci\u00f3n integrada por los siguientes representantes: uno por cada\r\nConsejo de Educaci\u00f3n de la Administraci\u00f3n Nacional de Educaci\u00f3n P\u00fablica,\r\ndel Instituto Universitario de Educaci\u00f3n, del Instituto Terciario\r\nSuperior, del Consejo Nacional de Educaci\u00f3n No Formal, del Consejo\r\nCoordinador de Educaci\u00f3n en la Primera Infancia y de la Universidad de la\r\nRep\u00fablica.\r\nLa Comisi\u00f3n Coordinadora del Sistema Nacional de Educaci\u00f3n P\u00fablica\r\nreglamentar\u00e1 el funcionamiento de las Comisiones Coordinadoras\r\nDepartamentales de la Educaci\u00f3n y podr\u00e1 establecer mecanismos de\r\ncoordinaci\u00f3n regional entre las Comisiones Departamentales.\r\n ",
+    "textoModificadoMarkdown": " (Creaci\u00f3n de las Comisiones Coordinadoras Departamentales de Educaci\u00f3n).- Cr\u00e9ase, en cada departamento de la Rep\u00fablica, una Comisi\u00f3n Coordinadora Departamental de la Educaci\u00f3n integrada por los siguientes miembros: uno por cada Direcci\u00f3n General y el Consejo de Formaci\u00f3n en Educaci\u00f3n de la Administraci\u00f3n Nacional de Educaci\u00f3n P\u00fablica, uno por las instituciones privadas de educaci\u00f3n primaria y media presentes en el departamento, uno por el Instituto del Ni\u00f1o y Adolescente del Uruguay, uno por cada universidad p\u00fablica presente en el departamento (con excepci\u00f3n, en el caso de la Universidad Tecnol\u00f3gica, de la Comisi\u00f3n correspondiente al departamento de Montevideo), uno por el conjunto de universidades privadas presentes en el departamento, uno por el Instituto Nacional de Empleo y Formaci\u00f3n Profesional y un miembro designado por el gobierno departamental respectivo. Cada Comisi\u00f3n Coordinadora Departamental, por voto fundado de tres cuartos de sus integrantes, podr\u00e1 decidir la incorporaci\u00f3n de otros representantes. La Comisi\u00f3n Coordinadora de la Educaci\u00f3n reglamentar\u00e1 el funcionamiento de estas comisiones y podr\u00e1 establecer mecanismos de coordinaci\u00f3n regional.(*) "
 }

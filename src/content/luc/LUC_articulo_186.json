@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO V - DE LOS DELITOS CONTRA LA ADMINISTRACION DE LA JUSTICIA  CAPITULO III - EVASION Y QUEBRANTAMIENTO DE CONDENA  ",
-    "nombreArticulo": "Art\u00edculo 186 ",
-    "textoArticulo": "    (Concurso de los funcionarios p\u00fablicos en la evasi\u00f3n)\r\n   El funcionario p\u00fablico encargado de la custodia o del transporte\r\nde un preso o detenido por delito, que de cualquier manera procurare\r\no facilitare su evasi\u00f3n, ser\u00e1 castigado con dos a ocho a\u00f1os de\r\npenitenciar\u00eda. ",
-    "notasArticulo": "<b>Ver en esta norma, art\u00edculos:</b> <a href=\"/bases/codigo-penal/9155-1933/187\" >187</a> y <a href=\"/bases/codigo-penal/9155-1933/188\" >188</a>.\r\n",
-    "textoArticuloMarkdown": " (Concurso de los funcionarios p\u00fablicos en la evasi\u00f3n) El funcionario p\u00fablico encargado de la custodia o del transporte de un preso o detenido por delito, que de cualquier manera procurare o facilitare su evasi\u00f3n, ser\u00e1 castigado con dos a ocho a\u00f1os de penitenciar\u00eda. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 186 ",
+        "textoArticulo": "    (Cometidos).- \r\n\r\n   (*)\r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/108\" >108</a>.\r\n"
+    },
+    "numeroArticulo": "186",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (Cometidos).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [108](https://www.impo.com.uy/bases/leyes/18437-2008/108). ",
+    "textoOriginalMarkdown": "  (Cometidos).- A la Comisi\u00f3n Coordinadora del Sistema Nacional de la\r\nEducaci\u00f3n P\u00fablica le compete:\r\nA) Velar por el cumplimiento de los fines y principios establecidos en\r\n   la presente ley.\r\nB) Coordinar, concertar y emitir opini\u00f3n sobre las pol\u00edticas\r\n   educativas de la educaci\u00f3n p\u00fablica e impartir recomendaciones a los\r\n   entes.\r\nC) Promover la planificaci\u00f3n de la educaci\u00f3n p\u00fablica.\r\nD) Cumplir con los cometidos expresamente se\u00f1alados en la presente\r\n   ley.\r\nE) Promover la aplicaci\u00f3n de los principios, fines y orientaciones\r\n   generales que emanan de la presente ley.\r\nF) Convocar al Congreso Nacional de Educaci\u00f3n.\r\nG) Conformar comisiones de asesoramiento y estudio de distintas\r\n   tem\u00e1ticas educativas.\r\n ",
+    "textoModificadoMarkdown": " (Cometidos).- A la Comisi\u00f3n Coordinadora de la Educaci\u00f3n le compete: A) Velar por el cumplimiento de los fines y principios establecidos en la presente ley. B) Coordinar, concertar y emitir opini\u00f3n sobre las pol\u00edticas educativas. C) Promover la planificaci\u00f3n de la acci\u00f3n educativa. D) Promover la aplicaci\u00f3n de los principios, fines y orientaciones generales que emanan de la presente ley. E) Convocar al Congreso Nacional de Educaci\u00f3n. F) Conformar comisiones de asesoramiento y estudio de distintas tem\u00e1ticas educativas. G) Crear las subcomisiones que considere pertinentes para el cumplimiento de sus fines, las que podr\u00e1n ser de car\u00e1cter permanente o transitorias. H) Informar a la ciudadan\u00eda sobre el grado de cumplimiento del Plan Nacional de Educaci\u00f3n.(*) "
 }

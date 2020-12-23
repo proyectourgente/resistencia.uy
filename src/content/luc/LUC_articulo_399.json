@@ -1,16 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  ",
-    "nombreArticulo": "Art\u00edculo  ",
-    "textoArticulo": "  ",
-    "textoArticuloMarkdown": " ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N VII - RELACIONES LABORALES Y SEGURIDAD SOCIAL  CAP\u00cdTULO III - ELECCI\u00d3N DE LOS DIRECTORES SOCIALES DEL BANCO DE PREVISI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 399 ",
+        "textoArticulo": "    (Elecci\u00f3n de representaci\u00f3n en el Directorio del Banco de Previsi\u00f3n Social. Registro de listas).-\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 16.241 de 09/01/1992 art\u00edculo \r\n<a href=\"/bases/leyes/16241-1992/14\" >14</a>.\r\n"
+    },
+    "numeroArticulo": "399",
+    "seccionArticulo": "VII",
+    "capituloArticulo": "III",
+    "textoArticuloMarkdown": " (Elecci\u00f3n de representaci\u00f3n en el Directorio del Banco de Previsi\u00f3n Social. Registro de listas).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 16.241 de 09/01/1992 art\u00edculo [14](https://www.impo.com.uy/bases/leyes/16241-1992/14). ",
+    "textoOriginalMarkdown": "    Modif\u00edcase el art\u00edculo 14 de la Ley N\u00b0 16.241, de 9 de enero de 1992, el que quedar\u00e1 redactado de la siguiente forma:\r\n\r\n        \"ART\u00cdCULO 14.- En cada uno de los \u00f3rdenes podr\u00e1n registrar listas\r\n        para la elecci\u00f3n, las organizaciones nacionales que cumplan los\r\n        siguientes requisitos:\r\n\r\n        1)   Sean representativas, individualmente o en conjunto:\r\n\r\n             A)   En el caso de los afiliados activos, de electores de\r\n                  m\u00e1s de un grupo de actividad de los Consejos de\r\n                  Salarios, conforme a la clasificaci\u00f3n realizada en la\r\n                  normativa aplicable.\r\n\r\n             B)   En el caso de los afiliados pasivos, de electores de\r\n                  m\u00e1s de un sector de afiliaci\u00f3n al Banco de Previsi\u00f3n\r\n                  Social (\"Industria y Comercio\", \"Civil y Escolar\",\r\n                  \"Rural y Dom\u00e9stico\")\r\n\r\n             C)   En el caso de las empresas contribuyentes, de electores\r\n                  de m\u00e1s de una secci\u00f3n de actividades, conforme a las\r\n                  definiciones contenidas al respecto en la Clasificaci\u00f3n\r\n                  Industrial Internacional Uniforme (CIIU).\r\n\r\n        2)   Sean representativas, cada una de ellas, de un n\u00famero no\r\n             inferior al 1% (uno por ciento) de los habilitados para\r\n             votar en ese orden.\r\n\r\n        3)   Cuenten con personer\u00eda jur\u00eddica vigente desde por lo menos\r\n             dos a\u00f1os antes del vencimiento del plazo para el registro de\r\n             listas.\r\n\r\n        Fuera de lo previsto en la presente ley, las organizaciones\r\n        tendr\u00e1n completa libertad para definir las formas o\r\n        procedimientos para decidir la integraci\u00f3n de las listas.\r\n\r\n        No se habilitar\u00e1 ning\u00fan tipo de acumulaci\u00f3n de votos por listas\r\n        distintas\".\r\n ",
+    "textoModificadoMarkdown": " En cada uno de los \u00f3rdenes podr\u00e1n registrar listas para la elecci\u00f3n las organizaciones con personer\u00eda jur\u00eddica que representen a electores del orden respectivo y un n\u00famero de electores no inferior al 1% (uno por ciento) de los habilitados para votar en cada orden. No se admitir\u00e1 ning\u00fan tipo de acumulaci\u00f3n. (*) "
 }

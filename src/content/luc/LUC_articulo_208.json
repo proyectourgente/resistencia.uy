@@ -1,17 +1,20 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO VI - DELITOS CONTRA LA SEGURIDAD PUBLICA  CAPITULO I  ",
-    "nombreArticulo": "Art\u00edculo 208 ",
-    "textoArticulo": "    (Circunstancias agravantes especiales)\r\n   Son circunstancias agravantes especiales: \r\n   1. Si del hecho resultara la muerte o la lesi\u00f3n de varias personas. \r\n   2. Si el delito tuviere por objeto la destrucci\u00f3n de edificios, monumentos o lugares p\u00fablicos, o se ejecutare sobre naves, aeronaves, astilleros, estaciones ferrocarrileras o mar\u00edtimas o a\u00e9reas, almacenes generales y dep\u00f3sitos de substancias explosivas o inflamables. \r\n   3. Si el delito tuviera por objeto la destrucci\u00f3n de un edificio habitado o destinado a habitaci\u00f3n o de las instalaciones adscriptas al suministro de agua, luz o al saneamiento de las ciudades. ",
-    "notasArticulo": "<b>Ver en esta norma, art\u00edculos:</b> <a href=\"/bases/codigo-penal/9155-1933/214\" >214</a> y <a href=\"/bases/codigo-penal/9155-1933/226\" >226</a>.\r\n",
-    "textoArticuloMarkdown": " (Circunstancias agravantes especiales) Son circunstancias agravantes especiales: 1. Si del hecho resultara la muerte o la lesi\u00f3n de varias personas. 2. Si el delito tuviere por objeto la destrucci\u00f3n de edificios, monumentos o lugares p\u00fablicos, o se ejecutare sobre naves, aeronaves, astilleros, estaciones ferrocarrileras o mar\u00edtimas o a\u00e9reas, almacenes generales y dep\u00f3sitos de substancias explosivas o inflamables. 3. Si el delito tuviera por objeto la destrucci\u00f3n de un edificio habitado o destinado a habitaci\u00f3n o de las instalaciones adscriptas al suministro de agua, luz o al saneamiento de las ciudades. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N IV - ECONOM\u00cdA Y EMPRESAS P\u00daBLICAS  CAP\u00cdTULO I - REGLA FISCAL  ",
+        "nombreArticulo": "Art\u00edculo 208 ",
+        "textoArticulo": "    (Meta Indicativa de Resultado Fiscal Estructural).- El Poder Ejecutivo determinar\u00e1, en el marco del proyecto de ley de Presupuesto Nacional, los lineamientos de la pol\u00edtica fiscal que se aplicar\u00e1n durante su administraci\u00f3n, los que incluir\u00e1n una meta indicativa de resultado fiscal estructural de las entidades estatales comprendidas en el \u00e1mbito de aplicaci\u00f3n. La Meta Indicativa de Resultado Fiscal Estructural para el per\u00edodo de gobierno tendr\u00e1 por finalidad la sostenibilidad de las finanzas p\u00fablicas. La regla fiscal ser\u00e1 complementada con un tope indicativo de incremento anual de gasto real vinculado al crecimiento potencial de la econom\u00eda. \r\n "
+    },
+    "numeroArticulo": "208",
+    "seccionArticulo": "IV",
+    "capituloArticulo": "I",
+    "textoArticuloMarkdown": " (Meta Indicativa de Resultado Fiscal Estructural).- El Poder Ejecutivo determinar\u00e1, en el marco del proyecto de ley de Presupuesto Nacional, los lineamientos de la pol\u00edtica fiscal que se aplicar\u00e1n durante su administraci\u00f3n, los que incluir\u00e1n una meta indicativa de resultado fiscal estructural de las entidades estatales comprendidas en el \u00e1mbito de aplicaci\u00f3n. La Meta Indicativa de Resultado Fiscal Estructural para el per\u00edodo de gobierno tendr\u00e1 por finalidad la sostenibilidad de las finanzas p\u00fablicas. La regla fiscal ser\u00e1 complementada con un tope indicativo de incremento anual de gasto real vinculado al crecimiento potencial de la econom\u00eda. ",
+    "textoOriginalMarkdown": " (Meta Indicativa de Resultado Fiscal Estructural).- El Poder Ejecutivo determinar\u00e1, en el marco del proyecto de ley de Presupuesto Nacional, los lineamientos de la pol\u00edtica fiscal que se aplicar\u00e1n durante su administraci\u00f3n, los que incluir\u00e1n una meta indicativa de resultado fiscal estructural de las entidades estatales comprendidas en el \u00e1mbito de aplicaci\u00f3n. La Meta Indicativa de Resultado Fiscal Estructural para el per\u00edodo de gobierno tendr\u00e1 por finalidad la sostenibilidad de las finanzas p\u00fablicas. La regla fiscal ser\u00e1 complementada con un tope indicativo de incremento anual de gasto real vinculado al crecimiento potencial de la econom\u00eda. "
 }

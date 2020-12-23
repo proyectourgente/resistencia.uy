@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO I - DE LOS DELITOS  CAPITULO III - DE LA CULPABILIDAD  ",
-    "nombreArticulo": "Art\u00edculo 21 ",
-    "textoArticulo": "    Si para responder por los actos ordenados o prohibidos en los delitos\r\na que se refiere el art\u00edculo anterior basta la culpa, se castiga tambi\u00e9n\r\nel dolo, pero si se requiere el dolo, no se imputa la culpa.\r\n   El dolo y la culpa se presumen en esta clase de delitos, sin perjuicio\r\nde la prueba en contrario.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/21?verreferencias=articulo",
-    "textoArticuloMarkdown": " Si para responder por los actos ordenados o prohibidos en los delitos a que se refiere el art\u00edculo anterior basta la culpa, se castiga tambi\u00e9n el dolo, pero si se requiere el dolo, no se imputa la culpa. El dolo y la culpa se presumen en esta clase de delitos, sin perjuicio de la prueba en contrario. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO II - NORMAS SOBRE PROCESO PENAL  ",
+        "nombreArticulo": "Art\u00edculo 21 ",
+        "textoArticulo": "    (Declaraciones voluntarias del indagado ante la polic\u00eda).-\r\n \r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> C\u00f3digo del Proceso Penal 2017 de \r\n19/12/2014 art\u00edculo <a href=\"/bases/codigo-proceso-penal-2017/19293-2014/61\" >61</a>.\r\n"
+    },
+    "numeroArticulo": "21",
+    "seccionArticulo": "I",
+    "capituloArticulo": "II",
+    "textoArticuloMarkdown": " (Declaraciones voluntarias del indagado ante la polic\u00eda).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** C\u00f3digo del Proceso Penal 2017 de 19/12/2014 art\u00edculo [61](https://www.impo.com.uy/bases/codigo-proceso-penal-2017/19293-2014/61). ",
+    "textoOriginalMarkdown": "    (Declaraciones del imputado ante la polic\u00eda).La autoridad administrativa solo podr\u00e1 interrogar aut\u00f3nomamente al imputado a los efectos de constatar su identidad. Si el imputado manifiesta su disposici\u00f3n a declarar, se tomar\u00e1n las medidas necesarias para que declare inmediatamente ante el fiscal. Si esto no fuera posible, se podr\u00e1 consignar las declaraciones que voluntariamente quiera prestar, previa autorizaci\u00f3n del fiscal y bajo su responsabilidad.\r\n ",
+    "textoModificadoMarkdown": " (Declaraciones voluntarias del indagado ante la Polic\u00eda).- La autoridad administrativa podr\u00e1 interrogar aut\u00f3nomamente al indagado inform\u00e1ndole previamente de sus derechos, a los efectos de constatar su identidad y para realizar averiguaciones, investigar, obtener evidencias y aclarar el presunto delito. Atento a lo que resulte de las averiguaciones, investigaci\u00f3n y las declaraciones voluntarias del indagado, se proceder\u00e1 a ponerlo a disposici\u00f3n para que declare ante el fiscal. (*) "
 }

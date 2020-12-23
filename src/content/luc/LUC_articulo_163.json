@@ -1,23 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO IV - DELITOS CONTRA LA ADMINISTRACION PUBLICA  CAPITULO II - ABUSO DE AUTORIDAD Y VIOLACION DE LOS DEBERES INHERENTES \r\nA UNA FUNCION PUBLICA  ",
-    "nombreArticulo": "Art\u00edculo 163 ",
-    "textoArticulo": "    (Revelaci\u00f3n de secretos)\r\n   El funcionario p\u00fablico que, con abuso de sus funciones, revelare hechos, publicare o difundiere documentos, por \u00e9l conocidos o pose\u00eddos en raz\u00f3n de su empleo actual o anterior, que deben permanecer secretos, o facilitare su conocimiento, ser\u00e1 castigado con suspensi\u00f3n de seis meses a dos a\u00f1os y multa de 10 UR (diez unidades reajustables) a 3.000 UR (tres mil unidades reajustables). (*) ",
-    "notasArticulo": "<b><font color=\"#0000FF\">Redacci\u00f3n dada por:</font></b> Ley N\u00ba 17.060 de 23/12/1998 art\u00edculo <a href=\"/bases/leyes/17060-1998/8\" >8</a>.\r\n<b>Reglamentado por:</b> Decreto <a href=\"/bases/decretos/30-2003\" >N\u00ba 30/003</a> de 23/01/2003.\r\n<b>Ver en esta norma, art\u00edculos:</b> <a href=\"/bases/codigo-penal/9155-1933/163_TER\" >163 - TER</a>, <a href=\"/bases/codigo-penal/9155-1933/163_QUATER\" >163 - QUATER</a> y <a href=\"/bases/codigo-penal/9155-1933/177\" >177</a>.\r\n<br><b><font color=\"#008200\">TEXTO ORIGINAL:</font></b> Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo <a href=\"/bases/textos-originales-ley/9155-1933/163\" >163</a>.\r\n",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/163?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Revelaci\u00f3n de secretos) El funcionario p\u00fablico que, con abuso de sus funciones, revelare hechos, publicare o difundiere documentos, por \u00e9l conocidos o pose\u00eddos en raz\u00f3n de su empleo actual o anterior, que deben permanecer secretos, o facilitare su conocimiento, ser\u00e1 castigado con suspensi\u00f3n de seis meses a dos a\u00f1os y multa de 10 UR (diez unidades reajustables) a 3.000 UR (tres mil unidades reajustables). (*) ",
-    "anteriorOriginal": {
-        "referencia": "Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo 163.",
-        "link": "https://www.impo.com.uy/bases/textos-originales-ley/9155-1933/163",
-        "textoArticulo": "    (Revelaci\u00f3n de secretos)\r\n   El funcionario p\u00fablico que, con abuso de sus funciones, revelare hechos, publicare o difundiere documentos, por \u00e9l conocidos o pose\u00eddos en raz\u00f3n de su empleo actual o anterior, que deben permanecer secretos, o \r\nque facilitare su conocimiento, ser\u00e1 castigado con suspensi\u00f3n de seis meses a dos a\u00f1os. \r\n\r\n ",
-        "textoArticuloMarkdown": " (Revelaci\u00f3n de secretos) El funcionario p\u00fablico que, con abuso de sus funciones, revelare hechos, publicare o difundiere documentos, por \u00e9l conocidos o pose\u00eddos en raz\u00f3n de su empleo actual o anterior, que deben permanecer secretos, o que facilitare su conocimiento, ser\u00e1 castigado con suspensi\u00f3n de seis meses a dos a\u00f1os. "
-    }
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 163 ",
+        "textoArticulo": "    (Del estatuto docente y del funcionario no docente).- \r\n\r\n   (*)\r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/69\" >69</a>.\r\n"
+    },
+    "numeroArticulo": "163",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (Del estatuto docente y del funcionario no docente).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [69](https://www.impo.com.uy/bases/leyes/18437-2008/69). ",
+    "textoOriginalMarkdown": "  (Del estatuto docente y del funcionario no docente).- El Consejo\r\nDirectivo Central de la ANEP, previa consulta a los Consejos e Instituto\r\nUniversitario de Educaci\u00f3n, aprobar\u00e1 el estatuto docente y el estatuto del\r\nfuncionario, de acuerdo a las siguientes bases:\r\nA) Para el ejercicio de cargos docentes, administrativos y de servicio\r\n   ser\u00e1 preciso acreditar dieciocho a\u00f1os de edad cumplidos y estar\r\n   inscriptos en el Registro C\u00edvico Nacional, sin perjuicio de lo\r\n   establecido por el art\u00edculo 76 de la Constituci\u00f3n de la Rep\u00fablica.\r\nB) Los maestros de Educaci\u00f3n Inicial y Primaria y los profesores de\r\n   Educaci\u00f3n Media B\u00e1sica deber\u00e1n poseer el respectivo t\u00edtulo habilitante.\r\nC) El sistema de concurso ser\u00e1 de precepto para ocupar en efectividad\r\n   cualquier cargo docente, as\u00ed como ser\u00e1 obligatorio para el ingreso y\r\n   ascenso del personal administrativo.\r\nD) A los efectos de la carrera docente se jerarquizar\u00e1 la evaluaci\u00f3n\r\n   del desempe\u00f1o en el aula, los cursos de perfeccionamiento o postgrado,\r\n   as\u00ed como las publicaciones e investigaciones realizadas por los\r\n   docentes.\r\nE) La destituci\u00f3n de los funcionarios s\u00f3lo podr\u00e1 ser resuelta por\r\n   causa de ineptitud, omisi\u00f3n o delito, previo sumario durante el cual el\r\n   inculpado haya tenido oportunidad de presentar sus descargos, articular\r\n   su defensa y producir prueba.\r\n ",
+    "textoModificadoMarkdown": " (Del estatuto docente y del funcionario no docente).- El Consejo Directivo Central de la Administraci\u00f3n Nacional de Educaci\u00f3n P\u00fablica (ANEP), previa consulta a las Direcciones Generales respectivas y al Consejo de Formaci\u00f3n en Educaci\u00f3n, aprobar\u00e1 los estatutos de docentes y de funcionarios no docentes, de acuerdo a las siguientes bases: A) Para el ejercicio de cargos docentes, administrativos y de servicio ser\u00e1 preciso acreditar dieciocho a\u00f1os de edad cumplidos y estar inscriptos en el Registro C\u00edvico Nacional, sin perjuicio de lo establecido por el art\u00edculo 76 de la Constituci\u00f3n de la Rep\u00fablica. B) Los maestros responsables de grupos, maestros inspectores y directores de Educaci\u00f3n Inicial y Primaria deber\u00e1n poseer el respectivo t\u00edtulo habilitante. En Educaci\u00f3n Media el t\u00edtulo habilitante ser\u00e1 condici\u00f3n indispensable para acceder a la efectividad en cargos u horas de docencia directa. La ANEP desarrollar\u00e1 acciones tendientes a que los funcionarios que ejerzan actividad docente obtengan el t\u00edtulo correspondiente a trav\u00e9s de programas dise\u00f1ados a tal efecto. C) El sistema de concurso ser\u00e1 de precepto para ocupar en efectividad cualquier cargo docente, as\u00ed como ser\u00e1 obligatorio para el ingreso y ascenso del personal administrativo. D) A los efectos de la carrera docente se considerar\u00e1n la titulaci\u00f3n, la evaluaci\u00f3n del desempe\u00f1o en el aula, la actuaci\u00f3n (asiduidad y puntualidad), el compromiso con el proyecto del centro, la antig\u00fcedad y los cursos de perfeccionamiento o posgrado, as\u00ed como las publicaciones e investigaciones realizadas por los docentes en un marco general de no discriminaci\u00f3n y de respeto a los derechos adquiridos. E) La destituci\u00f3n de los funcionarios solo podr\u00e1 ser resuelta por causa de ineptitud, omisi\u00f3n o delito, previo sumario administrativo durante el cual el sumariado haya tenido oportunidad de presentar sus descargos, articular su defensa y producir prueba. (*) "
 }

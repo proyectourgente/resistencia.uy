@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO I - DE LOS DELITOS  CAPITULO III - DE LA CULPABILIDAD  ",
-    "nombreArticulo": "Art\u00edculo 23 ",
-    "textoArticulo": "    (Error de persona)\r\n   Cuando por efecto de un error de hecho el mal recayere sobre distinta\r\npersona que la que el sujeto se propon\u00eda ofender, la responsabilidad se\r\ndetermina por la intenci\u00f3n y el culpable debe ser castigado, no con\r\narreglo a la ley violada, sino con sujeci\u00f3n a la que intentaba violar.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/23?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Error de persona) Cuando por efecto de un error de hecho el mal recayere sobre distinta persona que la que el sujeto se propon\u00eda ofender, la responsabilidad se determina por la intenci\u00f3n y el culpable debe ser castigado, no con arreglo a la ley violada, sino con sujeci\u00f3n a la que intentaba violar. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO II - NORMAS SOBRE PROCESO PENAL  ",
+        "nombreArticulo": "Art\u00edculo 23 ",
+        "textoArticulo": "    (Registro de personas).-\r\n \r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> C\u00f3digo del Proceso Penal 2017 de \r\n19/12/2014 art\u00edculo <a href=\"/bases/codigo-proceso-penal-2017/19293-2014/190\" >190</a>.\r\n"
+    },
+    "numeroArticulo": "23",
+    "seccionArticulo": "I",
+    "capituloArticulo": "II",
+    "textoArticuloMarkdown": " (Registro de personas).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** C\u00f3digo del Proceso Penal 2017 de 19/12/2014 art\u00edculo [190](https://www.impo.com.uy/bases/codigo-proceso-penal-2017/19293-2014/190). ",
+    "textoOriginalMarkdown": "    (Registro de personas).\r\n   190.1 Cuando existan fundadas razones para considerar que una persona oculta objetos en su cuerpo, vestimenta, efectos personales relacionados con el delito, la autoridad administrativa, por orden del fiscal o por s\u00ed, dando cuenta inmediata a aquel, proceder\u00e1 a registrarlo. Antes del registro, se invitar\u00e1 a la persona a que exhiba y entregue el objeto buscado.\r\n   190.2 El registro se efectuar\u00e1 por persona del mismo sexo siempre que sea posible respetando la dignidad y el pudor del registrado.\r\n   190.3 El registro puede comprender tambi\u00e9n equipaje y bultos, as\u00ed como el veh\u00edculo utilizado. De todo lo actuado se labrar\u00e1 acta que se ofrecer\u00e1 firmar a los involucrados, quienes podr\u00e1n consignar las observaciones que entiendan del caso.\r\n ",
+    "textoModificadoMarkdown": " (Registro de personas).- 190.1 Cuando existan fundadas razones para considerar que una persona oculta objetos en su cuerpo, vestimenta o efectos personales relacionados con el delito, la autoridad administrativa proceder\u00e1 a registrarlo, dando cuenta posteriormente al Ministerio P\u00fablico, dentro del t\u00e9rmino establecido para las comunicaciones. Antes del registro, conminar\u00e1 bajo apercibimiento a la persona a que exhiba y entregue el objeto buscado. 190.2 El registro se efectuar\u00e1 por persona del mismo sexo siempre que sea posible respetando la dignidad y el pudor del registrado. 190.3 El registro puede comprender tambi\u00e9n equipaje y bultos, as\u00ed como el veh\u00edculo utilizado. De todo lo actuado se labrar\u00e1 acta que se ofrecer\u00e1 firmar a los involucrados, quienes podr\u00e1n consignar las observaciones que entiendan del caso. (*) "
 }

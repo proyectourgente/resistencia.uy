@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO VII - DELITOS CONTRA LA SALUD PUBLICA  CAPITULO I  ",
-    "nombreArticulo": "Art\u00edculo 225 ",
-    "textoArticulo": "    (Envenenamiento o adulteraci\u00f3n culpables de las aguas destinadas a la \r\nalimentaci\u00f3n) \r\n   El envenenamiento o adulteraci\u00f3n culpables de las aguas o substancias \r\ndestinadas a la alimentaci\u00f3n, ser\u00e1 castigado con seis meses de prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda. ",
-    "notasArticulo": "<b>Ver en esta norma, art\u00edculos:</b> <a href=\"/bases/codigo-penal/9155-1933/208\" >208</a> y <a href=\"/bases/codigo-penal/9155-1933/226\" >226</a>.\r\n",
-    "textoArticuloMarkdown": " (Envenenamiento o adulteraci\u00f3n culpables de las aguas destinadas a la alimentaci\u00f3n) El envenenamiento o adulteraci\u00f3n culpables de las aguas o substancias destinadas a la alimentaci\u00f3n, ser\u00e1 castigado con seis meses de prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N IV - ECONOM\u00cdA Y EMPRESAS P\u00daBLICAS  CAP\u00cdTULO IV - LIBERTAD FINANCIERA  ",
+        "nombreArticulo": "Art\u00edculo 225 ",
+        "textoArticulo": "    (Procedimientos de debida diligencia).- \r\n\r\n   (*)\r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo agreg\u00f3 a:</font></b> Ley N\u00ba 19.574 de 20/12/2017 art\u00edculo <a href=\"/bases/leyes/19574-2017/17\" >17</a> Incisos \r\n2\u00ba), 3\u00ba) y 4\u00ba).\r\n"
+    },
+    "numeroArticulo": "225",
+    "seccionArticulo": "IV",
+    "capituloArticulo": "IV",
+    "textoArticuloMarkdown": " (Procedimientos de debida diligencia).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo agreg\u00f3 a:** Ley N\u00ba 19.574 de 20/12/2017 art\u00edculo [17](https://www.impo.com.uy/bases/leyes/19574-2017/17) Incisos 2\u00ba), 3\u00ba) y 4\u00ba). ",
+    "textoOriginalMarkdown": " (Procedimientos de debida diligencia).- (*) ",
+    "textoModificadoMarkdown": " (Medidas simplificadas de debida diligencia).- Los sujetos obligados podr\u00e1n aplicar, en los supuestos y con las condiciones que se determinen reglamentariamente, medidas simplificadas de debida diligencia respecto de aquellos clientes, productos u operaciones que comporten un riesgo reducido de lavado de activos o financiamiento del terrorismo. La circunstancia de que la operaci\u00f3n o actividad se realice utilizando medios de pago electr\u00f3nicos, tales como transferencias bancarias u otros instrumentos de pago emitidos por instituciones de intermediaci\u00f3n financiera, o de los que estas fueran obligadas al pago, o valores de los que estas fueran depositarias, no exime a los sujetos obligados no financieros, designados por el art\u00edculo 13 de la presente ley, de la aplicaci\u00f3n de los procedimientos de debida diligencia, pero considerando el menor riesgo de lavado de activos o financiamiento del terrorismo que esos casos suponen, y trat\u00e1ndose de clientes residentes y no residentes que provengan de pa\u00edses que cumplen con los est\u00e1ndares internacionales en materia de prevenci\u00f3n y lucha contra el lavado de activos y la financiaci\u00f3n del terrorismo, dichos procedimientos podr\u00e1n consistir en la aplicaci\u00f3n de medidas simplificadas de debida diligencia. Lo anterior no ser\u00e1 aplicable cuando se trate de las situaciones previstas en los art\u00edculos 20 y 22 de la presente ley y los art\u00edculos 13, 14, 42, 46 y 89 del Decreto N\u00b0 379/2018, de 12 de noviembre de 2018, que la reglamenta, extremos en los cuales se deber\u00e1n aplicar las medidas de debida diligencia intensificadas.(*) Cuando el ordenante del pago fuere un sujeto distinto al que realiza la operaci\u00f3n, se deber\u00e1n realizar procedimientos de debida diligencia simplificada o intensificada, seg\u00fan lo establecido en el inciso anterior, tambi\u00e9n respecto de dicho sujeto.(*) Las cuentas de origen y destino de los fondos o valores podr\u00e1n estar radicadas en instituciones de intermediaci\u00f3n financiera del exterior, siempre que dichas instituciones est\u00e9n situadas en pa\u00edses que cumplan con los est\u00e1ndares internacionales en materia de lavado de activos y financiamiento del terrorismo.(*) "
 }

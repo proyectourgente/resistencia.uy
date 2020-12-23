@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO I - DE LOS DELITOS CONTRA LA SOBERANIA DEL ESTADO, CONTRA LOS \r\nESTADOS EXTRANJEROS, SUS JEFES O REPRESENTANTES  CAPITULO I - DELITOS CONTRA LA PATRIA  ",
-    "nombreArticulo": "Art\u00edculo 136 ",
-    "textoArticulo": "    (Responsabilidad de los extranjeros)\r\n   La responsabilidad se extiende a los extranjeros que viven en el pa\u00eds\r\no fuera de \u00e9l, pero la pena se reduce de la tercera parte a la mitad.\r\n   Se sustraen a toda represi\u00f3n, los extranjeros radicados en el pa\u00eds\r\nenemigo, que cometieren el delito previsto en el numeral 4\u00ba del art\u00edculo\r\n133, o alguno de los otros delitos, siempre que respecto de estos\r\n\u00faltimos, mediara la obligaci\u00f3n de cumplir con una ley del mismo Estado.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/136?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Responsabilidad de los extranjeros) La responsabilidad se extiende a los extranjeros que viven en el pa\u00eds o fuera de \u00e9l, pero la pena se reduce de la tercera parte a la mitad. Se sustraen a toda represi\u00f3n, los extranjeros radicados en el pa\u00eds enemigo, que cometieren el delito previsto en el numeral 4\u00ba del art\u00edculo 133, o alguno de los otros delitos, siempre que respecto de estos \u00faltimos, mediara la obligaci\u00f3n de cumplir con una ley del mismo Estado. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 136 ",
+        "textoArticulo": "    (De la educaci\u00f3n terciaria)\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/29\" >29</a>.\r\n"
+    },
+    "numeroArticulo": "136",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (De la educaci\u00f3n terciaria) (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [29](https://www.impo.com.uy/bases/leyes/18437-2008/29). ",
+    "textoOriginalMarkdown": "  (De la educaci\u00f3n terciaria).- La educaci\u00f3n terciaria requerir\u00e1 la\r\naprobaci\u00f3n de los ciclos completos de educaci\u00f3n primaria y media (b\u00e1sica y\r\nsuperior); profundiza y ampl\u00eda la formaci\u00f3n en alguna rama del\r\nconocimiento; incluye, entre otras, la educaci\u00f3n tecnol\u00f3gica y t\u00e9cnica.\r\n ",
+    "textoModificadoMarkdown": " (De la educaci\u00f3n terciaria).- La educaci\u00f3n terciaria es aquella que requiere como condici\u00f3n de ingreso haber finalizado la educaci\u00f3n media superior o acreditar los saberes y competencias correspondientes. Puede o no ser de car\u00e1cter universitario. (*) "
 }

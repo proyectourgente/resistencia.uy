@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO XIII - DELITOS CONTRA LA PROPIEDAD  CAPITULO V - DELITOS CONTRA LA PROPIEDAD INMUEBLE  ",
-    "nombreArticulo": "Art\u00edculo 357 ",
-    "textoArticulo": "    (Caza abusiva)\r\n   Con la misma pena ser\u00e1 castigado el que cazare en fundo ajeno, contra la expresa prohibici\u00f3n del leg\u00edtimo ocupante. \r\n\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/357?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Caza abusiva) Con la misma pena ser\u00e1 castigado el que cazare en fundo ajeno, contra la expresa prohibici\u00f3n del leg\u00edtimo ocupante. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N VI - SECTOR AGROPECUARIO  CAP\u00cdTULO I - DEL INSTITUTO NACIONAL DE COLONIZACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 357 ",
+        "textoArticulo": "    (Declaraci\u00f3n sobre parcelas que integran colonias).\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.756 de 26/05/2011 art\u00edculo \r\n<a href=\"/bases/leyes/18756-2011/5\" >5</a> inciso 1\u00ba).\r\n"
+    },
+    "numeroArticulo": "357",
+    "seccionArticulo": "VI",
+    "capituloArticulo": "I",
+    "textoArticuloMarkdown": " (Declaraci\u00f3n sobre parcelas que integran colonias). (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.756 de 26/05/2011 art\u00edculo [5](https://www.impo.com.uy/bases/leyes/18756-2011/5) inciso 1\u00ba). ",
+    "textoOriginalMarkdown": "  Decl\u00e1rase que no est\u00e1n afectadas ni comprendidas por la Administraci\u00f3n y\r\nel r\u00e9gimen instituido por la Ley N\u00b0 11.029, de 12 de enero de 1948, y\r\nmodificativas, las parcelas que integran las colonias que hayan sido\r\nenajenadas por la Comisi\u00f3n Asesora de Colonizaci\u00f3n o la Secci\u00f3n Fomento\r\nRural y Colonizaci\u00f3n del Banco Hipotecario del Uruguay, cuyos propietarios\r\ncumplieron con todas sus obligaciones antes del 12 de enero de 1948.\r\n\r\nLos propietarios de predios comprendidos en la disposici\u00f3n que antecede\r\nestar\u00e1n obligados a ofrecerlos en primer t\u00e9rmino al Instituto Nacional de\r\nColonizaci\u00f3n en los t\u00e9rminos establecidos por el art\u00edculo 35 de la Ley N\u00b0\r\n11.029, de 12 de enero de 1948.\r\n\r\nLa registraci\u00f3n realizada de acuerdo con lo dispuesto en el art\u00edculo 70 de\r\nla Ley N\u00b0 11.029, de 12 de enero de 1948, en la redacci\u00f3n dada por el\r\nart\u00edculo 15 de la Ley N\u00b0 18.187, de 2 de noviembre de 2007, no significa\r\nalteraci\u00f3n del r\u00e9gimen jur\u00eddico de los inmuebles en cuesti\u00f3n. En\r\nparticular, no corresponde obtener la autorizaci\u00f3n previa del Instituto\r\nNacional de Colonizaci\u00f3n en caso de enajenaci\u00f3n, gravamen, as\u00ed como\r\ncualquier otro acto de dominio, sin perjuicio del ofrecimiento previsto en\r\nel inciso anterior.\r\n ",
+    "textoModificadoMarkdown": " Decl\u00e1rase que no est\u00e1n afectadas ni comprendidas por la Administraci\u00f3n y el r\u00e9gimen instituido por la Ley N\u00b0 11.029, de 12 de enero de 1948, y sus modificativas, las parcelas que integran las colonias que hayan sido enajenadas o prometidas en venta por la Comisi\u00f3n Asesora de Colonizaci\u00f3n o la Secci\u00f3n Fomento Rural y Colonizaci\u00f3n del Banco Hipotecario del Uruguay. (*) Los propietarios de predios comprendidos en la disposici\u00f3n que antecede estar\u00e1n obligados a ofrecerlos en primer t\u00e9rmino al Instituto Nacional de Colonizaci\u00f3n en los t\u00e9rminos establecidos por el art\u00edculo 35 de la Ley N\u00b0 11.029, de 12 de enero de 1948. La registraci\u00f3n realizada de acuerdo con lo dispuesto en el art\u00edculo 70 de la Ley N\u00b0 11.029, de 12 de enero de 1948, en la redacci\u00f3n dada por el art\u00edculo 15 de la Ley N\u00b0 18.187, de 2 de noviembre de 2007, no significa alteraci\u00f3n del r\u00e9gimen jur\u00eddico de los inmuebles en cuesti\u00f3n. En particular, no corresponde obtener la autorizaci\u00f3n previa del Instituto Nacional de Colonizaci\u00f3n en caso de enajenaci\u00f3n, gravamen, as\u00ed como cualquier otro acto de dominio, sin perjuicio del ofrecimiento previsto en el inciso anterior. "
 }

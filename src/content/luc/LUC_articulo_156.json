@@ -1,23 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO IV - DELITOS CONTRA LA ADMINISTRACION PUBLICA  CAPITULO I  ",
-    "nombreArticulo": "Art\u00edculo 156 ",
-    "textoArticulo": "    (Concusi\u00f3n) \r\n   El funcionario p\u00fablico que con abuso de su calidad de tal o del cargo que desempe\u00f1a, compeliere o indujere a alguno a dar o prometer indebidamente a \u00e9l o a un tercero, dinero u otro provecho cualquiera, ser\u00e1 castigado con doce meses de prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda, multa de 50 UR (cincuenta unidades reajustables) a 10.000 UR (diez mil unidades reajustables) e inhabilitaci\u00f3n de dos a seis a\u00f1os. \r\n   Se aplica a este delito la atenuante del art\u00edculo 154. (*) ",
-    "notasArticulo": "<b><font color=\"#0000FF\">Redacci\u00f3n dada por:</font></b> Ley N\u00ba 17.060 de 23/12/1998 art\u00edculo <a href=\"/bases/leyes/17060-1998/8\" >8</a>.\r\n<b>Reglamentado por:</b> Decreto <a href=\"/bases/decretos/30-2003\" >N\u00ba 30/003</a> de 23/01/2003.\r\n<b>Ver en esta norma, art\u00edculos:</b> <a href=\"/bases/codigo-penal/9155-1933/163_TER\" >163 - TER</a>, <a href=\"/bases/codigo-penal/9155-1933/163_QUATER\" >163 - QUATER</a> y <a href=\"/bases/codigo-penal/9155-1933/177\" >177</a>.\r\n<b>Ver:</b> Ley N\u00ba 19.007 de 16/11/2012 art\u00edculo <a href=\"/bases/leyes/19007-2012/1\" >1</a>.\r\n<br><b><font color=\"#008200\">TEXTO ORIGINAL:</font></b> Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo <a href=\"/bases/textos-originales-ley/9155-1933/156\" >156</a>.\r\n",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/156?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Concusi\u00f3n) El funcionario p\u00fablico que con abuso de su calidad de tal o del cargo que desempe\u00f1a, compeliere o indujere a alguno a dar o prometer indebidamente a \u00e9l o a un tercero, dinero u otro provecho cualquiera, ser\u00e1 castigado con doce meses de prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda, multa de 50 UR (cincuenta unidades reajustables) a 10.000 UR (diez mil unidades reajustables) e inhabilitaci\u00f3n de dos a seis a\u00f1os. Se aplica a este delito la atenuante del art\u00edculo 154. (*) ",
-    "anteriorOriginal": {
-        "referencia": "Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo 156.",
-        "link": "https://www.impo.com.uy/bases/textos-originales-ley/9155-1933/156",
-        "textoArticulo": "    (Concusi\u00f3n) \r\n   El funcionario p\u00fablico que, con abuso de su calidad de tal, o del\r\ncargo que desempe\u00f1a, compeliere o indujere a alguno a dar o prometer\r\nindebidamente a \u00e9l o a un tercero, dinero u otro provecho cualquiera,\r\nser\u00e1 castigado con seis meses de prisi\u00f3n a tres a\u00f1os de penitenciar\u00eda, e\r\ninhabilitaci\u00f3n especial de dos a seis a\u00f1os.\r\n   Se aplica a este delito la atenuante del art\u00edculo 154.\r\n ",
-        "textoArticuloMarkdown": " (Concusi\u00f3n) El funcionario p\u00fablico que, con abuso de su calidad de tal, o del cargo que desempe\u00f1a, compeliere o indujere a alguno a dar o prometer indebidamente a \u00e9l o a un tercero, dinero u otro provecho cualquiera, ser\u00e1 castigado con seis meses de prisi\u00f3n a tres a\u00f1os de penitenciar\u00eda, e inhabilitaci\u00f3n especial de dos a seis a\u00f1os. Se aplica a este delito la atenuante del art\u00edculo 154. "
-    }
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 156 ",
+        "textoArticulo": "    (De las Direcciones Generales).- \r\n\r\n   (*)\r\n    \r\n\r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/62\" >62</a>.\r\n"
+    },
+    "numeroArticulo": "156",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (De las Direcciones Generales).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [62](https://www.impo.com.uy/bases/leyes/18437-2008/62). ",
+    "textoOriginalMarkdown": "    Sustit\u00fayense el literal D) del art\u00edculo 62, los art\u00edculos 79 y 80 de la Ley N\u00b0\u00a018.437, de 12 de diciembre de 2008, por los siguientes:\r\n\r\n        \"D) El Consejo de Educaci\u00f3n T\u00e9cnica y Profesional - Universidad\r\n        del Trabajo del Uruguay (UTU) tendr\u00e1 a su cargo la formaci\u00f3n\r\n        profesional (b\u00e1sica y superior), la educaci\u00f3n media superior\r\n        t\u00e9cnica, tecnol\u00f3gica (bachilleratos tecnol\u00f3gicos), la educaci\u00f3n\r\n        media superior orientada al \u00e1mbito laboral y la educaci\u00f3n\r\n        terciaria t\u00e9cnica y tecnol\u00f3gica\".\r\n\r\n        \"ART\u00cdCULO\u00a079.\u00a0(\u00c1mbito).- La Educaci\u00f3n Terciaria P\u00fablica se\r\n        constituir\u00e1 por la Universidad de la Rep\u00fablica, el Instituto\r\n        Universitario de Educaci\u00f3n, la Universidad Tecnol\u00f3gica (UTEC) y\r\n        el Consejo de Educaci\u00f3n T\u00e9cnica y Profesional\u00a0- Universidad del\r\n        Trabajo del Uruguay (UTU)\".\r\n\r\n        \"ART\u00cdCULO 80. (R\u00e9gimen legal).- La Universidad de la Rep\u00fablica se\r\n        regir\u00e1 por la Ley N\u00b0\u00a012.549, de 16 de octubre de 1958, la\r\n        Universidad Tecnol\u00f3gica, por la Ley N\u00b0\u00a019.043, de 28 de diciembre\r\n        de 2012, y los restantes organismos mencionados en el art\u00edculo\r\n        anterior por las disposiciones de la presente ley\".\r\n\r\n                                INCISO 26\r\n                       UNIVERSIDAD DE LA REP\u00daBLICA\r\n ",
+    "textoModificadoMarkdown": " (De las Direcciones Generales).- Las Direcciones Generales son \u00f3rganos desconcentrados unipersonales. Estar\u00e1n a cargo de un Director General que ser\u00e1 designado por el Consejo Directivo Central. Cada subsistema contar\u00e1 a su vez con un Subdirector que ser\u00e1 designado seg\u00fan lo establecido en el literal C) del art\u00edculo 59 de la presente ley. Los Directores Generales y los Subdirectores pertenecer\u00e1n al escalaf\u00f3n Q y permanecer\u00e1n en sus cargos hasta que asuman sus sucesores. Los Directores Generales integrar\u00e1n el Consejo Directivo Central, con voz pero sin voto. Cada Direcci\u00f3n General ser\u00e1 responsable en el \u00e1mbito de la Administraci\u00f3n Nacional de Educaci\u00f3n P\u00fablica de los siguientes niveles educativos de la educaci\u00f3n formal: A) La Direcci\u00f3n General de Educaci\u00f3n Inicial y Primaria tendr\u00e1 a su cargo la educaci\u00f3n inicial y la educaci\u00f3n primaria. B) La Direcci\u00f3n General de Educaci\u00f3n Secundaria tendr\u00e1 a su cargo la educaci\u00f3n secundaria b\u00e1sica y superior. C) La Direcci\u00f3n General de Educaci\u00f3n T\u00e9cnico Profesional tendr\u00e1 a su cargo la formaci\u00f3n profesional (b\u00e1sica y superior), la educaci\u00f3n media superior t\u00e9cnica y tecnol\u00f3gica y la educaci\u00f3n media superior orientada al \u00e1mbito laboral. Podr\u00e1 desarrollar asimismo programas de educaci\u00f3n terciaria t\u00e9cnica y tecnol\u00f3gica. (*) "
 }

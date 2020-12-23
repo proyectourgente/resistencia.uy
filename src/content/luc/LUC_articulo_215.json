@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO VI - DELITOS CONTRA LA SEGURIDAD PUBLICA  CAPITULO II  ",
-    "nombreArticulo": "Art\u00edculo 215 ",
-    "textoArticulo": "    (Atentado culpable contra la seguridad de las v\u00edas f\u00e9rreas) \r\n   El atentado culpable contra la seguridad de las v\u00edas f\u00e9rreas, ser\u00e1 \r\ncastigado con seis meses de prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda. \r\n   Es aplicable a este delito, la agravante prevista en el art\u00edculo anterior. ",
-    "notasArticulo": "<b>Ver en esta norma, art\u00edculo:</b> <a href=\"/bases/codigo-penal/9155-1933/216\" >216</a>.\r\n",
-    "textoArticuloMarkdown": " (Atentado culpable contra la seguridad de las v\u00edas f\u00e9rreas) El atentado culpable contra la seguridad de las v\u00edas f\u00e9rreas, ser\u00e1 castigado con seis meses de prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda. Es aplicable a este delito, la agravante prevista en el art\u00edculo anterior. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N IV - ECONOM\u00cdA Y EMPRESAS P\u00daBLICAS  CAP\u00cdTULO IV - LIBERTAD FINANCIERA  ",
+        "nombreArticulo": "Art\u00edculo 215 ",
+        "textoArticulo": "    (Opci\u00f3n a favor del trabajador).- \r\n \r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 19.210 de 29/04/2014 art\u00edculo \r\n<a href=\"/bases/leyes/19210-2014/10\" >10</a>.\r\n"
+    },
+    "numeroArticulo": "215",
+    "seccionArticulo": "IV",
+    "capituloArticulo": "IV",
+    "textoArticuloMarkdown": " (Opci\u00f3n a favor del trabajador).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 19.210 de 29/04/2014 art\u00edculo [10](https://www.impo.com.uy/bases/leyes/19210-2014/10). ",
+    "textoOriginalMarkdown": "  (Pago de n\u00f3mina).- El pago de las remuneraciones y toda otra partida en\r\ndinero que tengan derecho a percibir los trabajadores en relaci\u00f3n de\r\ndependencia, cualquiera sea su empleador, deber\u00e1 efectuarse a trav\u00e9s de\r\nacreditaci\u00f3n en cuenta en instituciones de intermediaci\u00f3n financiera o en\r\ninstrumento de dinero electr\u00f3nico, en instituciones que ofrezcan este\r\nservicio, en las condiciones establecidas en la presente ley y en\r\nconsonancia con las disposiciones complementarias que se dicten para\r\nreglamentarla. El sistema de pago que se instituye no implica aceptaci\u00f3n\r\nde la liquidaci\u00f3n por parte del dependiente, ni enerva la obligaci\u00f3n del\r\nempleador de extender los recibos de haberes, en las condiciones previstas\r\nen las normas reglamentarias del art\u00edculo 10 de la Ley N\u00b0 16.244, de 30 de\r\nmarzo de 1992.\r\nFac\u00faltase al Poder Ejecutivo a establecer un sistema de recibo de haberes\r\ny de firma en formato electr\u00f3nico.\r\n ",
+    "textoModificadoMarkdown": " (Pago de n\u00f3mina).- Sin perjuicio de la modalidad de pago en efectivo, el pago de las remuneraciones y de toda otra partida en dinero que tengan derecho a percibir los trabajadores en relaci\u00f3n de dependencia, cualquiera sea su empleador, podr\u00e1 efectuarse a trav\u00e9s de acreditaci\u00f3n en cuenta en instituciones de intermediaci\u00f3n financiera o en instrumento de dinero electr\u00f3nico, en instituciones que ofrezcan este servicio, en las condiciones establecidas en la presente ley y de conformidad con las disposiciones complementarias que se dicten para reglamentarla. El sistema de pago que se instituye no implica aceptaci\u00f3n de la liquidaci\u00f3n por parte del dependiente, ni enerva la obligaci\u00f3n del empleador de extender los recibos de haberes, en las condiciones previstas en las normas reglamentarias del art\u00edculo 10 de la Ley N\u00b0 16.244, de 30 de marzo de 1992. Fac\u00faltase al Poder Ejecutivo a establecer un sistema de recibo de haberes y de firma en formato electr\u00f3nico, independiente de la modalidad aplicada para el pago de las remuneraciones y de toda otra partida que tengan derecho a percibir los trabajadores en relaci\u00f3n de dependencia.(*) "
 }

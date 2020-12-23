@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO V - DE LOS DELITOS CONTRA LA ADMINISTRACION DE LA JUSTICIA  CAPITULO III - EVASION Y QUEBRANTAMIENTO DE CONDENA  ",
-    "nombreArticulo": "Art\u00edculo 185 ",
-    "textoArticulo": "    (Concurso de los particulares en la evasi\u00f3n)\r\n   El particular, que de cualquier manera, procurare o facilitare la\r\nevasi\u00f3n de un preso, o detenido por delito, ser\u00e1 castigado con seis meses\r\nde prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda.\r\n ",
-    "notasArticulo": "<b>Ver en esta norma, art\u00edculos:</b> <a href=\"/bases/codigo-penal/9155-1933/187\" >187</a> y <a href=\"/bases/codigo-penal/9155-1933/188\" >188</a>.\r\n",
-    "textoArticuloMarkdown": " (Concurso de los particulares en la evasi\u00f3n) El particular, que de cualquier manera, procurare o facilitare la evasi\u00f3n de un preso, o detenido por delito, ser\u00e1 castigado con seis meses de prisi\u00f3n a seis a\u00f1os de penitenciar\u00eda. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 185 ",
+        "textoArticulo": "    (Integraci\u00f3n).- \r\n\r\n   (*)\r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/107\" >107</a>.\r\n"
+    },
+    "numeroArticulo": "185",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (Integraci\u00f3n).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [107](https://www.impo.com.uy/bases/leyes/18437-2008/107). ",
+    "textoOriginalMarkdown": "  (Integraci\u00f3n).- La Comisi\u00f3n Coordinadora del Sistema Nacional de la\r\nEducaci\u00f3n P\u00fablica, se integrar\u00e1 por:\r\nA) El Ministro o en su defecto el Subsecretario de Educaci\u00f3n y\r\n   Cultura.\r\nB) El Director de Educaci\u00f3n del Ministerio de Educaci\u00f3n y Cultura.\r\nC) El Rector de la Universidad de la Rep\u00fablica o en su defecto el\r\n   Vice-Rector.\r\nD) Dos integrantes del Consejo Directivo Central de la Universidad de\r\n   la Rep\u00fablica.\r\nE) El Presidente o en su defecto otro integrante del Consejo Directivo\r\n   Central de la ANEP.\r\nF) Dos integrantes del Consejo Directivo Central de la ANEP.\r\nG) Representantes de las nuevas instituciones aut\u00f3nomas que se crean.\r\n ",
+    "textoModificadoMarkdown": " (Integraci\u00f3n).- La Comisi\u00f3n Coordinadora de la Educaci\u00f3n se integrar\u00e1 por: A) El Ministro o, en su defecto, el Subsecretario de Educaci\u00f3n y Cultura. B) El Director de Educaci\u00f3n del Ministerio de Educaci\u00f3n y Cultura. C) Un representante por la Universidad de la Rep\u00fablica. D) Un representante por la Universidad Tecnol\u00f3gica. E) Un representante por el conjunto de las instituciones universitarias privadas. F) El Presidente o, en su defecto, otro integrante con voto del Consejo Directivo Central de la Administraci\u00f3n Nacional de Educaci\u00f3n P\u00fablica (ANEP). G) Los Directores Generales y el Presidente del Consejo de Formaci\u00f3n en Educaci\u00f3n de la ANEP. H) Un representante de la educaci\u00f3n primaria y media privadas. I) Un representante de la Comisi\u00f3n Nacional de Educaci\u00f3n no Formal. J) Un representante del Instituto del Ni\u00f1o y Adolescente del Uruguay. K) Un representante del Instituto Nacional de Empleo y Formaci\u00f3n Profesional. L) Un representante de las instituciones de formaci\u00f3n militar. M) Un representante de las instituciones de formaci\u00f3n policial. N) Un representante de las Escuelas de Formaci\u00f3n Art\u00edstica del Servicio Oficial de Difusi\u00f3n, Representaciones y Espect\u00e1culos.(*) "
 }

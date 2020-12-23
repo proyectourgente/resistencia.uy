@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO I - DE LOS DELITOS  CAPITULO III - DE LA CULPABILIDAD  ",
-    "nombreArticulo": "Art\u00edculo 24 ",
-    "textoArticulo": "    (Error de derecho)\r\n   El error de derecho se presume voluntario sin admitirse prueba en\r\ncontrario, salvo trat\u00e1ndose de las faltas, en que seg\u00fan su naturaleza,\r\ndicha prueba puede tener acogimiento.\r\n   El error de derecho que emane del desconocimiento de una ley que no\r\nfuera penal, exime de pena s\u00f3lo cuando hubiere generado un error de\r\nhecho, acerca de alguno de los elementos constitutivos del delito.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/24?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Error de derecho) El error de derecho se presume voluntario sin admitirse prueba en contrario, salvo trat\u00e1ndose de las faltas, en que seg\u00fan su naturaleza, dicha prueba puede tener acogimiento. El error de derecho que emane del desconocimiento de una ley que no fuera penal, exime de pena s\u00f3lo cuando hubiere generado un error de hecho, acerca de alguno de los elementos constitutivos del delito. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO II - NORMAS SOBRE PROCESO PENAL  ",
+        "nombreArticulo": "Art\u00edculo 24 ",
+        "textoArticulo": "    (Registro personal, de vestimenta, equipaje y veh\u00edculo).-\r\n \r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> C\u00f3digo del Proceso Penal 2017 de \r\n19/12/2014 art\u00edculo <a href=\"/bases/codigo-proceso-penal-2017/19293-2014/59\" >59</a>.\r\n"
+    },
+    "numeroArticulo": "24",
+    "seccionArticulo": "I",
+    "capituloArticulo": "II",
+    "textoArticuloMarkdown": " (Registro personal, de vestimenta, equipaje y veh\u00edculo).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** C\u00f3digo del Proceso Penal 2017 de 19/12/2014 art\u00edculo [59](https://www.impo.com.uy/bases/codigo-proceso-penal-2017/19293-2014/59). ",
+    "textoOriginalMarkdown": "    Sustit\u00fayese el art\u00edculo 59 de la Ley N\u00b0 19.293, de 19 de diciembre de 2014 (C\u00f3digo del Proceso Penal), por el siguiente:\r\n\r\n        \"ART\u00cdCULO 59. (Registro personal, de vestimenta, equipaje y\r\n        veh\u00edculo).- Respecto de quien se hallare legalmente detenido o de\r\n        quien existan indicios de que haya cometido o intentado cometer\r\n        delito, se podr\u00e1 practicar el registro de su persona, de su\r\n        vestimenta, del equipaje y dem\u00e1s efectos que lleve consigo y del\r\n        veh\u00edculo en el que viaje. Para practicar el registro personal se\r\n        comisionar\u00e1, siempre que fuere posible, a personas de su mismo\r\n        sexo\".\r\n ",
+    "textoModificadoMarkdown": " (Registro personal, de vestimenta, equipaje y veh\u00edculo).- Respecto de quien se hallare legalmente detenido o de quien existan indicios de que haya cometido, intentado cometer o se disponga a cometer delito, se podr\u00e1 practicar el registro de su persona, de su vestimenta, del equipaje y dem\u00e1s efectos que lleve consigo y del veh\u00edculo en el que viaje. Para practicar el registro personal se comisionar\u00e1, siempre que fuere posible, a personas de su mismo sexo. Queda asimismo habilitado el registro de personas, de vestimenta, equipaje y veh\u00edculo, en busca de armas, drogas u objetos robados, en el marco de procedimientos policiales preventivos rutinarios y del personal militar, en circunstancias del cumplimiento de las tareas encomendadas por la Ley N\u00b0 19.677, de 26 de octubre de 2018. (*) "
 }

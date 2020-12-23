@@ -1,17 +1,20 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO I - DE LOS DELITOS  CAPITULO II - DE LA APLICACION DE LAS LEYES PENALES  ",
-    "nombreArticulo": "Art\u00edculo 12 ",
-    "textoArticulo": "    (R\u00e9gimen en el caso de que la pena m\u00e1s benigna fuese la extranjera y\r\n\u00e9sta no se hallare comprendida en la legislaci\u00f3n nacional)\r\n   Si la pena m\u00e1s benigna fuese la extranjera y \u00e9sta no se hallare\r\nadmitida en el Uruguay, se aplicar\u00e1 la pena que m\u00e1s se le aproxime, en\r\nconcepto del Juez.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/12?verreferencias=articulo",
-    "textoArticuloMarkdown": " (R\u00e9gimen en el caso de que la pena m\u00e1s benigna fuese la extranjera y \u00e9sta no se hallare comprendida en la legislaci\u00f3n nacional) Si la pena m\u00e1s benigna fuese la extranjera y \u00e9sta no se hallare admitida en el Uruguay, se aplicar\u00e1 la pena que m\u00e1s se le aproxime, en concepto del Juez. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO I - NORMAS PENALES  ",
+        "nombreArticulo": "Art\u00edculo 12 ",
+        "textoArticulo": "    (Disposiciones aplicables a otros tipos penales).- Lo dispuesto en los art\u00edculos 63 (Del colaborador) y 64 (Agentes encubiertos) de la Ley N\u00b0 19.574, de 20 de diciembre de 2017, ser\u00e1 aplicable tambi\u00e9n a todos los delitos que sean competencia de los Juzgados Letrados de Primera Instancia en lo Penal.\r\n "
+    },
+    "numeroArticulo": "12",
+    "seccionArticulo": "I",
+    "capituloArticulo": "I",
+    "textoArticuloMarkdown": " (Disposiciones aplicables a otros tipos penales).- Lo dispuesto en los art\u00edculos 63 (Del colaborador) y 64 (Agentes encubiertos) de la Ley N\u00b0 19.574, de 20 de diciembre de 2017, ser\u00e1 aplicable tambi\u00e9n a todos los delitos que sean competencia de los Juzgados Letrados de Primera Instancia en lo Penal. ",
+    "textoOriginalMarkdown": " (Disposiciones aplicables a otros tipos penales).- Lo dispuesto en los art\u00edculos 63 (Del colaborador) y 64 (Agentes encubiertos) de la Ley N\u00b0 19.574, de 20 de diciembre de 2017, ser\u00e1 aplicable tambi\u00e9n a todos los delitos que sean competencia de los Juzgados Letrados de Primera Instancia en lo Penal. "
 }

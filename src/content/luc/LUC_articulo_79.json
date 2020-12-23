@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO V - DE LAS PENAS  CAPITULO II - DE SUS LIMITES, NATURALEZA Y EFECTOS  ",
-    "nombreArticulo": "Art\u00edculo 79 ",
-    "textoArticulo": "    (De los derechos pol\u00edticos)\r\n   Los derechos pol\u00edticos, activos y pasivos, a que se refieren los\r\nart\u00edculos anteriores son: la capacidad para ser ciudadano elector y la\r\ncapacidad para obtener cargos de elecci\u00f3n popular.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/79?verreferencias=articulo",
-    "textoArticuloMarkdown": " (De los derechos pol\u00edticos) Los derechos pol\u00edticos, activos y pasivos, a que se refieren los art\u00edculos anteriores son: la capacidad para ser ciudadano elector y la capacidad para obtener cargos de elecci\u00f3n popular. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO V - NORMAS SOBRE ADOLESCENTES PRIVADOS DE LIBERTAD  ",
+        "nombreArticulo": "Art\u00edculo 79 ",
+        "textoArticulo": "    (Adecuaci\u00f3n a la normativa del C\u00f3digo Penal y de la Ley N\u00b0 16.707)\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> C\u00f3digo de la Ni\u00f1ez y la Adolescencia \r\nde 07/09/2004 art\u00edculo <a href=\"/bases/codigo-ninez-adolescencia/17823-2004/73\" >73</a>.\r\n"
+    },
+    "numeroArticulo": "79",
+    "seccionArticulo": "I",
+    "capituloArticulo": "V",
+    "textoArticuloMarkdown": " (Adecuaci\u00f3n a la normativa del C\u00f3digo Penal y de la Ley N\u00b0 16.707) (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** C\u00f3digo de la Ni\u00f1ez y la Adolescencia de 07/09/2004 art\u00edculo [73](https://www.impo.com.uy/bases/codigo-ninez-adolescencia/17823-2004/73). ",
+    "textoOriginalMarkdown": "  (Adecuaci\u00f3n a la normativa del C\u00f3digo Penal y de la Ley N\u00b0 16.707, de 12 \r\nde julio de 1995).- El Juez deber\u00e1 examinar cada uno de los elementos \r\nconstitutivos de la responsabilidad, de las circunstancias que eximen de \r\nla aplicaci\u00f3n de medidas o que aminoren el grado de las infracciones y el \r\nconcurso de infracciones e infractores, tomando en cuenta los preceptos \r\nde la parte general del C\u00f3digo Penal, de la Ley N\u00b0 16.707, de 12 de julio \r\nde 1995, la condici\u00f3n de adolescentes y los presupuestos de \r\nperseguibilidad de la acci\u00f3n. \r\n\r\n                                CAPITULO X                                \r\n                                                                          \r\nI -Derechos y garant\u00edas del procedimiento\r\n ",
+    "textoModificadoMarkdown": " (Adecuaci\u00f3n a la normativa del C\u00f3digo Penal y de la Ley N\u00b0 16.707, de 12 de julio de 1995).- El juez deber\u00e1 examinar cada uno de los elementos constitutivos de la responsabilidad, de las circunstancias que eximen de la aplicaci\u00f3n de medidas o que aminoren o agraven el grado de las infracciones y el concurso de infracciones e infractores, tomando en cuenta los preceptos de la parte general del C\u00f3digo Penal, de la Ley N\u00b0 16.707, de 12 de julio de 1995, la condici\u00f3n de adolescentes y los presupuestos de perseguibilidad de la acci\u00f3n. (*) "
 }

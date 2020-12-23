@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO VII - DELITOS CONTRA LA SALUD PUBLICA  CAPITULO I  ",
-    "nombreArticulo": "Art\u00edculo 220 ",
-    "textoArticulo": "    (Ofrecimiento comercial o venta de substancias peligrosas para la\r\nsalud, falsificadas, adulteradas o desnaturalizadas) \r\n   El que pusiere en el comercio, o expendiere substancias peligrosas\r\npara la salud, falsificadas, adulteradas o desnaturalizadas, por la\r\nacci\u00f3n del tiempo, con o sin lesi\u00f3n efectiva del derecho, a la vida o a\r\nla integridad f\u00edsica, ser\u00e1 castigado con seis meses de prisi\u00f3n a diez\r\na\u00f1os de penitenciar\u00eda.\r\n ",
-    "notasArticulo": "<b>Ver en esta norma, art\u00edculos:</b> <a href=\"/bases/codigo-penal/9155-1933/208\" >208</a> y <a href=\"/bases/codigo-penal/9155-1933/226\" >226</a>.\r\n",
-    "textoArticuloMarkdown": " (Ofrecimiento comercial o venta de substancias peligrosas para la salud, falsificadas, adulteradas o desnaturalizadas) El que pusiere en el comercio, o expendiere substancias peligrosas para la salud, falsificadas, adulteradas o desnaturalizadas, por la acci\u00f3n del tiempo, con o sin lesi\u00f3n efectiva del derecho, a la vida o a la integridad f\u00edsica, ser\u00e1 castigado con seis meses de prisi\u00f3n a diez a\u00f1os de penitenciar\u00eda. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N IV - ECONOM\u00cdA Y EMPRESAS P\u00daBLICAS  CAP\u00cdTULO IV - LIBERTAD FINANCIERA  ",
+        "nombreArticulo": "Art\u00edculo 220 ",
+        "textoArticulo": "    (Opci\u00f3n del medio de pago para proveedores del Estado).- \r\n\r\n   (*) \r\n ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 19.210 de 29/04/2014 art\u00edculo \r\n<a href=\"/bases/leyes/19210-2014/42\" >42</a>.\r\n"
+    },
+    "numeroArticulo": "220",
+    "seccionArticulo": "IV",
+    "capituloArticulo": "IV",
+    "textoArticuloMarkdown": " (Opci\u00f3n del medio de pago para proveedores del Estado).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 19.210 de 29/04/2014 art\u00edculo [42](https://www.impo.com.uy/bases/leyes/19210-2014/42). ",
+    "textoOriginalMarkdown": "  (Proveedores del Estado).- A partir del primer d\u00eda del mes siguiente a\r\nlos ciento ochenta d\u00edas a contar desde la vigencia de la presente ley,\r\ntodos los pagos que deba realizar el Estado a proveedores de bienes o\r\nservicios de cualquier naturaleza por obligaciones contra\u00eddas con\r\nposterioridad a la vigencia de la presente ley, deber\u00e1n cumplirse a trav\u00e9s\r\nde acreditaci\u00f3n en cuenta en instituciones de intermediaci\u00f3n financiera.\r\nLo dispuesto en el inciso precedente no ser\u00e1 de aplicaci\u00f3n cuando el pago\r\ndel precio se pacte al contado y su monto sea inferior al 15% (quince por\r\nciento) del l\u00edmite m\u00e1ximo establecido en el literal B) del art\u00edculo 33 del\r\nTexto Ordenado de la Contabilidad y Administraci\u00f3n Financiera del Estado\r\n(TOCAF), aprobado por Decreto N\u00b0 150/012, de 11 de mayo de 2012.\r\n ",
+    "textoModificadoMarkdown": " (Proveedores del Estado).- Los pagos que deba realizar el Estado a proveedores de bienes o servicios de cualquier naturaleza por obligaciones contra\u00eddas con posterioridad a la vigencia de la presente ley podr\u00e1n cumplirse, a opci\u00f3n del proveedor, en efectivo hasta el l\u00edmite m\u00e1ximo para la compra directa com\u00fan, o a trav\u00e9s de acreditaci\u00f3n en cuenta en instituciones de intermediaci\u00f3n financiera. (*) "
 }

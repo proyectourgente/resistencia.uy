@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO I - DE LOS DELITOS  CAPITULO II - DE LA APLICACION DE LAS LEYES PENALES  ",
-    "nombreArticulo": "Art\u00edculo 14 ",
-    "textoArticulo": "    (Condiciones que rigen la extradici\u00f3n no mediando Tratado)\r\n   No existiendo Tratado, la extradici\u00f3n del extranjero s\u00f3lo puede\r\nverificarse con sujeci\u00f3n a las reglas siguientes:\r\n   1. Que se trate de delitos castigados por este C\u00f3digo con pena de\r\npenitenciar\u00eda por tiempo indeterminado o de penitenciar\u00eda por m\u00e1s de seis\r\na\u00f1os.\r\n   2. Que la reclamaci\u00f3n se presente por el respectivo Gobierno al Poder\r\nEjecutivo, acompa\u00f1ada de sentencia condenatoria, o de auto de prisi\u00f3n,\r\ncon los justificativos requeridos por las leyes de la Rep\u00fablica para\r\nproceder al arresto. \r\n   3. Que medie declaraci\u00f3n judicial de ser procedente la extradici\u00f3n,\r\nprevia audiencia del inculpado y del Ministerio P\u00fablico.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/14?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Condiciones que rigen la extradici\u00f3n no mediando Tratado) No existiendo Tratado, la extradici\u00f3n del extranjero s\u00f3lo puede verificarse con sujeci\u00f3n a las reglas siguientes: 1. Que se trate de delitos castigados por este C\u00f3digo con pena de penitenciar\u00eda por tiempo indeterminado o de penitenciar\u00eda por m\u00e1s de seis a\u00f1os. 2. Que la reclamaci\u00f3n se presente por el respectivo Gobierno al Poder Ejecutivo, acompa\u00f1ada de sentencia condenatoria, o de auto de prisi\u00f3n, con los justificativos requeridos por las leyes de la Rep\u00fablica para proceder al arresto. 3. Que medie declaraci\u00f3n judicial de ser procedente la extradici\u00f3n, previa audiencia del inculpado y del Ministerio P\u00fablico. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO I - NORMAS PENALES  ",
+        "nombreArticulo": "Art\u00edculo 14 ",
+        "textoArticulo": "    (Ocupaci\u00f3n indebida de espacios p\u00fablicos).-\r\n \r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> C\u00f3digo Penal de 04/12/1933 art\u00edculo <a href=\"/bases/codigo-penal/9155-1933/368\" >\r\n368</a>.\r\n"
+    },
+    "numeroArticulo": "14",
+    "seccionArticulo": "I",
+    "capituloArticulo": "I",
+    "textoArticuloMarkdown": " (Ocupaci\u00f3n indebida de espacios p\u00fablicos).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** C\u00f3digo Penal de 04/12/1933 art\u00edculo  [368](https://www.impo.com.uy/bases/codigo-penal/9155-1933/368). ",
+    "textoOriginalMarkdown": "  Incorp\u00f3rase en el Libro III, T\u00edtulo I, Cap\u00edtulo VI \"De las faltas por la\r\nafectaci\u00f3n y el deterioro de los espacios p\u00fablicos\" del C\u00f3digo Penal, el\r\nsiguiente art\u00edculo:\r\n\"ART\u00cdCULO 368. (Ocupaci\u00f3n indebida de espacios p\u00fablicos).- El que fuera\r\ndel ejercicio del derecho consagrado en el art\u00edculo 57 de la Constituci\u00f3n\r\nde la Rep\u00fablica, ocupare espacios p\u00fablicos acampando o pernoctando en\r\nforma  permanente en ellos, ser\u00e1 castigado con pena de 7 (siete) a 30\r\n(treinta) d\u00edas de prestaci\u00f3n de trabajo comunitario, si habiendo sido\r\nintimado 2 (dos) veces de que desista de su actitud, por parte de la\r\nautoridad municipal o policial correspondiente, persiste en la misma.\r\nSiempre que se constaten las conductas referidas, la persona ser\u00e1\r\ntrasladada a una dependencia del Ministerio de Desarrollo Social a los\r\nefectos de que se recabe su identidad, se le ofrezca una alternativa\r\nadecuada a su situaci\u00f3n y se d\u00e9 cuenta al Juez competente\".\r\n\r\n                               CAP\u00cdTULO IV\r\n            DE LA PENA DE TRABAJO COMUNITARIO Y DEL T\u00c9RMINO\r\n                    PARA LA PRESCRIPCI\u00d3N DE LAS FALTAS\r\n ",
+    "textoModificadoMarkdown": " (Ocupaci\u00f3n indebida de espacios p\u00fablicos).- El que fuera del ejercicio del derecho consagrado en el art\u00edculo 57 de la Constituci\u00f3n de la Rep\u00fablica, ocupare espacios p\u00fablicos acampando o pernoctando en ellos, ser\u00e1 intimado por parte de la autoridad departamental, municipal o policial correspondiente a retirarse en forma inmediata y a que desista de su actitud. De permanecer o persistir, ser\u00e1 castigado con una pena de siete a treinta d\u00edas de prestaci\u00f3n de trabajo comunitario. Siempre que se constaten las conductas referidas, la persona ser\u00e1 trasladada a una dependencia del Ministerio de Desarrollo Social a los efectos de que se recabe su identidad, se le ofrezca una alternativa adecuada a su situaci\u00f3n y se d\u00e9 cuenta al Juez competente. (*) "
 }

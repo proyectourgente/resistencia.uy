@@ -1,22 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO II  TITULO V - DE LOS DELITOS CONTRA LA ADMINISTRACION DE LA JUSTICIA  CAPITULO VI  ",
-    "nombreArticulo": "Art\u00edculo 198 ",
-    "textoArticulo": "    (Justicia por la propia mano)\r\n   El que, con el fin de ejercitar un derecho real o presunto, se hiciera\r\njusticia por su mano, con violencia en las personas o las cosas, en los\r\ncasos en que puede recurrir a la autoridad, ser\u00e1 castigado con 20 U.R.\r\n(veinte unidades reajustables) a 800 U.R. (ochocientas unidades\r\nreajustables) de multa. \r\n   Concurre la violencia en las cosas, cuando se da\u00f1a, se transforma o se\r\ncambia su destino. (*) ",
-    "notasArticulo": "<b><font color=\"#0000FF\">Redacci\u00f3n dada por:</font></b> Ley N\u00ba 15.903 de 10/11/1987 art\u00edculo <a href=\"/bases/leyes/15903-1987/216\" >216</a>.\r\n<br><b><font color=\"#008200\">TEXTO ORIGINAL:</font></b> Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo <a href=\"/bases/textos-originales-ley/9155-1933/198\" >198</a>.\r\n",
-    "textoArticuloMarkdown": " (Justicia por la propia mano) El que, con el fin de ejercitar un derecho real o presunto, se hiciera justicia por su mano, con violencia en las personas o las cosas, en los casos en que puede recurrir a la autoridad, ser\u00e1 castigado con 20 U.R. (veinte unidades reajustables) a 800 U.R. (ochocientas unidades reajustables) de multa. Concurre la violencia en las cosas, cuando se da\u00f1a, se transforma o se cambia su destino. (*) ",
-    "anteriorOriginal": {
-        "referencia": "Ley N\u00ba 9.155 de 04/12/1933 art\u00edculo 198.",
-        "link": "https://www.impo.com.uy/bases/textos-originales-ley/9155-1933/198",
-        "textoArticulo": "    (Justicia por la propia mano)\r\n   El que, con el fin de ejercitar un derecho real o presunto, se hiciera\r\njusticia por su mano, con violencia en las personas o las cosas, en los\r\ncasos en que puede recurrir a la autoridad, ser\u00e1 castigado con multa de cien a dos mil pesos.\r\n   Concurre la violencia en las cosas, cuando se da\u00f1a, se transforma o se\r\ncambia su destino.\r\n\r\n ",
-        "textoArticuloMarkdown": " (Justicia por la propia mano) El que, con el fin de ejercitar un derecho real o presunto, se hiciera justicia por su mano, con violencia en las personas o las cosas, en los casos en que puede recurrir a la autoridad, ser\u00e1 castigado con multa de cien a dos mil pesos. Concurre la violencia en las cosas, cuando se da\u00f1a, se transforma o se cambia su destino. "
-    }
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 198 ",
+        "textoArticulo": "    (Procedimiento voluntario de reconocimiento del nivel universitario de carreras de formaci\u00f3n docente impartidas por entidades p\u00fablicas no universitarias).- Con la finalidad de dar cumplimiento a lo dispuesto por el art\u00edculo 31 de la Ley N\u00b0 18.437, de 12 de diciembre de 2008, cr\u00e9ase un procedimiento voluntario de reconocimiento del nivel universitario de carreras de formaci\u00f3n docente impartidas por entidades p\u00fablicas no universitarias. A dichos efectos se constituir\u00e1 un Consejo Consultivo integrado por personas que, por sus antecedentes personales, profesionales y conocimiento en la materia, aseguren independencia de criterio, eficiencia, objetividad e imparcialidad en su desempe\u00f1o. Este Consejo funcionar\u00e1 en la \u00f3rbita del Ministerio de Educaci\u00f3n y Cultura, actuar\u00e1 con autonom\u00eda t\u00e9cnica y tendr\u00e1 una integraci\u00f3n plural. Su cometido ser\u00e1 el de asesorar al Ministerio de Educaci\u00f3n y Cultura en los procesos de reconocimiento del nivel universitario de las carreras que voluntariamente se presenten, siguiendo criterios de calidad previamente definidos y en consonancia con otros sectores de la educaci\u00f3n superior. El Poder Ejecutivo reglamentar\u00e1 esta disposici\u00f3n en un plazo de noventa d\u00edas. ",
+        "notasArticulo": "<b>Reglamentado por:</b> Decreto <a href=\"/bases/decretos/338-2020\" >N\u00ba 338/020</a> de 04/12/2020.\r\n"
+    },
+    "numeroArticulo": "198",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (Procedimiento voluntario de reconocimiento del nivel universitario de carreras de formaci\u00f3n docente impartidas por entidades p\u00fablicas no universitarias).- Con la finalidad de dar cumplimiento a lo dispuesto por el art\u00edculo 31 de la Ley N\u00b0 18.437, de 12 de diciembre de 2008, cr\u00e9ase un procedimiento voluntario de reconocimiento del nivel universitario de carreras de formaci\u00f3n docente impartidas por entidades p\u00fablicas no universitarias. A dichos efectos se constituir\u00e1 un Consejo Consultivo integrado por personas que, por sus antecedentes personales, profesionales y conocimiento en la materia, aseguren independencia de criterio, eficiencia, objetividad e imparcialidad en su desempe\u00f1o. Este Consejo funcionar\u00e1 en la \u00f3rbita del Ministerio de Educaci\u00f3n y Cultura, actuar\u00e1 con autonom\u00eda t\u00e9cnica y tendr\u00e1 una integraci\u00f3n plural. Su cometido ser\u00e1 el de asesorar al Ministerio de Educaci\u00f3n y Cultura en los procesos de reconocimiento del nivel universitario de las carreras que voluntariamente se presenten, siguiendo criterios de calidad previamente definidos y en consonancia con otros sectores de la educaci\u00f3n superior. El Poder Ejecutivo reglamentar\u00e1 esta disposici\u00f3n en un plazo de noventa d\u00edas. ",
+    "notasArticuloMarkdown": "**Reglamentado por:** Decreto [N\u00ba 338/020](https://www.impo.com.uy/bases/decretos/338-2020) de 04/12/2020. ",
+    "textoOriginalMarkdown": " (Procedimiento voluntario de reconocimiento del nivel universitario de carreras de formaci\u00f3n docente impartidas por entidades p\u00fablicas no universitarias).- Con la finalidad de dar cumplimiento a lo dispuesto por el art\u00edculo 31 de la Ley N\u00b0 18.437, de 12 de diciembre de 2008, cr\u00e9ase un procedimiento voluntario de reconocimiento del nivel universitario de carreras de formaci\u00f3n docente impartidas por entidades p\u00fablicas no universitarias. A dichos efectos se constituir\u00e1 un Consejo Consultivo integrado por personas que, por sus antecedentes personales, profesionales y conocimiento en la materia, aseguren independencia de criterio, eficiencia, objetividad e imparcialidad en su desempe\u00f1o. Este Consejo funcionar\u00e1 en la \u00f3rbita del Ministerio de Educaci\u00f3n y Cultura, actuar\u00e1 con autonom\u00eda t\u00e9cnica y tendr\u00e1 una integraci\u00f3n plural. Su cometido ser\u00e1 el de asesorar al Ministerio de Educaci\u00f3n y Cultura en los procesos de reconocimiento del nivel universitario de las carreras que voluntariamente se presenten, siguiendo criterios de calidad previamente definidos y en consonancia con otros sectores de la educaci\u00f3n superior. El Poder Ejecutivo reglamentar\u00e1 esta disposici\u00f3n en un plazo de noventa d\u00edas. ",
+    "textoModificadoMarkdown": null
 }

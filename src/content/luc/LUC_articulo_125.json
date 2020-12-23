@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO VIII - DE LA EXTINCION DE LOS DELITOS Y DE LAS PENAS  CAPITULO I - DE LA EXTINCION DEL DELITO  ",
-    "nombreArticulo": "Art\u00edculo 125 ",
-    "textoArticulo": "    (Prescripci\u00f3n de la acci\u00f3n civil)\r\n   Rigen para la prescripci\u00f3n de la acci\u00f3n civil, los mismos t\u00e9rminos que\r\npara la prescripci\u00f3n de los delitos.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/125?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Prescripci\u00f3n de la acci\u00f3n civil) Rigen para la prescripci\u00f3n de la acci\u00f3n civil, los mismos t\u00e9rminos que para la prescripci\u00f3n de los delitos. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N II - SECRETAR\u00cdA DE INTELIGENCIA ESTRAT\u00c9GICA DE ESTADO  ",
+        "nombreArticulo": "Art\u00edculo 125 ",
+        "textoArticulo": "    (Informaci\u00f3n reservada y restringida e informaci\u00f3n secreta)\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 19.696 de 29/10/2018 art\u00edculo \r\n<a href=\"/bases/leyes/19696-2018/29\" >29</a>.\r\n"
+    },
+    "numeroArticulo": "125",
+    "seccionArticulo": "II",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (Informaci\u00f3n reservada y restringida e informaci\u00f3n secreta) (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 19.696 de 29/10/2018 art\u00edculo [29](https://www.impo.com.uy/bases/leyes/19696-2018/29). ",
+    "textoOriginalMarkdown": "    (Informaci\u00f3n reservada y restringida).- Se considerar\u00e1n reservados y de circulaci\u00f3n restringida, para todos los efectos legales, de acuerdo al art\u00edculo 9\u00b0 de la Ley N\u00b0 18.381, de 17 de octubre de 2008, los antecedentes, las informaciones y los registros que obren en poder de los \u00f3rganos que conforman el Sistema Nacional de Inteligencia de Estado y de su personal, cualquiera que sea su cargo.\r\n\r\n   Asimismo, tendr\u00e1n dicho car\u00e1cter aquellos otros antecedentes de los que el personal de tales \u00f3rganos, por cualquier raz\u00f3n, tome conocimiento en el desempe\u00f1o de sus funciones.\r\n ",
+    "textoModificadoMarkdown": " (Informaci\u00f3n reservada y restringida e informaci\u00f3n secreta).- Se considerar\u00e1n reservados y de circulaci\u00f3n restringida para todos los efectos legales, de acuerdo al art\u00edculo 9\u00b0 de la Ley N\u00b0 18.381, de 17 de octubre de 2008, los antecedentes, las informaciones y los registros que obren en poder de los \u00f3rganos que conforman el Sistema Nacional de Inteligencia de Estado y de su personal, cualquiera que sea su cargo. Asimismo, tendr\u00e1n dicho car\u00e1cter aquellos otros antecedentes de los que el personal de tales \u00f3rganos, por cualquier raz\u00f3n, tome conocimiento en el desempe\u00f1o de sus funciones. Se considerar\u00e1n secretos los actos, documentos, registros, actividades y cualquier otro material o insumo de los \u00f3rganos que integran el Sistema Nacional de Inteligencia de Estado, cuya difusi\u00f3n pueda provocar da\u00f1o a los acuerdos internacionales de cooperaci\u00f3n en materia de inteligencia, a la independencia del Estado respecto de otros Estados u organismos internacionales, y a las relaciones con estos. Dicha clasificaci\u00f3n ser\u00e1 realizada por el Director de la Secretar\u00eda de Inteligencia Estrat\u00e9gica de Estado, y s\u00f3lo se podr\u00e1 acceder a la misma mediante resoluci\u00f3n fundada del Presidente de la Rep\u00fablica actuando en Consejo de Ministros. (*) "
 }

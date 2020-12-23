@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO IV - DEL CONCURSO DE DELITOS Y DELINCUENTES  CAPITULO II - DEL CONCURSO DE DELINCUENTES  ",
-    "nombreArticulo": "Art\u00edculo 63 ",
-    "textoArticulo": "    (Responsabilidad por delitos distintos de los concertados)\r\n   Si el delito cometido fuere m\u00e1s grave que el concertado o de igual\r\ngravedad, pero de distinta naturaleza, o complicado por otros delitos,\r\nlos part\u00edcipes extra\u00f1os al hecho responder\u00e1n por el delito concertado y\r\ncometido y s\u00f3lo por el cometido sin concierto, en cuanto hubiere podido\r\nser previsto de acuerdo con los principios generales.\r\n   Si el delito cometido fuere menos grave que el concertado responden,\r\ns\u00f3lo por el primero. ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/63?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Responsabilidad por delitos distintos de los concertados) Si el delito cometido fuere m\u00e1s grave que el concertado o de igual gravedad, pero de distinta naturaleza, o complicado por otros delitos, los part\u00edcipes extra\u00f1os al hecho responder\u00e1n por el delito concertado y cometido y s\u00f3lo por el cometido sin concierto, en cuanto hubiere podido ser previsto de acuerdo con los principios generales. Si el delito cometido fuere menos grave que el concertado responden, s\u00f3lo por el primero. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO III - LEGISLACI\u00d3N PROFESIONAL POLICIAL  ",
+        "nombreArticulo": "Art\u00edculo 63 ",
+        "textoArticulo": "    (Estado policial del personal en situaci\u00f3n de retiro)\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 19.315 de 18/02/2015 art\u00edculo \r\n<a href=\"/bases/leyes/19315-2015/38\" >38</a>.\r\n"
+    },
+    "numeroArticulo": "63",
+    "seccionArticulo": "I",
+    "capituloArticulo": "III",
+    "textoArticuloMarkdown": " (Estado policial del personal en situaci\u00f3n de retiro) (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 19.315 de 18/02/2015 art\u00edculo [38](https://www.impo.com.uy/bases/leyes/19315-2015/38). ",
+    "textoOriginalMarkdown": "    (El Estado Policial del personal en situaci\u00f3n de retiro).- El polic\u00eda en situaci\u00f3n de retiro tendr\u00e1 los siguientes derechos, obligaciones y prohibiciones:\r\n 1)     Derechos:\r\n   A)        El cobro del haber de retiro y la pensi\u00f3n para sus\r\n             derecho-habientes de conformidad con la ley.\r\n   B)        El uso del t\u00edtulo.\r\n   C)        La asistencia prestada por la Direcci\u00f3n Nacional de Sanidad\r\n             Policial.\r\n   D)        El porte de arma y el uso del uniforme social o de gala,\r\n             distintivos, insignias correspondientes a cada grado, con\r\n             fines protocolares, lo que deber\u00e1 ajustarse a las normas\r\n             legales y reglamentarias en vigor, con excepci\u00f3n del\r\n             personal de la Escala B\u00e1sica.\r\n 2)     Obligaciones y prohibiciones:\r\n   A)        No divulgar informaci\u00f3n sobre hechos o documentos que por su\r\n             propia naturaleza debieran permanecer reservados,\r\n             confidenciales o secretos.\r\n   B)        La sujeci\u00f3n al r\u00e9gimen disciplinario policial durante los\r\n             primeros cuatro a\u00f1os de su pase a retiro.\r\n   C)        Realizar manifestaciones que atenten contra el respeto a los\r\n             Poderes del Estado, sus autoridades y/o formulen cr\u00edticas\r\n             sobre la organizaci\u00f3n y estructura de la instituci\u00f3n,\r\n             gesti\u00f3n y pol\u00edticas adoptadas por autoridades, durante los\r\n             primeros cuatro a\u00f1os de su pase a retiro.\r\n ",
+    "textoModificadoMarkdown": " (Estado Policial del personal en situaci\u00f3n de retiro).- El polic\u00eda en situaci\u00f3n de retiro tendr\u00e1 los siguientes derechos, obligaciones y prohibiciones: 1) Derechos: A) El cobro del haber de retiro y la pensi\u00f3n para sus derechohabientes de conformidad con la ley. B) El uso del t\u00edtulo. C) La asistencia prestada por la Direcci\u00f3n Nacional de Asuntos Sociales. D) El uso del uniforme social o de gala, distintivos, insignias correspondientes a cada grado, con fines protocolares, lo que deber\u00e1 ajustarse a las normas legales y reglamentarias en vigor, con excepci\u00f3n del personal de la Escala B\u00e1sica. 2) Obligaciones y prohibiciones: A) No divulgar informaci\u00f3n sobre hechos o documentos que por su naturaleza debieran permanecer reservados, confidenciales o secretos. B) La sujeci\u00f3n al r\u00e9gimen disciplinario policial durante los primeros dos a\u00f1os de su pase a retiro. C) Realizar manifestaciones que atenten contra el respeto a los Poderes del Estado o a sus autoridades o formulen cr\u00edticas sobre la organizaci\u00f3n y estructura de la instituci\u00f3n, gesti\u00f3n y pol\u00edticas adoptadas por autoridades, durante los primeros dos a\u00f1os de su pase a retiro. (*) "
 }

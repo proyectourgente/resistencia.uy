@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO V - DE LAS PENAS  CAPITULO II - DE SUS LIMITES, NATURALEZA Y EFECTOS  ",
-    "nombreArticulo": "Art\u00edculo 76 ",
-    "textoArticulo": "    (Inhabilitaci\u00f3n especial)\r\n   La pena de inhabilitaci\u00f3n especial produce:\r\n   1. La p\u00e9rdida del cargo u oficio p\u00fablico sobre que recae;\r\n   2. Incapacidad para obtener otros del mismo g\u00e9nero, durante el t\u00e9rmino\r\nde la condena. \r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/76?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Inhabilitaci\u00f3n especial) La pena de inhabilitaci\u00f3n especial produce: 1. La p\u00e9rdida del cargo u oficio p\u00fablico sobre que recae; 2. Incapacidad para obtener otros del mismo g\u00e9nero, durante el t\u00e9rmino de la condena. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO V - NORMAS SOBRE ADOLESCENTES PRIVADOS DE LIBERTAD  ",
+        "nombreArticulo": "Art\u00edculo 76 ",
+        "textoArticulo": "    (Duraci\u00f3n de las medidas de privaci\u00f3n de libertad)\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> C\u00f3digo de la Ni\u00f1ez y la Adolescencia \r\nde 07/09/2004 art\u00edculo <a href=\"/bases/codigo-ninez-adolescencia/17823-2004/91\" >91</a>.\r\n"
+    },
+    "numeroArticulo": "76",
+    "seccionArticulo": "I",
+    "capituloArticulo": "V",
+    "textoArticuloMarkdown": " (Duraci\u00f3n de las medidas de privaci\u00f3n de libertad) (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** C\u00f3digo de la Ni\u00f1ez y la Adolescencia de 07/09/2004 art\u00edculo [91](https://www.impo.com.uy/bases/codigo-ninez-adolescencia/17823-2004/91). ",
+    "textoOriginalMarkdown": "  (Duraci\u00f3n de las medidas de privaci\u00f3n de libertad).- La medida de \r\nprivaci\u00f3n de libertad tendr\u00e1 una duraci\u00f3n m\u00e1xima de cinco a\u00f1os.\r\nEn ning\u00fan caso el adolescente que al llegar a los dieciocho a\u00f1os \r\npermanece sujeto a medidas, cumplir\u00e1 lo que le resta en establecimientos \r\ndestinados a los adultos.\r\nEn situaciones de peligrosidad manifiesta, se adoptar\u00e1n las medidas que \r\nfueren compatibles con la seguridad de la poblaci\u00f3n y los prop\u00f3sitos de \r\nrecuperaci\u00f3n del infractor.\r\n ",
+    "textoModificadoMarkdown": " (Duraci\u00f3n de las medidas de privaci\u00f3n de libertad).- La medida de privaci\u00f3n de libertad tendr\u00e1 una duraci\u00f3n m\u00e1xima de cinco a\u00f1os, con excepci\u00f3n de la comisi\u00f3n de los delitos de: homicidio intencional agravado y muy especialmente agravado (art\u00edculos 311 y 312 del C\u00f3digo Penal), violaci\u00f3n (art\u00edculo 272 del C\u00f3digo Penal) y abuso sexual especialmente agravado (art\u00edculo 272 TER del C\u00f3digo Penal), en cuyo caso la medida de privaci\u00f3n de libertad tendr\u00e1 una duraci\u00f3n m\u00e1xima de diez a\u00f1os. En ning\u00fan caso el adolescente que al llegar a los dieciocho a\u00f1os permanezca sujeto a medidas, cumplir\u00e1 lo que le resta en establecimientos destinados a los adultos. En situaciones de peligrosidad manifiesta, se adoptar\u00e1n las medidas que fueren compatibles con la seguridad de la poblaci\u00f3n y los prop\u00f3sitos de recuperaci\u00f3n del infractor. (*) "
 }

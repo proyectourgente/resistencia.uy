@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO I - DE LOS DELITOS  CAPITULO II - DE LA APLICACION DE LAS LEYES PENALES  ",
-    "nombreArticulo": "Art\u00edculo 11 ",
-    "textoArticulo": "    (De las condiciones requeridas para que se puedan castigar en el pa\u00eds\r\nlos delitos cometidos en el extranjero)\r\n   No se aplicar\u00e1 el art\u00edculo 10:\r\n   1. Cuando la acci\u00f3n penal se hallare prescripta con arreglo a una u\r\notra legislaci\u00f3n.\r\n   2. Cuando el delito cometido fuera de car\u00e1cter pol\u00edtico.\r\n   3. Cuando el sujeto haya sido absuelto en el pa\u00eds extranjero o\r\ncumplido la pena o \u00e9sta se hallare prescripta.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/11?verreferencias=articulo",
-    "textoArticuloMarkdown": " (De las condiciones requeridas para que se puedan castigar en el pa\u00eds los delitos cometidos en el extranjero) No se aplicar\u00e1 el art\u00edculo 10: 1. Cuando la acci\u00f3n penal se hallare prescripta con arreglo a una u otra legislaci\u00f3n. 2. Cuando el delito cometido fuera de car\u00e1cter pol\u00edtico. 3. Cuando el sujeto haya sido absuelto en el pa\u00eds extranjero o cumplido la pena o \u00e9sta se hallare prescripta. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N I - SEGURIDAD P\u00daBLICA\r\n  CAP\u00cdTULO I - NORMAS PENALES  ",
+        "nombreArticulo": "Art\u00edculo 11 ",
+        "textoArticulo": "    (Agravio a la autoridad policial).-\r\n \r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo agreg\u00f3 a:</font></b> C\u00f3digo Penal de 04/12/1933 art\u00edculo <a href=\"/bases/codigo-penal/9155-1933/173_TER\" >173 - TER</a>.\r\n"
+    },
+    "numeroArticulo": "11",
+    "seccionArticulo": "I",
+    "capituloArticulo": "I",
+    "textoArticuloMarkdown": " (Agravio a la autoridad policial).- (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo agreg\u00f3 a:** C\u00f3digo Penal de 04/12/1933 art\u00edculo [173 - TER](https://www.impo.com.uy/bases/codigo-penal/9155-1933/173_TER). ",
+    "textoOriginalMarkdown": " (Agravio a la autoridad policial).- (*) ",
+    "textoModificadoMarkdown": " (Agravio a la autoridad policial).- El que obstaculice, agravie, atente, arroje objetos, amenace o insulte a la autoridad policial en ejercicio de sus funciones o con motivo de estas, ser\u00e1 castigado con una pena de tres a dieciocho meses de prisi\u00f3n. No ser\u00e1n castigados el ejercicio de la libertad de prensa ni la mera protesta ante la acci\u00f3n policial. Son circunstancias agravantes para este delito y ameritan la imposici\u00f3n de un guarismo punitivo superior a la mitad de la pena: 1. Que la conducta descripta se ejercite por tres o m\u00e1s personas. 2. Que la conducta descripta se ejecute contra un n\u00famero plural de funcionarios. 3. La elevaci\u00f3n jer\u00e1rquica del funcionario ofendido. 4. Que la conducta descripta se realice en las inmediaciones de la sede donde el funcionario presta servicio habitualmente o del domicilio del mismo. Es circunstancia atenuante, la retractaci\u00f3n del ofensor, aceptada por el funcionario en cuesti\u00f3n, manifestada y asentada en audiencia. (*) "
 }

@@ -1,16 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  ",
-    "nombreArticulo": "Art\u00edculo  ",
-    "textoArticulo": "  ",
-    "textoArticuloMarkdown": " ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N IX - NORMATIVA SOBRE LA EMERGENCIA EN VIVIENDA  CAP\u00cdTULO II - R\u00c9GIMEN DE ARRENDAMIENTO SIN GARANT\u00cdA  ",
+        "nombreArticulo": "Art\u00edculo 437 ",
+        "textoArticulo": "    (Desalojo por mal pagador).- Vencido el plazo pactado para el pago sin que este se haya hecho efectivo, el arrendador podr\u00e1 intimar el pago al arrendatario.\r\n\r\n   Se considerar\u00e1 incurso en mora el arrendatario que no pague el arrendamiento dentro del plazo de tres d\u00edas h\u00e1biles contados desde el d\u00eda h\u00e1bil siguiente al de la intimaci\u00f3n, salvo que en el contrato de arrendamiento se hubiere pactado la mora autom\u00e1tica. La intimaci\u00f3n de pago podr\u00e1 efectuarse por telegrama colacionado.\r\n\r\n   Las costas y costos de la primera intimaci\u00f3n ser\u00e1n de cargo del arrendador; los de las ulteriores intimaciones ser\u00e1n de cargo del arrendatario y deber\u00e1n abonarse de forma indivisible con el pago del arriendo. Las costas y costos de la intimaci\u00f3n en ning\u00fan caso podr\u00e1n superar el 20% (veinte por ciento) de la suma intimada, incluyendo impuestos que graven la actividad profesional. Sin perjuicio de lo dispuesto anteriormente, la omisi\u00f3n contumaz en el pago puntual de los arrendamientos, servicios accesorios, gastos comunes, consumos e impuestos a cargo del arrendatario, ser\u00e1 causal de rescisi\u00f3n del contrato de arrendamiento.\r\n ",
+        "notasArticulo": "<b>Ver en esta norma, art\u00edculo:</b> <a href=\"/bases/leyes/19889-2020/453\" >453</a>.\r\n"
+    },
+    "numeroArticulo": "437",
+    "seccionArticulo": "IX",
+    "capituloArticulo": "II",
+    "textoArticuloMarkdown": " (Desalojo por mal pagador).- Vencido el plazo pactado para el pago sin que este se haya hecho efectivo, el arrendador podr\u00e1 intimar el pago al arrendatario. Se considerar\u00e1 incurso en mora el arrendatario que no pague el arrendamiento dentro del plazo de tres d\u00edas h\u00e1biles contados desde el d\u00eda h\u00e1bil siguiente al de la intimaci\u00f3n, salvo que en el contrato de arrendamiento se hubiere pactado la mora autom\u00e1tica. La intimaci\u00f3n de pago podr\u00e1 efectuarse por telegrama colacionado. Las costas y costos de la primera intimaci\u00f3n ser\u00e1n de cargo del arrendador; los de las ulteriores intimaciones ser\u00e1n de cargo del arrendatario y deber\u00e1n abonarse de forma indivisible con el pago del arriendo. Las costas y costos de la intimaci\u00f3n en ning\u00fan caso podr\u00e1n superar el 20% (veinte por ciento) de la suma intimada, incluyendo impuestos que graven la actividad profesional. Sin perjuicio de lo dispuesto anteriormente, la omisi\u00f3n contumaz en el pago puntual de los arrendamientos, servicios accesorios, gastos comunes, consumos e impuestos a cargo del arrendatario, ser\u00e1 causal de rescisi\u00f3n del contrato de arrendamiento. ",
+    "notasArticuloMarkdown": "**Ver en esta norma, art\u00edculo:** [453](https://www.impo.com.uy/bases/leyes/19889-2020/453). ",
+    "textoOriginalMarkdown": " (Desalojo por mal pagador).- Vencido el plazo pactado para el pago sin que este se haya hecho efectivo, el arrendador podr\u00e1 intimar el pago al arrendatario. Se considerar\u00e1 incurso en mora el arrendatario que no pague el arrendamiento dentro del plazo de tres d\u00edas h\u00e1biles contados desde el d\u00eda h\u00e1bil siguiente al de la intimaci\u00f3n, salvo que en el contrato de arrendamiento se hubiere pactado la mora autom\u00e1tica. La intimaci\u00f3n de pago podr\u00e1 efectuarse por telegrama colacionado. Las costas y costos de la primera intimaci\u00f3n ser\u00e1n de cargo del arrendador; los de las ulteriores intimaciones ser\u00e1n de cargo del arrendatario y deber\u00e1n abonarse de forma indivisible con el pago del arriendo. Las costas y costos de la intimaci\u00f3n en ning\u00fan caso podr\u00e1n superar el 20% (veinte por ciento) de la suma intimada, incluyendo impuestos que graven la actividad profesional. Sin perjuicio de lo dispuesto anteriormente, la omisi\u00f3n contumaz en el pago puntual de los arrendamientos, servicios accesorios, gastos comunes, consumos e impuestos a cargo del arrendatario, ser\u00e1 causal de rescisi\u00f3n del contrato de arrendamiento. ",
+    "textoModificadoMarkdown": null
 }

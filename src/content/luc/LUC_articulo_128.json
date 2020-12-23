@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO VIII - DE LA EXTINCION DE LOS DELITOS Y DE LAS PENAS  CAPITULO II - DE LA EXTINCION DE LA PENA  ",
-    "nombreArticulo": "Art\u00edculo 128 ",
-    "textoArticulo": "    (Del indulto)\r\n   El indulto extingue la pena, con las mismas limitaciones establecidas\r\npara la amnist\u00eda, respecto de la clase de delincuentes excluidos de este\r\nbeneficio por el art\u00edculo 108 de este C\u00f3digo. \r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/128?verreferencias=articulo",
-    "textoArticuloMarkdown": " (Del indulto) El indulto extingue la pena, con las mismas limitaciones establecidas para la amnist\u00eda, respecto de la clase de delincuentes excluidos de este beneficio por el art\u00edculo 108 de este C\u00f3digo. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 128 ",
+        "textoArticulo": "    (De la libertad de c\u00e1tedra)\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/11\" >11</a>.\r\n"
+    },
+    "numeroArticulo": "128",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (De la libertad de c\u00e1tedra) (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [11](https://www.impo.com.uy/bases/leyes/18437-2008/11). ",
+    "textoOriginalMarkdown": "  (De la libertad de c\u00e1tedra).- El docente, en su condici\u00f3n de profesional,\r\nes libre de planificar sus cursos realizando una selecci\u00f3n responsable,\r\ncr\u00edtica y fundamentada de los temas y las actividades educativas,\r\nrespetando los objetivos y contenidos de los planes y programas de\r\nestudio.\r\n Asimismo, los educandos tienen la libertad y el derecho a acceder a todas\r\nla fuentes de informaci\u00f3n y de cultura, y el docente el deber de ponerlas\r\na su alcance.\r\n\r\n                               CAPITULO III\r\n                       POLITICA EDUCATIVA NACIONAL\r\n ",
+    "textoModificadoMarkdown": " (De la libertad de c\u00e1tedra).- El docente, en su condici\u00f3n de profesional, es libre de planificar sus cursos realizando una selecci\u00f3n responsable, cr\u00edtica y fundamentada de los temas y las actividades educativas, respetando los objetivos y contenidos de los planes y programas de estudio. Asimismo, los educandos tienen la libertad y el derecho a acceder a todas las fuentes de informaci\u00f3n y de cultura, y el docente el deber de ponerlas a su alcance, con un criterio de amplitud, ecuanimidad y balance de puntos de vista que permita a los educandos ejercer su libertad y formarse su propio juicio. (*) "
 }

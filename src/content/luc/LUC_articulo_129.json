@@ -1,17 +1,23 @@
 {
-    "tipoNorma": "C\u00f3digo Penal",
-    "nroNorma": "9155",
-    "anioNorma": 1933,
-    "nombreNorma": "APROBADO POR LEY N\u00b0 9.155\r\n",
-    "leyenda": " Documento Actualizado ",
-    "urlTodaLaNorma": "/bases/codigo-penal/9155-1933",
-    "fechaPromulgacion": "04/12/1933",
-    "fechaPublicacion": "No fue publicado",
-    "referenciasNorma": " <i><b>Actualizaci\u00f3n de la Versi\u00f3n Oficial publicada el 26.10.1967\r\n                   (Decreto N\u00ba 698/967)</b></i>.\r\n<b><font color=\"#FF0000\">Ver vigencia:</font></b> Ley N\u00ba 9.414 de 29/06/1934 art\u00edculo <a href=\"/bases/leyes/9414-1934/2\" >2</a>.\r\n<div align=\"right\"><a href=\"/bases/indices-codigos/9155-1933/1\" ><b>Indice de la Norma</b></a></div>\r\n <a href=\"/bases/cuadros/9155-1933/1\" ><b>APENDICE NORMATIVO</b></a>\r\n ",
-    "tituloArticulo": "  LIBRO I - PARTE GENERAL  TITULO VIII - DE LA EXTINCION DE LOS DELITOS Y DE LAS PENAS  CAPITULO II - DE LA EXTINCION DE LA PENA  ",
-    "nombreArticulo": "Art\u00edculo 129 ",
-    "textoArticulo": "    (De la prescripci\u00f3n de la condena)\r\n   La pena se extingue por un transcurso de tiempo superior a un tercio\r\ndel que se requiere para la extinci\u00f3n del delito, debiendo empezar a\r\ncontarse dicho t\u00e9rmino desde el d\u00eda en que recay\u00f3 sentencia ejecutoriada\r\no se quebrant\u00f3 la condena.\r\n   Es aplicable a la prescripci\u00f3n de las penas el art\u00edculo 123 relativo a\r\nla prescripci\u00f3n de los delitos.\r\n ",
-    "urlReferenciasAlArticulo": "/bases/codigo-penal/9155-1933/129?verreferencias=articulo",
-    "textoArticuloMarkdown": " (De la prescripci\u00f3n de la condena) La pena se extingue por un transcurso de tiempo superior a un tercio del que se requiere para la extinci\u00f3n del delito, debiendo empezar a contarse dicho t\u00e9rmino desde el d\u00eda en que recay\u00f3 sentencia ejecutoriada o se quebrant\u00f3 la condena. Es aplicable a la prescripci\u00f3n de las penas el art\u00edculo 123 relativo a la prescripci\u00f3n de los delitos. ",
-    "anteriorOriginal": {}
+    "json_original": {
+        "tipoNorma": "Ley",
+        "nroNorma": "19889",
+        "anioNorma": 2020,
+        "nombreNorma": "APROBACION DE LA LEY DE URGENTE CONSIDERACION. LUC. LEY DE URGENCIA",
+        "leyenda": " Documento Actualizado ",
+        "urlTodaLaNorma": "/bases/leyes/19889-2020",
+        "fechaPromulgacion": "09/07/2020",
+        "fechaPublicacion": "14/07/2020",
+        "tituloArticulo": "  SECCI\u00d3N III - EDUCACI\u00d3N  ",
+        "nombreArticulo": "Art\u00edculo 129 ",
+        "textoArticulo": "    (Tratados internacionales y cooperaci\u00f3n internacional)\r\n\r\n   (*) ",
+        "notasArticulo": "<b><font color=\"#0000FF\">Este art\u00edculo dio nueva redacci\u00f3n a:</font></b> Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo \r\n<a href=\"/bases/leyes/18437-2008/14\" >14</a>.\r\n"
+    },
+    "numeroArticulo": "129",
+    "seccionArticulo": "III",
+    "capituloArticulo": null,
+    "textoArticuloMarkdown": " (Tratados internacionales y cooperaci\u00f3n internacional) (*) ",
+    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.437 de 12/12/2008 art\u00edculo [14](https://www.impo.com.uy/bases/leyes/18437-2008/14). ",
+    "textoOriginalMarkdown": "  (Tratados internacionales y cooperaci\u00f3n internacional).- El Estado al\r\ndefinir la pol\u00edtica educativa nacional promover\u00e1 que la educaci\u00f3n sea\r\nconcebida como un bien p\u00fablico y que la cooperaci\u00f3n internacional sea\r\ncoadyuvante a los fines establecidos en el art\u00edculo precedente. No se\r\nsuscribir\u00e1 acuerdo o tratado alguno, bilateral o multilateral, con Estados\r\nu organismos internacionales, que directa o indirectamente signifiquen\r\nconsiderar a la educaci\u00f3n como un servicio lucrativo o alentar su\r\nmercantilizaci\u00f3n.\r\n\r\n                               CAPITULO IV\r\n                PRINCIPIOS DE LA EDUCACION PUBLICA ESTATAL\r\n ",
+    "textoModificadoMarkdown": " (Tratados internacionales y cooperaci\u00f3n internacional).- El Estado al definir la pol\u00edtica educativa nacional promover\u00e1 que la educaci\u00f3n sea concebida como un bien p\u00fablico y que la cooperaci\u00f3n internacional sea coadyuvante a los fines establecidos en el art\u00edculo precedente. No se suscribir\u00e1 acuerdo o tratado alguno, bilateral o multilateral, con Estados u organismos internacionales, que reduzcan la educaci\u00f3n a la condici\u00f3n de servicio lucrativo. (*) "
 }
