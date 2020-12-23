@@ -11,12 +11,11 @@ exports.createPages = async function ({ actions, graphql }) {
     {
       articulos: allLucJson {
         nodes {
-          textoArticuloMarkdown
           numeroArticulo
           seccionArticulo
-          textoModificadoMarkdown
-          textoOriginalMarkdown
-          notasArticuloMarkdown
+          textoModificado
+          textoOriginal
+          notasArticulo
         }
       }
     }

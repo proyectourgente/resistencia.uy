@@ -19,12 +19,13 @@ export default function Articulo({ data }) {
     return (
         <Layout>
             <div>
-                <h1>{articulo.notasArticuloMarkdown}</h1>
-                <div dangerouslySetInnerHTML={{ __html: articulo.notasArticuloMarkdown }} />
-
+                <h1>Artículo {articulo.numeroArticulo}</h1>
+                <h2>Sección {articulo.seccionArticulo} - Capítulo {articulo.capituloArticulo}</h2>
+                <p>{articulo.notasArticulo}</p>
+                <p>{articulo.textoModificado}</p>
                 <ReactDiffViewer
-                    oldValue={limpiarTexto(articulo.textoOriginalMarkdown)}
-                    newValue={limpiarTexto(articulo.textoModificadoMarkdown)}
+                    oldValue={limpiarTexto(articulo.textoOriginal)}
+                    newValue={limpiarTexto(articulo.textoModificado)}
                     showDiffOnly={false}
                     splitView={false}
                     hideLineNumbers={true}
@@ -39,12 +40,12 @@ export const query = graphql`
   query($slug: String!) {
       allLucJson(filter: {numeroArticulo: {eq: $slug}}) {
         nodes {
-          textoArticuloMarkdown
           numeroArticulo
           seccionArticulo
-          textoModificadoMarkdown
-          textoOriginalMarkdown
-          notasArticuloMarkdown
+          capituloArticulo
+          textoModificado
+          textoOriginal
+          notasArticulo
         }
       }
   }

@@ -37,5 +37,19 @@ module.exports = {
         path: `./src/content/luc`,
       },
     },
+    {
+      resolve: `gatsby-plugin-json-remark`,
+      options: {
+        paths: [
+          `./src/content/luc`,
+        ],
+        fieldNameBlacklist: [
+          "json_original",
+          "numeroArticulo",
+          "seccionArticulo",
+          "capituloArticulo",
+        ],
+      },
+    },
   ],
 }

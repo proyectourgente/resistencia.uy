@@ -16,8 +16,8 @@
     "numeroArticulo": "44",
     "seccionArticulo": "I",
     "capituloArticulo": "III",
-    "textoArticuloMarkdown": " (Seguridad necesaria).- (*) ",
-    "notasArticuloMarkdown": "**Este art\u00edculo dio nueva redacci\u00f3n a:** Ley N\u00ba 18.315 de 05/07/2008 art\u00edculo [14](https://www.impo.com.uy/bases/leyes/18315-2008/14). ",
-    "textoOriginalMarkdown": "  (Seguridad estrictamente necesaria).- El personal policial tendr\u00e1\r\npresente en todo momento que solamente se adoptar\u00e1n las medidas de\r\nseguridad defensivas u ofensivas estrictamente necesarias para el\r\ncumplimiento de su funci\u00f3n, de acuerdo a la normativa vigente.\r\n ",
-    "textoModificadoMarkdown": " (Seguridad necesaria).- El personal policial tendr\u00e1 presente en todo momento que solamente se adoptar\u00e1n las medidas de seguridad necesarias para el cumplimiento de su funci\u00f3n, de acuerdo con la normativa vigente. (*) "
+    "textoArticulo": " (Seguridad necesaria).- (*) ",
+    "notasArticulo": "Este art\u00edculo dio nueva redacci\u00f3n a: Ley N\u00ba 18.315 de 05/07/2008 art\u00edculo 14. ",
+    "textoOriginal": " (Seguridad estrictamente necesaria).- El personal policial tendr\u00e1 presente en todo momento que solamente se adoptar\u00e1n las medidas de seguridad defensivas u ofensivas estrictamente necesarias para el cumplimiento de su funci\u00f3n, de acuerdo a la normativa vigente. ",
+    "textoModificado": " (Seguridad necesaria).- El personal policial tendr\u00e1 presente en todo momento que solamente se adoptar\u00e1n las medidas de seguridad necesarias para el cumplimiento de su funci\u00f3n, de acuerdo con la normativa vigente. (*) "
 }
