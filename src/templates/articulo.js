@@ -10,6 +10,7 @@ function limpiarTexto(texto) {
         texto = texto.replaceAll('\n', '')
         texto = texto.replaceAll('(*)', '')
         texto = texto.trim()
+        return texto
     } else
         return ''
 }
