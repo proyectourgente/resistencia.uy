@@ -6,13 +6,12 @@ import Layout from "../components/layout"
 import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer';
 
 function limpiarTexto(texto) {
-    if (texto) {
+    if (texto instanceof String && texto) {
         texto = texto.replaceAll('\n', '')
         texto = texto.replaceAll('(*)', '')
         texto = texto.trim()
-    }
-
-    return texto
+    } else
+        return ''
 }
 
 
