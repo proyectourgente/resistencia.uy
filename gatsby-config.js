@@ -63,5 +63,20 @@ module.exports = {
             }),
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-LYRHPPN4TP", // Google Analytics / GA
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+
+        },
+      },
+    },
   ],
 }
