@@ -30,7 +30,7 @@ const IndexPage = ({data}) => {
             <p></p>
             {results.length > 0 ? (
                 <div>
-                    <h3>Mostrando búsqueda: </h3>
+                    <h3>Mostrando artículos con "{query}"</h3>
                     {results.map((result) => (
                         <span><Link
                             to={result.numeroArticulo}>
@@ -40,7 +40,7 @@ const IndexPage = ({data}) => {
                 </div>
             ) : (
                 <div>
-                    <h3>Mostrando todos: </h3>
+                    <h3>Mostrando todos</h3>
                     {articulos.map((articulo) => {
                         return <span><Link
                             to={articulo.numeroArticulo}>
