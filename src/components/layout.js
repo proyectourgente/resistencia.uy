@@ -8,6 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import {
+    FaGithub, FaTwitter
+} from 'react-icons/fa';
 
 import Header from "./header"
 import "./layout.css"
@@ -37,9 +40,18 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Built with
+          {new Date().getFullYear()}, Hecho con
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.gatsbyjs.com">Gatsby</a>. Este proyecto está en construcción y pretende colaborar con el intento de derogar los artículos más dañinos de la LUC. Todos artículos fueron extraídos del portal del IMPO.
+            <div>
+            <a href="https://twitter.com/raulsperoni" target="_blank" title="Twitter" rel="noopener noreferrer">
+                <FaTwitter />
+            </a>
+
+            <a href="https://github.com/raulsperoni/resistencia.uy" target="_blank" title="Github" rel="noopener noreferrer">
+                <FaGithub />
+            </a>
+            </div>
         </footer>
       </div>
     </>
