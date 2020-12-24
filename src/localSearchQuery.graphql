@@ -1,0 +1,12 @@
+{
+      articulos: allLucJson {
+        nodes {
+          numeroArticulo
+          seccionArticulo
+          capituloArticulo
+          textoModificado
+          textoOriginal
+          notasArticulo
+        }
+      }
+    }

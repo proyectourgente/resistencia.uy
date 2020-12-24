@@ -1,3 +1,6 @@
+const fs = require('fs')
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: `Ley de Urgente Consideración Comparada`,
@@ -36,6 +39,29 @@ module.exports = {
       options: {
         path: `./src/content/luc`,
       },
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-local-search',
+      options: {
+        name: 'articulos',
+        engine: 'lunr',
+        query: fs.readFileSync(
+            path.resolve(__dirname, 'src/localSearchQuery.graphql'),
+            'utf-8',
+        ),
+        ref: 'numeroArticulo',
+        index: ['textoModificado'],
+        store: ['seccionArticulo', 'capituloArticulo', 'numeroArticulo'],
+        normalizer: ({ data }) =>
+            data.articulos.nodes.map((node) => {
+              return {
+                numeroArticulo: node.numeroArticulo,
+                capituloArticulo: node.capituloArticulo,
+                seccionArticulo: node.seccionArticulo,
+                textoModificado: node.textoModificado
+              }
+            }),
+      },
+    },
   ],
 }
