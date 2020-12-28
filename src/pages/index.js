@@ -13,9 +13,18 @@ const IndexPage = ({data}) => {
     const store = data.localSearchArticulos.store
     const indice = data.indice
 
-    const secciones = [...new Set(indice.nodes.map(node => node.NRO_SECCION))];
+    const secciones_desc = {}
+    const capitulos_desc = {}
+    const secciones = [...new Set(indice.nodes.map(node => {
+        secciones_desc[node.NRO_SECCION] = node.DESC_SECCION
+        capitulos_desc[node.NRO_SECCION] = {}
+        return node.NRO_SECCION
+    }))];
     const secc_articulos = secciones.map((seccion) => {
-        const arts = indice.nodes.filter(node => node.NRO_SECCION === seccion).map(node => node.NRO_CAPITULO)
+        const arts = indice.nodes.filter(node => node.NRO_SECCION === seccion).map(node => {
+            capitulos_desc[seccion][node.NRO_CAPITULO] = node.DESC_CAPITULO
+            return node.NRO_CAPITULO
+        })
         const cap = [...new Set(arts)]
         return {
             seccion: seccion,
@@ -41,27 +50,28 @@ const IndexPage = ({data}) => {
             </label>
             <h1></h1>
             <div>
-                <span>{results.length > 0 ? (<h3>Mostrando artículos artículos a derogar con "{query}"</h3>):(<h3>Mostrando todos los artículos a derogar</h3>)}</span>
-                {secc_articulos.map(({seccion, cant_articulos, captitulos}) => {
+                <span>{results.length > 0 ? (<h3>Mostrando artículos artículos a derogar con "{query}"</h3>) : (
+                    <h3>Mostrando todos los artículos a derogar</h3>)}</span>
+                    {secc_articulos.map(({seccion, cant_articulos, captitulos}) => {
                         const secciones_filtradas = indice.nodes.filter(art => (
                             (results_array.length <= 0 || results_array.includes(art.NRO_ARTICULO.toString())) &&
                             (art.NRO_SECCION === seccion)))
                         return secciones_filtradas.length > 0 ? (
                             <div>
-                                <h2>SECCIÓN {seccion} ({cant_articulos})</h2>
+                                <h2>SECCIÓN {seccion} - {secciones_desc[seccion]} ({cant_articulos})</h2>
                                 {captitulos.map((capitulo) => {
                                     const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
                                     return capitulos_filtrados.length > 0 ? (
                                         <div>
-                                            <h3>CAPÍTULO {capitulo}</h3>
+                                            <h3>CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h3>
                                             {capitulos_filtrados.map((art) => (
-                                                <div>
-
-                                        <span><Link
-                                            to={art.NRO_ARTICULO.toString()}>
-                                            {art.NRO_ARTICULO.toString()} {art.DESC_ARTICULO}
-                                        </Link> </span>
-                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <Link
+                                                        to={art.NRO_ARTICULO.toString()}>
+                                                        {art.NRO_ARTICULO.toString()} {art.DESC_ARTICULO}</Link>
+                                                    </li>
+                                                </ul>
                                             ))}
                                         </div>
                                     ) : (<div></div>)
@@ -70,7 +80,6 @@ const IndexPage = ({data}) => {
                         ) : (<div></div>)
                     }
                 )}
-
             </div>
         </Layout>
     )
