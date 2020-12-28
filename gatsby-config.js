@@ -10,7 +10,7 @@ module.exports = {
     title: `Ley de Urgente Consideración Comparada`,
     description: `En 2021 se intentarán derogar 135 artículos de la LUC vía referendúm. Esta es una comparación de los artículos antes y después basada en datos del IMPO`,
     author: `@raulsperoni`,
-    image: `camilosDosSantosLuc.png`,
+    image: `images/camiloDosSantosLuc.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
