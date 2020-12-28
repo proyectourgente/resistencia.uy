@@ -4,12 +4,7 @@ import React from "react"
 import {FaGithub, FaTwitter} from "react-icons/fa";
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="bg-red-700 mb-8">
     <div className="container mx-auto px-5 lg:px-20 py-5">
       <h1 className="w-full flex items-center justify-between">
         <Link

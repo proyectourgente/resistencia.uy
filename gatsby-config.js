@@ -10,6 +10,7 @@ module.exports = {
     title: `Ley de Urgente Consideración Comparada`,
     description: `Ley de Urgente Consideración Comparada`,
     author: `@raulsperoni`,
+    image: `/camilosDosSantosLuc.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

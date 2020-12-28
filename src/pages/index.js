@@ -53,7 +53,7 @@ const IndexPage = ({data}) => {
 
     return (
         <Layout>
-            <SEO title="Home"/>
+            <SEO title="LUC Comparada: Índice"/>
             <div className="mx-auto p-5 w-1/2 ">
 
                 <input
@@ -66,7 +66,7 @@ const IndexPage = ({data}) => {
                         setQuerySinAcento(replaceAccents(event.target.value))
                     }}
                 />
-                <span className="font-sans text-center text-xs text-purple-700">
+                <span className="font-sans text-center text-xs text-red-700">
 
                 <p className="mt-5">
                     {results.length > 0 ? (<span>Mostrando artículos artículos con "{query}"</span>) : (

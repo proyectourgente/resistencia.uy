@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 
 
 import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer';
+import SEO from "../components/seo";
 
 function limpiarTexto(texto) {
     if (texto instanceof String && texto) {
@@ -20,15 +21,18 @@ function limpiarTexto(texto) {
 
 export default function Articulo({ data }) {
     const articulo = data.allLucJson.nodes[0]
-    const meta = data.indice.nodes.find((art) => art.NRO_ARTICULO === articulo.numeroArticulo)
-    console.log(data.indice.nodes, articulo.numeroArticulo)
+    const meta = data.indice.nodes.find((art) => art.NRO_ARTICULO.toString() === articulo.numeroArticulo.toString())
+    const title = 'Artículo '+articulo.numeroArticulo+' - '+meta.DESC_ARTICULO
     return (
         <Layout>
+            <SEO title={title}/>
             <div className="font-sans">
-                <h2>Artículo {articulo.numeroArticulo} - {meta.DESC_ARTICULO}</h2>
-                <h2>Sección {articulo.seccionArticulo} - Capítulo {articulo.capituloArticulo}</h2>
-                <p>{articulo.notasArticulo}</p>
-                <p>{articulo.textoModificado}</p>
+                <h2>SECCIÓN {meta.NRO_SECCION} > CAPÍTULO {meta.NRO_CAPITULO} > ARTÍCULO {articulo.numeroArticulo} - {meta.DESC_ARTICULO}</h2>
+                    <p>{articulo.notasArticulo}</p>
+                <p className="mt-5 font-serif">{limpiarTexto(articulo.textoModificado)}</p>
+
+                <div className="mt-10">
+                    <h2>CAMBIOS</h2>
                 <ReactDiffViewer
                     oldValue={limpiarTexto(articulo.textoOriginal)}
                     newValue={limpiarTexto(articulo.textoModificado)}
@@ -37,6 +41,7 @@ export default function Articulo({ data }) {
                     hideLineNumbers={true}
                     disableWordDiff={false}
                     compareMethod={DiffMethod.WORDS}/>
+                </div>
             </div>
         </Layout>
     )
