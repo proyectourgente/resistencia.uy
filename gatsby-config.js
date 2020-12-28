@@ -1,6 +1,10 @@
 const fs = require('fs')
 const path = require('path')
 
+function replaceAccents(text) {
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+}
+
 module.exports = {
   siteMetadata: {
     title: `Ley de Urgente Consideración Comparada`,
@@ -50,15 +54,16 @@ module.exports = {
             'utf-8',
         ),
         ref: 'numeroArticulo',
-        index: ['textoModificado'],
-        store: ['seccionArticulo', 'capituloArticulo', 'numeroArticulo'],
+        index: ['textoModificado', 'tituloArticulo'],
+        store: ['seccionArticulo', 'capituloArticulo', 'numeroArticulo','tituloArticulo'],
         normalizer: ({ data }) =>
             data.articulos.nodes.map((node) => {
               return {
                 numeroArticulo: node.numeroArticulo,
                 capituloArticulo: node.capituloArticulo,
                 seccionArticulo: node.seccionArticulo,
-                textoModificado: node.textoModificado
+                textoModificado: node.textoModificado ? node.textoModificado.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "",
+                tituloArticulo: node.tituloArticulo ? node.tituloArticulo.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : ""
               }
             }),
       },

@@ -12,3 +12,7 @@ Un proyecto para difundir los impactos de la LUC y argumentos para la derogació
 
 Los textos de los artículos y los de sus versiones previas fueron tomados del IMPO.
 
+## Colaboran:
+
+- Sebastián Gadea
+- Raúl Speroni

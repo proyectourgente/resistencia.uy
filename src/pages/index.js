@@ -1,10 +1,14 @@
 import React, {useState} from "react"
 import {Link} from "gatsby"
 
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {useLunr} from "react-lunr";
 
+function replaceAccents(text) {
+    return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+}
 
 const IndexPage = ({data}) => {
 
@@ -12,6 +16,7 @@ const IndexPage = ({data}) => {
     const index = data.localSearchArticulos.index
     const store = data.localSearchArticulos.store
     const indice = data.indice
+
 
     const secciones_desc = {}
     const capitulos_desc = {}
@@ -34,8 +39,17 @@ const IndexPage = ({data}) => {
     })
 
     const [query, setQuery] = useState('')
-    const results = useLunr(query, index, store)
+    const [querySinAcento, setQuerySinAcento] = useState('')
+    const results = useLunr(querySinAcento, index, store)
     const results_array = results.map(result => result.numeroArticulo)
+
+    /*  const word_count = JSON.parse(index).invertedIndex.map((entry) => {
+          let text = entry[0]
+          let value = Object.keys(entry[1].textoModificado).length
+          return {text, value}
+      }).filter(({text,value})=> value>10)
+      console.log(word_count)*/
+
 
     return (
         <Layout>
@@ -45,31 +59,34 @@ const IndexPage = ({data}) => {
                 <input
                     name="query"
                     value={query}
-                    onChange={(event) => setQuery(event.target.value)}
+                    onChange={(event) => {
+                        setQuery(event.target.value)
+                        setQuerySinAcento(replaceAccents(event.target.value))
+                    }}
                 />
             </label>
             <h1></h1>
             <div>
                 <span>{results.length > 0 ? (<h3>Mostrando artículos artículos a derogar con "{query}"</h3>) : (
                     <h3>Mostrando todos los artículos a derogar</h3>)}</span>
-                    {secc_articulos.map(({seccion, cant_articulos, captitulos}) => {
+                {secc_articulos.map(({seccion, cant_articulos, captitulos}) => {
                         const secciones_filtradas = indice.nodes.filter(art => (
                             (results_array.length <= 0 || results_array.includes(art.NRO_ARTICULO.toString())) &&
                             (art.NRO_SECCION === seccion)))
                         return secciones_filtradas.length > 0 ? (
-                            <div>
+                            <div key={seccion}>
                                 <h2>SECCIÓN {seccion} - {secciones_desc[seccion]} ({cant_articulos})</h2>
                                 {captitulos.map((capitulo) => {
                                     const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
                                     return capitulos_filtrados.length > 0 ? (
-                                        <div>
+                                        <div key={capitulo}>
                                             <h3>CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h3>
                                             {capitulos_filtrados.map((art) => (
                                                 <ul>
-                                                    <li>
+                                                    <li key={art.NRO_ARTICULO}>
                                                         <Link
-                                                        to={art.NRO_ARTICULO.toString()}>
-                                                        {art.NRO_ARTICULO.toString()} {art.DESC_ARTICULO}</Link>
+                                                            to={art.NRO_ARTICULO.toString()}>
+                                                            {art.NRO_ARTICULO.toString()} {art.DESC_ARTICULO}</Link>
                                                     </li>
                                                 </ul>
                                             ))}
