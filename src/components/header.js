@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import {FaGithub, FaTwitter} from "react-icons/fa";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -9,14 +10,8 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+    <div className="container mx-auto px-5 lg:px-20 py-5">
+      <h1 className="w-full flex items-center justify-between">
         <Link
           to="/"
           style={{
@@ -26,7 +21,16 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+          <div className="flex w-10 text-right">
+          <a className="px-2 text-white hover:text-gray-100 visited:text-gray-300" href="https://twitter.com/raulsperoni" target="_blank" title="Twitter" rel="noopener noreferrer">
+              <FaTwitter />
+          </a>
+          <a className="px-2 text-white hover:text-gray-100 visited:text-gray-300" href="https://github.com/raulsperoni/resistencia.uy" target="_blank" title="Github" rel="noopener noreferrer">
+              <FaGithub />
+          </a>
+          </div>
       </h1>
+
     </div>
   </header>
 )

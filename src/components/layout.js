@@ -29,29 +29,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="container mx-auto px-5 lg:px-20 ">
         <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
+        <footer className="mt-10">
           {new Date().getFullYear()}, Hecho con
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>. Este proyecto está en construcción y pretende colaborar con el intento de derogar los artículos más dañinos de la LUC. Todos artículos fueron extraídos del portal del IMPO.
-            <div>
-            <a href="https://twitter.com/raulsperoni" target="_blank" title="Twitter" rel="noopener noreferrer">
-                <FaTwitter />
-            </a>
+          <a href="https://www.gatsbyjs.com">Gatsby</a>. Este proyecto está en construcción y pretende colaborar con el intento de derogar los artículos más dañinos de la LUC.
 
-            <a href="https://github.com/raulsperoni/resistencia.uy" target="_blank" title="Github" rel="noopener noreferrer">
-                <FaGithub />
-            </a>
-            </div>
         </footer>
       </div>
     </>

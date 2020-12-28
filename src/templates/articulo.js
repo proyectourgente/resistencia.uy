@@ -20,10 +20,12 @@ function limpiarTexto(texto) {
 
 export default function Articulo({ data }) {
     const articulo = data.allLucJson.nodes[0]
+    const meta = data.indice.nodes.find((art) => art.NRO_ARTICULO === articulo.numeroArticulo)
+    console.log(data.indice.nodes, articulo.numeroArticulo)
     return (
         <Layout>
-            <div>
-                <h1>Artículo {articulo.numeroArticulo}</h1>
+            <div className="font-sans">
+                <h2>Artículo {articulo.numeroArticulo} - {meta.DESC_ARTICULO}</h2>
                 <h2>Sección {articulo.seccionArticulo} - Capítulo {articulo.capituloArticulo}</h2>
                 <p>{articulo.notasArticulo}</p>
                 <p>{articulo.textoModificado}</p>
@@ -50,6 +52,16 @@ export const query = graphql`
           textoModificado
           textoOriginal
           notasArticulo
+        }
+      }
+      indice: allIndiceYaml {
+        nodes {
+          NRO_CAPITULO
+          DESC_CAPITULO
+          NRO_ARTICULO
+          DESC_ARTICULO
+          NRO_SECCION
+          DESC_SECCION
         }
       }
   }

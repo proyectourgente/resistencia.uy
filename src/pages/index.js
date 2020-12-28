@@ -54,9 +54,11 @@ const IndexPage = ({data}) => {
     return (
         <Layout>
             <SEO title="Home"/>
-            <label>
-                <span>Buscar por palabras: </span>
+            <div className="mx-auto p-5 w-1/2 ">
+
                 <input
+                    placeholder={"Buscar artículos por palabra"}
+                    className="mx-auto w-full h-12 focus:outline-none focus:ring focus:border-blue-300 p-2 border-2"
                     name="query"
                     value={query}
                     onChange={(event) => {
@@ -64,29 +66,36 @@ const IndexPage = ({data}) => {
                         setQuerySinAcento(replaceAccents(event.target.value))
                     }}
                 />
-            </label>
-            <h1></h1>
-            <div>
-                <span>{results.length > 0 ? (<h3>Mostrando artículos artículos a derogar con "{query}"</h3>) : (
-                    <h3>Mostrando todos los artículos a derogar</h3>)}</span>
+                <span className="font-sans text-center text-xs text-purple-700">
+
+                <p className="mt-5">
+                    {results.length > 0 ? (<span>Mostrando artículos artículos con "{query}"</span>) : (
+                        <span>Mostrando todos los artículos a derogar</span>)}
+                </p>
+                     <p>
+                    Todos artículos fueron extraídos del portal del IMPO
+                </p>
+                    </span>
+            </div>
+            <div className="font-sans">
                 {secc_articulos.map(({seccion, cant_articulos, captitulos}) => {
                         const secciones_filtradas = indice.nodes.filter(art => (
                             (results_array.length <= 0 || results_array.includes(art.NRO_ARTICULO.toString())) &&
                             (art.NRO_SECCION === seccion)))
                         return secciones_filtradas.length > 0 ? (
-                            <div key={seccion}>
-                                <h2>SECCIÓN {seccion} - {secciones_desc[seccion]} ({cant_articulos})</h2>
+                            <div key={seccion} className="py-3">
+                                <h3>SECCIÓN {seccion} - {secciones_desc[seccion]} ({cant_articulos})</h3>
                                 {captitulos.map((capitulo) => {
                                     const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
                                     return capitulos_filtrados.length > 0 ? (
-                                        <div key={capitulo}>
-                                            <h3>CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h3>
+                                        <div key={capitulo} className="py-2 pl-4">
+                                            <h4 className="mb-2">CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h4>
                                             {capitulos_filtrados.map((art) => (
-                                                <ul>
+                                                <ul className="pl-4 py-0.5">
                                                     <li key={art.NRO_ARTICULO}>
                                                         <Link
                                                             to={art.NRO_ARTICULO.toString()}>
-                                                            {art.NRO_ARTICULO.toString()} {art.DESC_ARTICULO}</Link>
+                                                            {art.NRO_ARTICULO.toString()} - {art.DESC_ARTICULO}</Link>
                                                     </li>
                                                 </ul>
                                             ))}
