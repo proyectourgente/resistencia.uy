@@ -14,5 +14,6 @@ Los textos de los artículos y los de sus versiones previas fueron tomados del I
 
 ## Colaboran:
 
+- Camilo Dos Santos
 - Sebastián Gadea
 - Raúl Speroni

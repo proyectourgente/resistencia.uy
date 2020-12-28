@@ -53,9 +53,10 @@ const IndexPage = ({data}) => {
 
     return (
         <Layout>
-            <SEO title="LUC Comparada: Índice"/>
-            <div className="mx-auto p-5 w-1/2 ">
+            <SEO title="Todos los artículos"/>
+            <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán derogar 135 artículos de la LUC vía referendúm. Esta es una comparación de los artículos antes y después basada en datos del IMPO</p>
 
+            <div className="mx-auto p-5 w-100 lg:w-1/2 ">
                 <input
                     placeholder={"Buscar artículos por palabra"}
                     className="mx-auto w-full h-12 focus:outline-none focus:ring focus:border-blue-300 p-2 border-2"
@@ -71,9 +72,6 @@ const IndexPage = ({data}) => {
                 <p className="mt-5">
                     {results.length > 0 ? (<span>Mostrando artículos artículos con "{query}"</span>) : (
                         <span>Mostrando todos los artículos a derogar</span>)}
-                </p>
-                     <p>
-                    Todos artículos fueron extraídos del portal del IMPO
                 </p>
                     </span>
             </div>
