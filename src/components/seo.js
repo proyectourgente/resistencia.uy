@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  const image = 'https://resistencia.uy/images/camiloDosSantosLuc.png?4362984378'
+  const image = 'https://resistencia.uy/images/camiloDosSantos01.png'
 
   return (
     <Helmet
