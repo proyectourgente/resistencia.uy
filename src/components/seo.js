@@ -56,6 +56,10 @@ function SEO({ description, lang, meta, title }) {
           content: image,
         },
         {
+          property: `og:image:secure_url`,
+          content: image,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
