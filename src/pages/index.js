@@ -12,7 +12,6 @@ function replaceAccents(text) {
 
 const IndexPage = ({data}) => {
 
-    const articulos = data.articulos.nodes
     const index = data.localSearchArticulos.index
     const store = data.localSearchArticulos.store
     const indice = data.indice
@@ -54,7 +53,9 @@ const IndexPage = ({data}) => {
     return (
         <Layout>
             <SEO title="Todos los artículos"/>
-            <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán derogar 135 artículos de la LUC vía referendúm. Esta es una comparación de los artículos antes y después basada en datos del IMPO</p>
+            <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán derogar 135 artículos de
+                la LUC vía referendúm. Esta es una comparación de los artículos antes y después basada en datos del
+                IMPO</p>
 
             <div className="mx-auto p-5 w-100 lg:w-1/2 ">
                 <input
@@ -113,44 +114,44 @@ const IndexPage = ({data}) => {
 export default IndexPage
 
 export const pageQuery = graphql`
-                    query {
-                    articulos: allLucJson {
-                    nodes {
-                    numeroArticulo
-                }
-                }
-                    localSearchArticulos {
-                    index
-                    store
-                }
-                    indiceSeccion: allIndiceYaml {
-                    group(field: NRO_SECCION) {
-                    fieldValue
-                    totalCount
-                    nodes {
+    query {
+        articulos: allLucJson {
+            nodes {
+                numeroArticulo
+            }
+        }
+        localSearchArticulos {
+            index
+            store
+        }
+        indiceSeccion: allIndiceYaml {
+            group(field: NRO_SECCION) {
+                fieldValue
+                totalCount
+                nodes {
                     NRO_CAPITULO
                 }
-                }
-                }
-                    indiceCapitulo: allIndiceYaml {
-                    group(field: NRO_CAPITULO) {
-                    fieldValue
-                    totalCount
-                    nodes {
+            }
+        }
+        indiceCapitulo: allIndiceYaml {
+            group(field: NRO_CAPITULO) {
+                fieldValue
+                totalCount
+                nodes {
                     NRO_SECCION
                 }
-                }
-                }
-                    indice: allIndiceYaml {
-                    nodes {
-                    NRO_CAPITULO
-                    DESC_CAPITULO
-                    NRO_ARTICULO
-                    DESC_ARTICULO
-                    NRO_SECCION
-                    DESC_SECCION
-                }
-                }
-                }
+            }
+        }
+        indice: allIndiceYaml {
+            nodes {
+                NRO_CAPITULO
+                DESC_CAPITULO
+                NRO_ARTICULO
+                DESC_ARTICULO
+                NRO_SECCION
+                DESC_SECCION
+            }
+        }
+    }
 
                     `

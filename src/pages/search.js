@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { useStaticQuery } from 'gatsby'
-import { useLunr } from 'react-lunr'
-import {useState} from "react";
+import {useState} from 'react'
+import {useStaticQuery} from 'gatsby'
+import {useLunr} from 'react-lunr'
 
 const SearchPage = () => {
     const queryData = useStaticQuery(graphql`

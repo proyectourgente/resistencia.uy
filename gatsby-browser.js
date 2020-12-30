@@ -5,4 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+import 'typeface-roboto'
 import './src/styles/global.css';

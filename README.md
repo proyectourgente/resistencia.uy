@@ -16,4 +16,5 @@ Los textos de los artículos y los de sus versiones previas fueron tomados del I
 
 - Camilo Dos Santos
 - Sebastián Gadea
+- Manuel Falero
 - Raúl Speroni
