@@ -51,7 +51,7 @@ const Layout = ({children}) => {
                 <p className="mt-5">
                     {new Date().getFullYear()}, Hecho con
                     {` `}
-                    <a href="https://www.gatsbyjs.com">Gatsby</a>. Este proyecto está en construcción y pretende colaborar con el intento de derogar los artículos más dañinos de la LUC.
+                    <a href="https://www.gatsbyjs.com">Gatsby</a>. Este proyecto está en construcción y pretende colaborar con el intento de anular los artículos más dañinos de la LUC.
 
                 </p>
                     </span>

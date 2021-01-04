@@ -53,8 +53,8 @@ const IndexPage = ({data}) => {
     return (
         <Layout>
             <SEO title="Todos los artículos"/>
-            <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán derogar 135 artículos de
-                la LUC vía referendúm. Esta es una comparación de los artículos antes y después basada en datos del
+            <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán anular 135 artículos de
+                la LUC vía referéndum. Esta es una comparación de los artículos antes y después basada en datos del
                 IMPO</p>
 
             <div className="mx-auto p-5 w-100 lg:w-1/2 ">
