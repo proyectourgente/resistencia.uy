@@ -91,6 +91,7 @@ module.exports = {
         path: `./src/content/meta`,
       },
     },
-    'gatsby-plugin-postcss'
+    'gatsby-plugin-postcss',
+    `gatsby-plugin-offline`
   ],
 }
