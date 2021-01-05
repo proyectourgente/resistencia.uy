@@ -1,4 +1,5 @@
 {
+    "fechaDescarga": "05/01/2021, 10:53:07",
     "json_original": {
         "tipoNorma": "Ley",
         "nroNorma": "19889",
@@ -15,5 +16,6 @@
     "numeroArticulo": "429",
     "seccionArticulo": "IX",
     "capituloArticulo": "II",
-    "textoArticulo": " (Desalojo por vencimiento del plazo).- El desalojo del arrendatario buen pagador por vencimiento del plazo se tramitar\u00e1 por el proceso de estructura monitoria. "
+    "textoArticulo": " (Desalojo por vencimiento del plazo).- El desalojo del arrendatario buen pagador por vencimiento del plazo se tramitar\u00e1 por el proceso de estructura monitoria. ",
+    "textoOriginal": " (Desalojo por vencimiento del plazo).- El desalojo del arrendatario buen pagador por vencimiento del plazo se tramitar\u00e1 por el proceso de estructura monitoria. "
 }

@@ -1,4 +1,5 @@
 {
+    "fechaDescarga": "05/01/2021, 10:51:54",
     "json_original": {
         "tipoNorma": "Ley",
         "nroNorma": "19889",
@@ -15,5 +16,6 @@
     "numeroArticulo": "142",
     "seccionArticulo": "III",
     "capituloArticulo": null,
-    "textoArticulo": " (Congreso Nacional de Educaci\u00f3n).- El Cap\u00edtulo IX del T\u00edtulo II \"LOS \u00d3RGANOS DEL SISTEMA NACIONAL DE EDUCACI\u00d3N\" de la Ley N\u00b0 18.437, de 12 de diciembre de 2008, se denominar\u00e1 \"CONGRESO NACIONAL DE EDUCACI\u00d3N\", a partir de la vigencia de la presente ley. "
+    "textoArticulo": " (Congreso Nacional de Educaci\u00f3n).- El Cap\u00edtulo IX del T\u00edtulo II \"LOS \u00d3RGANOS DEL SISTEMA NACIONAL DE EDUCACI\u00d3N\" de la Ley N\u00b0 18.437, de 12 de diciembre de 2008, se denominar\u00e1 \"CONGRESO NACIONAL DE EDUCACI\u00d3N\", a partir de la vigencia de la presente ley. ",
+    "textoOriginal": " (Congreso Nacional de Educaci\u00f3n).- El Cap\u00edtulo IX del T\u00edtulo II \"LOS \u00d3RGANOS DEL SISTEMA NACIONAL DE EDUCACI\u00d3N\" de la Ley N\u00b0 18.437, de 12 de diciembre de 2008, se denominar\u00e1 \"CONGRESO NACIONAL DE EDUCACI\u00d3N\", a partir de la vigencia de la presente ley. "
 }

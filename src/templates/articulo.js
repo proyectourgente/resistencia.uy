@@ -9,13 +9,12 @@ import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
 
 
 function limpiarTexto(texto) {
-    if (texto instanceof String && texto) {
+    if (texto) {
+        texto = texto.toString()
         texto = texto.replaceAll('\n', '')
         texto = texto.replaceAll('(*)', '')
         texto = texto.trim()
         return texto
-    } else if (texto) {
-        return texto.toString()
     } else
         return ''
 }
@@ -70,20 +69,26 @@ export default function Articulo({data}) {
 
                 <h2 className="mb-2 text-red-700 font-bold">{meta.DESC_ARTICULO}</h2>
                 <p>{articulo.notasArticulo}</p>
-                <p className="mt-5 font-serif">{limpiarTexto(articulo.textoModificado)}</p>
+                <p className="mt-5 font-serif">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
 
-                <div className="mt-10">
-                    <h3 className="mb-2">ANTES (rojo) Y DESPUÉS (verde)</h3>
-                    <ReactDiffViewer
-                        oldValue={limpiarTexto(articulo.textoOriginal)}
-                        newValue={limpiarTexto(articulo.textoModificado)}
-                        showDiffOnly={true}
-                        splitView={false}
-                        hideLineNumbers={true}
-                        disableWordDiff={false}
-                        useDarkTheme={false}
-                        compareMethod={DiffMethod.WORDS}/>
-                </div>
+                {articulo.textoModificado ?
+                    <div className="mt-10">
+                        <h3 className="mb-2">ANTES (rojo) Y DESPUÉS (verde)</h3>
+                        <ReactDiffViewer
+                            oldValue={limpiarTexto(articulo.textoOriginal)}
+                            newValue={limpiarTexto(articulo.textoModificado)}
+                            showDiffOnly={true}
+                            splitView={false}
+                            hideLineNumbers={true}
+                            disableWordDiff={false}
+                            useDarkTheme={false}
+                            compareMethod={DiffMethod.WORDS}/>
+                    </div>
+                    :
+                    <div className="mt-10">
+                        <h3>No existe versión anterior con que comparar</h3>
+                    </div>
+                }
             </div>
         </Layout>
     )
