@@ -11,8 +11,8 @@ import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
 function limpiarTexto(texto) {
     if (texto) {
         texto = texto.toString()
-        texto = texto.replaceAll('\n', '')
-        texto = texto.replaceAll('(*)', '')
+        texto = texto.replace(/\n/gm, '')
+        texto = texto.replace(/\(\*\)/gm, '')
         texto = texto.trim()
         return texto
     } else
