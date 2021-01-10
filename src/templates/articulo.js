@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 
 import ReactDiffViewer, {DiffMethod} from 'react-diff-viewer';
 import SEO from "../components/seo";
+import SocialShare from "../components/socialshare";
 import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
 
 
@@ -63,6 +64,8 @@ export default function Articulo({data}) {
                     <span>Siguiente</span><FaArrowRight/>
                 </Link>
             </div>
+            <SocialShare title={title} slug={articulo.numeroArticulo}/>
+
             <div className="font-sans">
                 <h3 className="mb-2">SECCIÓN {meta.NRO_SECCION} > CAPÍTULO {meta.NRO_CAPITULO} >
                     ARTÍCULO {articulo.numeroArticulo}</h3>

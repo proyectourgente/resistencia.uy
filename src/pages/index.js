@@ -5,6 +5,8 @@ import {Link} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {useLunr} from "react-lunr";
+import logo from "../images/LOGO_YO_FIRMO_COMPLETO_AZUL.png" // Tell webpack this JS file uses this image
+
 
 function replaceAccents(text) {
     return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -53,6 +55,9 @@ const IndexPage = ({data}) => {
     return (
         <Layout>
             <SEO title="Todos los artículos"/>
+            <a target="_blank" title="Web oficial de la Campaña"
+              href={'https://yofirmo.uy'}><img alt={'Logo Campaña oficial YoFirmoUy'} className="w-4/12 md:3/12 lg:w-2/12 xl:w-3/24 mx-auto mb-5" src={logo}/></a>
+
             <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán anular 135 artículos de
                 la LUC vía referéndum. Esta es una comparación de los artículos antes y después basada en datos del
                 IMPO</p>
