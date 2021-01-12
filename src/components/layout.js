@@ -8,10 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import {graphql, useStaticQuery} from "gatsby"
-import {FaGithub, FaTwitter} from 'react-icons/fa';
+import {FaGithub, FaTelegramPlane, FaTwitter} from 'react-icons/fa';
 
 import Header from "./header"
 import "./layout.css"
+import {FaTelegram} from "react-icons/all";
 
 const Layout = ({children}) => {
     const data = useStaticQuery(graphql`
@@ -32,9 +33,10 @@ const Layout = ({children}) => {
                 <footer className="mt-10">
                     <div className="mx-auto p-5 w-100 lg:w-1/2 font-sans text-center">
 
-                        <h3 className="text-red-700 text-sm">¿Encontraste algún error? ¿Tenés sugerencias? ¿Querés
-                            colaborar?</h3>
-                        <div className="flex w-1/3 lg:w-10 mx-auto mt-5">
+                        <h3 className="text-red-700 text-sm">¿Encontraste algún error, tenés sugerencias o querés
+                            colaborar? Sumáte al <a href="https://t.me/resistenciauy" target="_blank" title="Canal de Telegram"
+                                                    rel="noopener noreferrer">canal de telegram</a></h3>
+                        <div className="flex w-1/3 lg:w-10 mx-auto mt-5 justify-around">
                             <a className="px-2 text-red-700 hover:text-gray-100 visited:text-gray-300"
                                href="https://twitter.com/raulsperoni" target="_blank" title="Twitter"
                                rel="noopener noreferrer">
@@ -44,6 +46,11 @@ const Layout = ({children}) => {
                                href="https://github.com/raulsperoni/resistencia.uy" target="_blank" title="Github"
                                rel="noopener noreferrer">
                                 <FaGithub/>
+                            </a>
+                            <a className="px-2 text-red-700 hover:text-gray-100 visited:text-gray-300"
+                               href="https://t.me/resistenciauy" target="_blank" title="Canal de Telegram"
+                               rel="noopener noreferrer">
+                                <FaTelegramPlane/>
                             </a>
                         </div>
 

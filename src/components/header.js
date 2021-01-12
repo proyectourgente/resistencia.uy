@@ -2,6 +2,7 @@ import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import {FaGithub, FaTwitter} from "react-icons/fa";
+import {FaTelegram} from "react-icons/all";
 
 const Header = ({siteTitle}) => (
     <header className="bg-red-700 mb-8">
@@ -26,6 +27,11 @@ const Header = ({siteTitle}) => (
                        href="https://github.com/raulsperoni/resistencia.uy" target="_blank" title="Github"
                        rel="noopener noreferrer">
                         <FaGithub/>
+                    </a>
+                    <a className="px-2 text-white hover:text-gray-100 visited:text-gray-300"
+                       href="https://t.me/resistenciauy" target="_blank" title="Canal de Telegram"
+                       rel="noopener noreferrer">
+                        <FaTelegram/>
                     </a>
                 </div>
             </h1>
