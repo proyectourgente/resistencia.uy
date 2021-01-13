@@ -40,7 +40,7 @@ function Header ({siteTitle}) {
                 <div className={`${isExpanded ? `block` : `hidden`} w-full xl:w-1/3 block flex-grow xl:flex xl:items-center xl:w-auto`}>
                     <div className="flex-grow"></div>
                     <div className="flex text-sm uppercase font-book justify-around flex-wrap">
-                        <a href="#"
+                        <a href="/proyecto"
                            className="block mt-6 xl:inline-block xl:mt-0 no-underline text-white hover:text-amarillo xl:mr-4 w-full text-center">
                             Sobre este proyecto
                         </a>
