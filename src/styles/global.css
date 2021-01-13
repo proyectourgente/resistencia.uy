@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('Gotham-Book.otf');
+    font-style: italic;
+}
+
 @tailwind base;
 
 @layer base {

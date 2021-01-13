@@ -58,7 +58,7 @@ const IndexPage = ({data}) => {
             <a target="_blank" title="Web oficial de la Campaña"
               href={'https://yofirmo.uy'}><img alt={'Logo Campaña oficial YoFirmoUy'} className="w-4/12 md:3/12 lg:w-2/12 xl:w-3/24 mx-auto mb-5" src={logo}/></a>
 
-            <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán anular 135 artículos de
+            <p className="w-100 text-center font-book text-xs lg:text-sm">En 2021 se intentarán anular 135 artículos de
                 la LUC vía referéndum. Esta es una comparación de los artículos antes y después basada en datos del
                 IMPO</p>
 
