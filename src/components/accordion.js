@@ -18,10 +18,10 @@ const Accordion = ({title, seccion, articulos, children, alwaysOpen}) => {
                        {title}
                     </span>
                     <span className="w-full"><span className="text-sm">{seccion}</span><span
-                        className="text-xs"> ({articulos} artículos)</span></span>
+                        className="text-xs"> ({articulos})</span></span>
                 </div>
                 <div
-                    className="rounded-full border border-grey w-7 h-7 flex items-center justify-center">
+                    className="bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center">
                     <FaArrowDown/>
                 </div>
             </header>
