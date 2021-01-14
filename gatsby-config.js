@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `LUC Comparada`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#034EA2`,
