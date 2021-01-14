@@ -58,7 +58,7 @@ const IndexPage = ({data}) => {
 
 
             <p className="w-100 text-center font-book text-sm lg:text-sm">
-                Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes</p>
+                Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que se pretenden anular via referéndum</p>
 
             <div className="mx-auto p-5 w-100 lg:w-1/2 ">
                 <input

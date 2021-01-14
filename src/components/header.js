@@ -8,7 +8,7 @@ function Header({siteTitle}) {
     const [isExpanded, toggleExpansion] = useState(false)
 
     return (
-        <header className="mb-8">
+        <header>
             <nav className="flex items-center justify-between flex-wrap bg-azul px-8 lg:px-20 py-6">
                 <div className="flex items-center flex-no-shrink text-white w-2/3 mr-6 xl:mr-0 items-center">
                     <a target="_blank" title="Web oficial de la Campaña" className="w-20 md:w-24 mr-5"

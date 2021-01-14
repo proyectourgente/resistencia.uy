@@ -28,7 +28,7 @@ function anteriorArticulo(lista, actual) {
 function Navigation({lista, actual, seccion, capitulo}) {
 
     return (
-        <div className="flex mx-auto mb-5 -mt-3 md:mt-0 lg:mb-0">
+        <div className="flex mx-auto mb-5 lg:mb-0">
             <Link
                 to={anteriorArticulo(lista, actual)}
                 className="w-1/4 flex flex-col text-center justify-center no-underline text-azul">
