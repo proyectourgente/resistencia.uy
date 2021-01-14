@@ -5,8 +5,8 @@ import {Link} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {useLunr} from "react-lunr";
-import logo from "../images/LOGO_YO_FIRMO_COMPLETO_AZUL.png" // Tell webpack this JS file uses this image
-
+import {FaArrowDown} from "react-icons/all"; // Tell webpack this JS file uses this image
+import Accordion from "../components/accordion";
 
 function replaceAccents(text) {
     return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -55,17 +55,15 @@ const IndexPage = ({data}) => {
     return (
         <Layout>
             <SEO title="Todos los artículos"/>
-            <a target="_blank" title="Web oficial de la Campaña"
-              href={'https://yofirmo.uy'}><img alt={'Logo Campaña oficial YoFirmoUy'} className="w-4/12 md:3/12 lg:w-2/12 xl:w-3/24 mx-auto mb-5" src={logo}/></a>
 
-            <p className="w-100 text-center font-sans text-xs lg:text-sm">En 2021 se intentarán anular 135 artículos de
-                la LUC vía referéndum. Esta es una comparación de los artículos antes y después basada en datos del
-                IMPO</p>
+
+            <p className="w-100 text-center font-book text-sm md:text-lg lg:w-1/2 mx-auto">
+                Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que se pretenden anular via referéndum</p>
 
             <div className="mx-auto p-5 w-100 lg:w-1/2 ">
                 <input
-                    placeholder={"Buscar artículos por palabra"}
-                    className="mx-auto w-full h-12 focus:outline-none focus:ring focus:border-blue-300 p-2 border-2"
+                    placeholder={"Buscá por palabra o elegí de la lista"}
+                    className="mx-auto w-full h-12 bg-blanco border-azul text-azul focus:outline-none focus:ring focus:border-blue-300 p-2 border-2 placeholder-azul"
                     name="query"
                     value={query}
                     onChange={(event) => {
@@ -73,44 +71,43 @@ const IndexPage = ({data}) => {
                         setQuerySinAcento(replaceAccents(event.target.value))
                     }}
                 />
-                <span className="font-sans text-center text-xs text-red-700">
-
-                <p className="mt-5">
-                    {results.length > 0 ? (<span>Mostrando artículos artículos con "{query}"</span>) : (
-                        <span>Mostrando todos los artículos a derogar</span>)}
-                </p>
-                    </span>
             </div>
-            <div className="font-sans">
+
+            <section className="shadow font-book">
                 {secc_articulos.map(({seccion, cant_articulos, captitulos}) => {
                         const secciones_filtradas = indice.nodes.filter(art => (
                             (results_array.length <= 0 || results_array.includes(art.NRO_ARTICULO.toString())) &&
                             (art.NRO_SECCION === seccion)))
                         return secciones_filtradas.length > 0 ? (
-                            <div key={seccion} className="py-3">
-                                <h3>SECCIÓN {seccion} - {secciones_desc[seccion]} ({cant_articulos})</h3>
-                                {captitulos.map((capitulo) => {
-                                    const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
-                                    return capitulos_filtrados.length > 0 ? (
-                                        <div key={capitulo} className="py-2 pl-4">
-                                            <h4 className="mb-2">CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h4>
-                                            {capitulos_filtrados.map((art) => (
-                                                <ul className="pl-4 py-0.5">
-                                                    <li key={art.NRO_ARTICULO}>
-                                                        <Link
-                                                            to={art.NRO_ARTICULO.toString()}>
-                                                            {art.NRO_ARTICULO.toString()} - {art.DESC_ARTICULO}</Link>
-                                                    </li>
-                                                </ul>
-                                            ))}
-                                        </div>
-                                    ) : (<div></div>)
-                                })}
-                            </div>
+                            <article key={seccion} className="border-b">
+                                <Accordion seccion={"SECCIÓN "+ seccion} articulos={
+                                    results.length > 0 ?
+                                        (`artículos con "${query}"`) :
+                                        (`${cant_articulos} artículos`)
+                                } title={secciones_desc[seccion]} alwaysOpen={results.length > 0}>
+                                        {captitulos.map((capitulo) => {
+                                            const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
+                                            return capitulos_filtrados.length > 0 ? (
+                                                <div key={capitulo} className="py-2 pl-4">
+                                                    <h4 className="mb-2">CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h4>
+                                                    {capitulos_filtrados.map((art) => (
+                                                        <ul key={"artt_"+art.NRO_ARTICULO} className="pl-4 py-0.5">
+                                                            <li key={art.NRO_ARTICULO}>
+                                                                <Link
+                                                                    to={art.NRO_ARTICULO.toString()}>
+                                                                    {art.NRO_ARTICULO.toString()} - {art.DESC_ARTICULO}</Link>
+                                                            </li>
+                                                        </ul>
+                                                    ))}
+                                                </div>
+                                            ) : (<div className="hidden"></div>)
+                                        })}
+                                </Accordion>
+                            </article>
                         ) : (<div></div>)
                     }
                 )}
-            </div>
+            </section>
         </Layout>
     )
 

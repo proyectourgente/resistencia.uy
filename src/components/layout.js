@@ -8,11 +8,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import {graphql, useStaticQuery} from "gatsby"
-import {FaGithub, FaTelegramPlane, FaTwitter} from 'react-icons/fa';
 
 import Header from "./header"
 import "./layout.css"
-import {FaTelegram} from "react-icons/all";
+import Footer from "./footer";
 
 const Layout = ({children}) => {
     const data = useStaticQuery(graphql`
@@ -26,47 +25,20 @@ const Layout = ({children}) => {
   `)
 
     return (
-        <>
+        <div className="flex flex-col h-screen justify-between font-book">
             <Header siteTitle={data.site.siteMetadata?.title || `Title`}/>
-            <div className="container mx-auto px-5 lg:px-20 ">
-                <main>{children}</main>
-                <footer className="mt-10">
-                    <div className="mx-auto p-5 w-100 lg:w-1/2 font-sans text-center">
-
-                        <h3 className="text-red-700 text-sm">¿Encontraste algún error, tenés sugerencias o querés
-                            colaborar? Sumáte al <a href="https://t.me/resistenciauy" target="_blank" title="Canal de Telegram"
-                                                    rel="noopener noreferrer">canal de telegram</a></h3>
-                        <div className="flex w-1/3 lg:w-10 mx-auto mt-5 justify-around">
-                            <a className="px-2 text-red-700 hover:text-gray-100 visited:text-gray-300"
-                               href="https://twitter.com/raulsperoni" target="_blank" title="Twitter"
-                               rel="noopener noreferrer">
-                                <FaTwitter/>
-                            </a>
-                            <a className="px-2 text-red-700 hover:text-gray-100 visited:text-gray-300"
-                               href="https://github.com/raulsperoni/resistencia.uy" target="_blank" title="Github"
-                               rel="noopener noreferrer">
-                                <FaGithub/>
-                            </a>
-                            <a className="px-2 text-red-700 hover:text-gray-100 visited:text-gray-300"
-                               href="https://t.me/resistenciauy" target="_blank" title="Canal de Telegram"
-                               rel="noopener noreferrer">
-                                <FaTelegramPlane/>
-                            </a>
-                        </div>
-
-                        <span className=" text-xs text-red-700">
-                <p className="mt-5">
-                    {new Date().getFullYear()}, Hecho con
-                    {` `}
-                    <a href="https://www.gatsbyjs.com">Gatsby</a>. Este proyecto está en construcción y pretende colaborar con el intento de anular los artículos más dañinos de la LUC.
-
-                </p>
-                    </span>
-                    </div>
-
-                </footer>
+            <div className="flex-1 overflow-y-auto py-5">
+                <div className="mb-auto container mx-auto px-5 lg:px-32 xl:px-40">
+                    <main>{children}</main>
+                </div>
+                <div className="block lg:hidden">
+                <Footer/>
+                </div>
             </div>
-        </>
+            <div className="hidden lg:block">
+                <Footer/>
+            </div>
+        </div>
     )
 }
 

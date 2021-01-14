@@ -1,12 +1,12 @@
 import React from "react"
-import {graphql, Link} from "gatsby"
+import {graphql} from "gatsby"
 import Layout from "../components/layout"
 
 
 import ReactDiffViewer, {DiffMethod} from 'react-diff-viewer';
 import SEO from "../components/seo";
+import Navigation from "../components/navigation";
 import SocialShare from "../components/socialshare";
-import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
 
 
 function limpiarTexto(texto) {
@@ -20,63 +20,38 @@ function limpiarTexto(texto) {
         return ''
 }
 
-function siguienteArticulo(lista, actual) {
-    let cantidad_articulos = lista.length
-    let posicion_actual = lista.indexOf(actual, 0)
-    let posicion_siguiente = posicion_actual + 1
-    if (posicion_siguiente < cantidad_articulos) {
-        return "/".concat(lista[posicion_siguiente].toString())
-    } else {
-        return "/"
-    }
-}
-
-function anteriorArticulo(lista, actual) {
-    let posicion_actual = lista.indexOf(actual, 0)
-    let posicion_anterior = posicion_actual - 1
-    if (posicion_anterior >= 0) {
-        return "/".concat(lista[posicion_anterior].toString())
-    } else {
-        return "/"
-    }
-}
-
 
 export default function Articulo({data}) {
     const articulo = data.allLucJson.nodes[0]
     const meta = data.indice.nodes.find((art) => art.NRO_ARTICULO.toString() === articulo.numeroArticulo.toString())
     const title = 'Artículo ' + articulo.numeroArticulo + ' - ' + meta.DESC_ARTICULO
     const lista_articulos = data.indice.nodes.map((articulo) => articulo.NRO_ARTICULO.toString())
+    const explicacion = data.allExplicacionesYaml.nodes.filter(exp => exp.NRO_ARTICULO === parseInt(articulo.numeroArticulo))[0]
+
 
     return (
         <Layout>
             <SEO title={title}/>
-            <div className="flex mx-auto align-middle w-2/3 lg:w-1/4 mb-5 lg:mb-0">
-                <Link
-                    to={anteriorArticulo(lista_articulos, articulo.numeroArticulo)}
-                    className="w-2/5 flex items-center justify-around text-red-700 hover:text-gray-700 visited:text-red-700">
-                    <FaArrowLeft/><span>Anterior</span>
-                </Link>
-                <span className="w-1/5"/>
-                <Link
-                    to={siguienteArticulo(lista_articulos, articulo.numeroArticulo)}
-                    className="w-2/5 flex items-center justify-around text-red-700 hover:text-gray-700 visited:text-red-700">
-                    <span>Siguiente</span><FaArrowRight/>
-                </Link>
-            </div>
-            <SocialShare title={title} slug={articulo.numeroArticulo}/>
-
-            <div className="font-sans">
-                <h3 className="mb-2">SECCIÓN {meta.NRO_SECCION} > CAPÍTULO {meta.NRO_CAPITULO} >
-                    ARTÍCULO {articulo.numeroArticulo}</h3>
-
-                <h2 className="mb-2 text-red-700 font-bold">{meta.DESC_ARTICULO}</h2>
-                <p>{articulo.notasArticulo}</p>
-                <p className="mt-5 font-serif">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
-
+            <Navigation actual={articulo.numeroArticulo} lista={lista_articulos} tituloActual={title} seccion={meta.NRO_SECCION} capitulo={meta.NRO_CAPITULO}/>
+            <div className="flex flex-col md:w-8/12 mx-auto md:mt-5">
+                <span className="text-xl text-center my-2 text-azul font-black uppercase">{meta.DESC_ARTICULO}</span>
+                <SocialShare title={title} slug={articulo.numeroArticulo}/>
+                <span className="my-2 text-center">{articulo.notasArticulo}</span>
+                {explicacion ?
+                    <span
+                        className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comentario</span>
+                     : <div className="hidden"></div>}
+                {explicacion ?
+                    <p className="mt-3">{explicacion.EXPLICACION}</p> : <div className="hidden"></div>
+                }
+                <span className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">texto actual</span>
+                <p className="mt-3">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
                 {articulo.textoModificado ?
-                    <div className="mt-10">
-                        <h3 className="mb-2">ANTES (rojo) Y DESPUÉS (verde)</h3>
+                    <div className="flex flex-col">
+                        <span
+                            className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comparación</span>
+
+                        <span className="text-center my-2">ANTES (rojo) Y DESPUÉS (verde)</span>
                         <ReactDiffViewer
                             oldValue={limpiarTexto(articulo.textoOriginal)}
                             newValue={limpiarTexto(articulo.textoModificado)}
@@ -93,6 +68,7 @@ export default function Articulo({data}) {
                     </div>
                 }
             </div>
+
         </Layout>
     )
 }
@@ -117,6 +93,12 @@ export const query = graphql`
           DESC_ARTICULO
           NRO_SECCION
           DESC_SECCION
+        }
+      }
+      allExplicacionesYaml {
+        nodes {
+          NRO_ARTICULO
+          EXPLICACION
         }
       }
   }
