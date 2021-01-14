@@ -11,9 +11,9 @@ function Header({siteTitle}) {
         <header>
             <nav className="flex items-center justify-between flex-wrap bg-azul px-8 lg:px-20 py-6">
                 <div className="flex items-center flex-no-shrink text-white w-2/3 mr-6 xl:mr-0 items-center">
-                    <a target="_blank" title="Web oficial de la Campaña" className="w-20 md:w-24 mr-5"
-                       href={'https://yofirmo.uy'}>
-                        <img alt={'Logo Campaña oficial YoFirmoUy'}
+                    <a title="Todos los Artículos" className="w-20 md:w-24 mr-5"
+                       href={'/'}>
+                        <img alt={'Todos los Artículos'}
                              src={logo}/>
                     </a>
                     <Link
