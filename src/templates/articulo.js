@@ -26,23 +26,26 @@ export default function Articulo({data}) {
     const meta = data.indice.nodes.find((art) => art.NRO_ARTICULO.toString() === articulo.numeroArticulo.toString())
     const title = 'Artículo ' + articulo.numeroArticulo + ' - ' + meta.DESC_ARTICULO
     const lista_articulos = data.indice.nodes.map((articulo) => articulo.NRO_ARTICULO.toString())
+    const explicacion = data.allExplicacionesYaml.nodes.filter(exp => exp.NRO_ARTICULO === parseInt(articulo.numeroArticulo))[0]
+
 
     return (
         <Layout>
             <SEO title={title}/>
             <Navigation actual={articulo.numeroArticulo} lista={lista_articulos} tituloActual={title} seccion={meta.NRO_SECCION} capitulo={meta.NRO_CAPITULO}/>
-
             <div className="flex flex-col md:w-8/12 mx-auto md:mt-5">
-
-
                 <span className="text-xl text-center my-2 text-azul font-black uppercase">{meta.DESC_ARTICULO}</span>
                 <SocialShare title={title} slug={articulo.numeroArticulo}/>
-
                 <span className="my-2 text-center">{articulo.notasArticulo}</span>
+                {explicacion ?
+                    <span
+                        className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comentario</span>
+                     : <div className="hidden"></div>}
+                {explicacion ?
+                    <p>{explicacion.EXPLICACION}</p> : <div className="hidden"></div>
+                }
                 <span className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">texto actual</span>
                 <p className="mt-3">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
-
-
                 {articulo.textoModificado ?
                     <div className="flex flex-col">
                         <span
@@ -90,6 +93,12 @@ export const query = graphql`
           DESC_ARTICULO
           NRO_SECCION
           DESC_SECCION
+        }
+      }
+      allExplicacionesYaml {
+        nodes {
+          NRO_ARTICULO
+          EXPLICACION
         }
       }
   }

@@ -56,7 +56,7 @@ function Navigation({lista, actual, seccion, capitulo}) {
 
 Navigation.propTypes = {
     lista: PropTypes.array.isRequired,
-    actual: PropTypes.number.isRequired,
+    actual: PropTypes.string.isRequired,
     seccion: PropTypes.string.isRequired,
     capitulo: PropTypes.string.isRequired
 }

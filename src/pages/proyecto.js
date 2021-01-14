@@ -25,7 +25,7 @@ const Proyecto = ({}) => {
                     <p className="mb-1">Como los datos no variarían con el tiempo se optó por hacer un sitio estático utilizando  <a
                         href="https://www.gatsbyjs.com" rel="noopener noreferrer" target={"_blank"}>Gatsby</a> y hostearlo en Github para que no generara costos.</p>
                     <p className="mb-1">Resistencia.uy recibió comentarios y aportes de mucha gente y fue mejorando de a poco hasta que nos pusimos en contacto con la campaña por el referéndum para sumar esfuerzos.</p>
-                <p className="mb-1">El proyecto es de código abierto y lo podés encontrar, revisar, copiar y modificar en <a href="https://github.com/raulsperoni/resistencia.uy" rel="noopener noreferrer" target={"_blank"}>Github</a></p>
+                <p className="mb-1">El proyecto es de código abierto y lo podés encontrar, revisar, copiar y modificar en <a href="https://github.com/raulsperoni/resistencia.uy" rel="noopener noreferrer" target={"_blank"}>Github</a>.</p>
                     <p className="mb-1">Si encontraste algún error, tenés sugerencias o querés colaborar podés comunicarte por las redes de la campaña o por nuestro <a
                         href="https://t.me/resistenciauy" target="_blank" title="Canal de Telegram"
                         rel="noopener noreferrer">canal de telegram</a></p>
