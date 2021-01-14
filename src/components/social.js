@@ -1,8 +1,5 @@
-import {Link} from "gatsby"
-import PropTypes from "prop-types"
-import React, {useState} from "react"
-import {FaFacebook, FaGithub, FaInstagram, FaTelegramPlane, FaTwitter, FaYoutube} from "react-icons/fa";
-import logo from "../images/LOGO_BANDERA_BLANCO.png";
+import React from "react"
+import {FaFacebook, FaInstagram, FaTwitter, FaYoutube} from "react-icons/fa";
 
 function Social() {
 

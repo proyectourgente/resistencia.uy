@@ -27,7 +27,7 @@ const Layout = ({children}) => {
   `)
 
     return (
-        <div className="flex flex-col h-screen justify-between">
+        <div className="flex flex-col h-screen justify-between font-book">
             <Header siteTitle={data.site.siteMetadata?.title || `Title`}/>
             <div className="mb-auto container mx-auto px-5 lg:px-32 xl:px-40">
                 <main>{children}</main>

@@ -1,12 +1,12 @@
 import React from "react"
-import {graphql, Link} from "gatsby"
+import {graphql} from "gatsby"
 import Layout from "../components/layout"
 
 
 import ReactDiffViewer, {DiffMethod} from 'react-diff-viewer';
 import SEO from "../components/seo";
 import SocialShare from "../components/socialshare";
-import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
+import Navigation from "../components/navigation";
 
 
 function limpiarTexto(texto) {
@@ -20,27 +20,6 @@ function limpiarTexto(texto) {
         return ''
 }
 
-function siguienteArticulo(lista, actual) {
-    let cantidad_articulos = lista.length
-    let posicion_actual = lista.indexOf(actual, 0)
-    let posicion_siguiente = posicion_actual + 1
-    if (posicion_siguiente < cantidad_articulos) {
-        return "/".concat(lista[posicion_siguiente].toString())
-    } else {
-        return "/"
-    }
-}
-
-function anteriorArticulo(lista, actual) {
-    let posicion_actual = lista.indexOf(actual, 0)
-    let posicion_anterior = posicion_actual - 1
-    if (posicion_anterior >= 0) {
-        return "/".concat(lista[posicion_anterior].toString())
-    } else {
-        return "/"
-    }
-}
-
 
 export default function Articulo({data}) {
     const articulo = data.allLucJson.nodes[0]
@@ -51,20 +30,7 @@ export default function Articulo({data}) {
     return (
         <Layout>
             <SEO title={title}/>
-            <div className="flex mx-auto align-middle w-2/3 lg:w-1/4 mb-5 lg:mb-0">
-                <Link
-                    to={anteriorArticulo(lista_articulos, articulo.numeroArticulo)}
-                    className="w-2/5 flex items-center justify-around text-red-700 hover:text-gray-700 visited:text-red-700">
-                    <FaArrowLeft/><span>Anterior</span>
-                </Link>
-                <span className="w-1/5"/>
-                <Link
-                    to={siguienteArticulo(lista_articulos, articulo.numeroArticulo)}
-                    className="w-2/5 flex items-center justify-around text-red-700 hover:text-gray-700 visited:text-red-700">
-                    <span>Siguiente</span><FaArrowRight/>
-                </Link>
-            </div>
-            <SocialShare title={title} slug={articulo.numeroArticulo}/>
+            <Navigation actual={articulo.numeroArticulo} lista={lista_articulos} tituloActual={title}/>
 
             <div className="font-sans">
                 <h3 className="mb-2">SECCIÓN {meta.NRO_SECCION} > CAPÍTULO {meta.NRO_CAPITULO} >
