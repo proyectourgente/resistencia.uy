@@ -31,6 +31,11 @@ const Layout = ({children}) => {
                 <div className="mb-auto container mx-auto px-5 lg:px-32 xl:px-40">
                     <main>{children}</main>
                 </div>
+                <div className="block lg:hidden">
+                <Footer/>
+                </div>
+            </div>
+            <div className="hidden lg:block">
                 <Footer/>
             </div>
         </div>
