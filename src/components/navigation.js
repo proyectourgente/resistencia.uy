@@ -1,9 +1,7 @@
 import React from "react"
-import {FaArrowLeft, FaArrowRight, FaFacebook, FaInstagram, FaTwitter, FaYoutube} from "react-icons/fa";
-import * as PropTypes from "prop-types";
+import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
 import {Link} from "gatsby";
-import SocialShare from "./socialshare";
-import Layout from "./layout";
+import * as PropTypes from "prop-types";
 
 function siguienteArticulo(lista, actual) {
     let cantidad_articulos = lista.length
@@ -27,22 +25,29 @@ function anteriorArticulo(lista, actual) {
 }
 
 
-function Navigation({lista, actual, tituloActual}) {
+function Navigation({lista, actual, seccion, capitulo}) {
 
     return (
-        <div className="flex mx-auto mb-5 lg:mb-0">
+        <div className="flex mx-auto mb-5 -mt-3 md:mt-0 lg:mb-0">
             <Link
                 to={anteriorArticulo(lista, actual)}
                 className="w-1/4 flex flex-col text-center justify-center no-underline text-azul">
-                <span>Anterior</span><span className="mx-auto hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaArrowLeft/></span>
+                <span>Anterior</span><span
+                className="mx-auto hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaArrowLeft/></span>
             </Link>
-            <div className="w-2/4">
-            <SocialShare title={tituloActual} slug={actual}/>
+            <div className="w-2/4 flex text-center flex-col md:flex-row text-azul justify-center items-center">
+                <span>SECCIÓN <b>{seccion}</b></span>
+                <span className="hidden md:block text-xl mx-3 text-amarillo"> > </span>
+                <span> CAPÍTULO <b>{capitulo}</b></span>
+                <span className="hidden md:block text-xl mx-3 text-amarillo"> > </span>
+
+                <span> ARTÍCULO <b>{actual}</b></span>
             </div>
             <Link
                 to={siguienteArticulo(lista, actual)}
                 className="w-1/4 flex flex-col text-center justify-center no-underline text-azul">
-                <span>Siguiente</span><span className="mx-auto hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaArrowRight/></span>
+                <span>Siguiente</span><span
+                className="mx-auto hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaArrowRight/></span>
             </Link>
 
         </div>
@@ -52,7 +57,8 @@ function Navigation({lista, actual, tituloActual}) {
 Navigation.propTypes = {
     lista: PropTypes.array.isRequired,
     actual: PropTypes.number.isRequired,
-    tituloActual: PropTypes.string.isRequired
+    seccion: PropTypes.string.isRequired,
+    capitulo: PropTypes.string.isRequired
 }
 
 export default Navigation

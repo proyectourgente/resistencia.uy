@@ -5,8 +5,8 @@ import Layout from "../components/layout"
 
 import ReactDiffViewer, {DiffMethod} from 'react-diff-viewer';
 import SEO from "../components/seo";
-import SocialShare from "../components/socialshare";
 import Navigation from "../components/navigation";
+import SocialShare from "../components/socialshare";
 
 
 function limpiarTexto(texto) {
@@ -30,19 +30,25 @@ export default function Articulo({data}) {
     return (
         <Layout>
             <SEO title={title}/>
-            <Navigation actual={articulo.numeroArticulo} lista={lista_articulos} tituloActual={title}/>
+            <Navigation actual={articulo.numeroArticulo} lista={lista_articulos} tituloActual={title} seccion={meta.NRO_SECCION} capitulo={meta.NRO_CAPITULO}/>
 
-            <div className="font-sans">
-                <h3 className="mb-2">SECCIÓN {meta.NRO_SECCION} > CAPÍTULO {meta.NRO_CAPITULO} >
-                    ARTÍCULO {articulo.numeroArticulo}</h3>
+            <div className="flex flex-col md:w-8/12 mx-auto md:mt-5">
 
-                <h2 className="mb-2 text-red-700 font-bold">{meta.DESC_ARTICULO}</h2>
-                <p>{articulo.notasArticulo}</p>
-                <p className="mt-5 font-serif">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
+
+                <span className="text-xl text-center my-2 text-azul font-black uppercase">{meta.DESC_ARTICULO}</span>
+                <SocialShare title={title} slug={articulo.numeroArticulo}/>
+
+                <span className="my-2 text-center">{articulo.notasArticulo}</span>
+                <span className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">texto actual</span>
+                <p className="mt-3">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
+
 
                 {articulo.textoModificado ?
-                    <div className="mt-10">
-                        <h3 className="mb-2">ANTES (rojo) Y DESPUÉS (verde)</h3>
+                    <div className="flex flex-col">
+                        <span
+                            className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comparación</span>
+
+                        <span className="text-center my-2">ANTES (rojo) Y DESPUÉS (verde)</span>
                         <ReactDiffViewer
                             oldValue={limpiarTexto(articulo.textoOriginal)}
                             newValue={limpiarTexto(articulo.textoModificado)}
@@ -59,6 +65,7 @@ export default function Articulo({data}) {
                     </div>
                 }
             </div>
+
         </Layout>
     )
 }

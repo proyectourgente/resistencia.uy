@@ -15,8 +15,10 @@ const SocialShare = ({slug, title}) => {
     const url = 'https://resistencia.uy/' + slug
 
     return (
-        <div className={"mt-5 mb-5 flex flex-col text-center w-2/3 md:w-1/3 xl:w-1/4 mx-auto text-azul"}>
+        <div className={"flex flex-col text-center w-1/2 md:w-1/3 xl:w-1/4 mx-auto text-azul"}>
+{/*
             <span className="font-black">Compartir</span>
+*/}
             <div className="flex justify-between mt-3 text-lg">
                 <div className="hover:text-amarillo"><EmailShareButton url={url}
                                                                        subject={title}><FaRegEnvelope/></EmailShareButton>
