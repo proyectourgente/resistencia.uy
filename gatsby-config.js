@@ -8,7 +8,7 @@ function replaceAccents(text) {
 module.exports = {
   siteMetadata: {
     title: `Ley de Urgente Consideración Comparada`,
-    description: `En 2021 se intentarán anular 135 artículos de la LUC vía referéndum. Esta es una comparación de los artículos antes y después basada en datos del IMPO`,
+    description: `Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que se pretenden anular via referéndum`,
     author: `@raulsperoni`,
     image: `images/camiloDosSantos01.png`,
   },
@@ -27,7 +27,9 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `LUC Comparada`,
-        short_name: `starter`,
+        short_name: `LUC Comparada`,
+        description: `Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que se pretenden anular via referéndum.`,
+        lang: `es`,
         start_url: `/`,
         background_color: `#034EA2`,
         theme_color: `#FFCB05`,
