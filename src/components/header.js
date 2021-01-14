@@ -1,11 +1,10 @@
 import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React, {useState} from "react"
-import {FaFacebook, FaGithub, FaInstagram, FaTwitter, FaYoutube} from "react-icons/fa";
-import {FaTelegram} from "react-icons/all";
 import logo from "../images/LOGO_BANDERA_BLANCO.png";
+import Social from "./social";
 
-function Header ({siteTitle}) {
+function Header({siteTitle}) {
     const [isExpanded, toggleExpansion] = useState(false)
 
     return (
@@ -37,43 +36,28 @@ function Header ({siteTitle}) {
                         </svg>
                     </button>
                 </div>
-                <div className={`${isExpanded ? `block` : `hidden`} w-full xl:w-1/3 block flex-grow xl:flex xl:items-center xl:w-auto`}>
+                <div
+                    className={`${isExpanded ? `block` : `hidden`} w-full xl:w-1/3 block flex-grow xl:flex xl:items-center xl:w-auto`}>
                     <div className="flex-grow"></div>
                     <div className="flex text-sm uppercase font-book justify-around flex-wrap">
                         <a href="/proyecto"
-                           className="block mt-6 xl:inline-block xl:mt-0 no-underline text-white hover:text-amarillo xl:mr-4 w-full text-center">
+                           className="block mt-6 xl:inline-block xl:mt-0 no-underline text-white hover:text-amarillo hover:font-black xl:mr-4 w-full text-center">
                             Sobre este proyecto
                         </a>
+                        <a href="https://t.me/resistenciauy"
+                           className="block mt-2 xl:inline-block xl:mt-0 no-underline text-white hover:text-amarillo xl:mr-4 w-full text-center"
+                           target="_blank" title="Canal de Telegram"
+                           rel="noopener noreferrer">canal de telegram</a>
                         <a href="https://yofirmo.uy" target="_blank" title="Página de la campaña"
                            rel="noopener noreferrer"
-                           className="block mt-2 xl:inline-block xl:mt-0  no-underline text-white hover:text-amarillo xl:mr-4 w-full text-center">
+                           className="block mt-2 xl:inline-block xl:mt-0 font-black no-underline text-amarillo hover:text-white xl:mr-4 w-full text-center">
                             yofirmo.uy
                         </a>
 
                     </div>
                     <div className="flex-grow"></div>
-
-                    <div className="flex mt-4 xl:mt-0 flex-grow justify-center px-20 xl:px-0">
-                        <a className="px-2 text-white hover:text-amarillo"
-                           href="https://www.facebook.com/reafirmatusderechos" target="_blank" title="Facebook"
-                           rel="noopener noreferrer">
-                            <FaFacebook/>
-                        </a>
-                        <a className="px-2 text-white hover:text-amarillo"
-                           href="https://www.instagram.com/yofirmo.uy" target="_blank" title="Instagram"
-                           rel="noopener noreferrer">
-                            <FaInstagram/>
-                        </a>
-                        <a className="px-2 text-white hover:text-amarillo"
-                           href="https://bit.ly/3n0bMsK" target="_blank" title="Youtube"
-                           rel="noopener noreferrer">
-                            <FaYoutube/>
-                        </a>
-                        <a className="px-2 text-white hover:text-amarillo"
-                           href="https://twitter.com/Yofirmouy" target="_blank" title="Twitter"
-                           rel="noopener noreferrer">
-                            <FaTwitter/>
-                        </a>
+                    <div className="mt-4 xl:mt-0 ">
+                        <Social/>
                     </div>
                 </div>
             </nav>
