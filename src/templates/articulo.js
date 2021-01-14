@@ -42,7 +42,7 @@ export default function Articulo({data}) {
                         className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comentario</span>
                      : <div className="hidden"></div>}
                 {explicacion ?
-                    <p>{explicacion.EXPLICACION}</p> : <div className="hidden"></div>
+                    <p className="mt-3">{explicacion.EXPLICACION}</p> : <div className="hidden"></div>
                 }
                 <span className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">texto actual</span>
                 <p className="mt-3">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>

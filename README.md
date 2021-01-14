@@ -6,7 +6,8 @@ Un proyecto para difundir los impactos de la LUC y argumentos para la derogació
 - [x] Bajar los artículos originales sustituidos
 - [x] Sitio estático usando GatsbyJs
 - [x] Motor de Búsqueda
-- [ ] Conseguir argumentario por artículo
+- [x] Conseguir argumentario por artículo
+- [x] Estética Yofirmo.uy
 
 ## Datos
 
@@ -14,7 +15,9 @@ Los textos de los artículos y los de sus versiones previas fueron tomados del I
 
 ## Colaboran:
 
-- Camilo Dos Santos
-- Sebastián Gadea
-- Manuel Falero
-- Raúl Speroni
+- [Camilo Dos Santos](https://twitter.com/Camilodsa77)
+- [Sebastián Gadea](https://twitter.com/nosoylenine)
+- [Manuel Falero](https://twitter.com/manuelfalero)
+- [Pata Kramer](https://twitter.com/patakramer)
+- [Raúl Speroni](https://twitter.com/raulsperoni)
+

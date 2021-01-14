@@ -91,7 +91,7 @@ const IndexPage = ({data}) => {
                                                 <div key={capitulo} className="py-2 pl-4">
                                                     <h4 className="mb-2">CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h4>
                                                     {capitulos_filtrados.map((art) => (
-                                                        <ul className="pl-4 py-0.5">
+                                                        <ul key={"artt_"+art.NRO_ARTICULO} className="pl-4 py-0.5">
                                                             <li key={art.NRO_ARTICULO}>
                                                                 <Link
                                                                     to={art.NRO_ARTICULO.toString()}>
