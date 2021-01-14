@@ -88,7 +88,7 @@ const IndexPage = ({data}) => {
                             (art.NRO_SECCION === seccion)))
                         return secciones_filtradas.length > 0 ? (
                             <article key={seccion} className="border-b">
-                                <Accordion title={"SECCIÓN"+ seccion +"-"+ secciones_desc[seccion] +"("+cant_articulos+")"} alwaysOpen={results.length > 0}>
+                                <Accordion seccion={"SECCIÓN "+ seccion} articulos={cant_articulos} title={secciones_desc[seccion]} alwaysOpen={results.length > 0}>
                                         {captitulos.map((capitulo) => {
                                             const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
                                             return capitulos_filtrados.length > 0 ? (
