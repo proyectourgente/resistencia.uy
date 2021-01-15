@@ -75,8 +75,8 @@ export default function Articulo({data}) {
                         }} className="text-sm mb-2 text-azul flex justify-center items-center rounded-full shadow-lg md:w-1/3 mt-3 border border-azul md:mt-0 mx-auto p-2">
                             <span className="mr-2 hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaExchangeAlt/></span>
                             {verCorregido ?
-                                <span>Ver <span style={{background: "#fdb8c0"}}>ANTES</span> y <span
-                                    style={{background: "#acf2bd"}}>DESPUÉS</span></span> :
+                                <span>Ver <span style={{background: "#fdb8c0"}}>antes</span> y <span
+                                    style={{background: "#acf2bd"}}>después</span></span> :
                                 <span>Ver <span className="line-through">texto corregido</span></span>
 
                             }
