@@ -8,6 +8,7 @@ Un proyecto para difundir los impactos de la LUC y argumentos para la derogació
 - [x] Motor de Búsqueda
 - [x] Conseguir argumentario por artículo
 - [x] Estética Yofirmo.uy
+- [x] Dos opciones de diff
 
 ## Datos
 
