@@ -43,3 +43,7 @@
     max-height: 0;
     transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
 }
+
+pre {
+    @apply font-book
+}

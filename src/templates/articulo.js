@@ -1,12 +1,14 @@
-import React from "react"
+import React, {useState} from "react"
 import {graphql} from "gatsby"
 import Layout from "../components/layout"
 
 import DiffMatchPatch from 'diff-match-patch-with-word';
 
+import ReactDiffViewer, {DiffMethod} from 'react-diff-viewer';
 import SEO from "../components/seo";
 import Navigation from "../components/navigation";
 import SocialShare from "../components/socialshare";
+import {FaExchangeAlt} from "react-icons/all";
 
 
 function limpiarTexto(texto) {
@@ -33,6 +35,9 @@ var diffPerWord = function (dmp, text1, text2) {
 
 
 export default function Articulo({data}) {
+
+    const [verCorregido, setVerCorregido] = useState(true)
+
     const articulo = data.allLucJson.nodes[0]
     const meta = data.indice.nodes.find((art) => art.NRO_ARTICULO.toString() === articulo.numeroArticulo.toString())
     const title = 'Artículo ' + articulo.numeroArticulo + ' - ' + meta.DESC_ARTICULO
@@ -53,20 +58,49 @@ export default function Articulo({data}) {
                 <span className="my-2 text-center">{articulo.notasArticulo}</span>
                 {explicacion ?
                     <span
-                        className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comentario</span>
+                        className="font-black bg-azul my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comentario</span>
                     : <div className="hidden"></div>}
                 {explicacion ?
                     <p className="mt-3">{explicacion.EXPLICACION}</p> : <div className="hidden"></div>
                 }
                 <span
-                    className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">texto actual</span>
+                    className="font-black bg-azul my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">texto actual</span>
                 <p className="mt-3">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
                 {articulo.textoModificado ?
                     <div className="flex flex-col">
                         <span
-                            className="font-black bg-azul mt-3 md:my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comparación</span>
-                        <span className="text-center my-2">Anterior en rojo, nuevo en verde</span>
-                        <div dangerouslySetInnerHTML={{__html: dmp.diff_prettyHtml(diff)}}/>
+                            className="font-black bg-azul my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comparación</span>
+                        <button onClick={() => {
+                            setVerCorregido(!verCorregido)
+                        }} className="uppercase text-sm mb-2 flex justify-center items-center rounded-full shadow-lg md:w-1/3 mt-3 border border-azul md:mt-0 mx-auto p-2">
+                            <span className="mr-2 hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaExchangeAlt/></span>
+                            {verCorregido ?
+                                <span>Ver <span style={{background: "#fdb8c0"}}>ANTES</span> y <span
+                                    style={{background: "#acf2bd"}}>DESPUÉS</span></span> :
+                                <span>Ver <span className="line-through">texto corregido</span></span>
+
+                            }
+                        </button>
+
+                        {articulo.numeroArticulo === "404" || verCorregido ?
+                            <div className="flex flex-col">
+                                <span className="uppercase text-sm text-azul text-center my-3 mx-auto">En tachado lo que la LUC eliminó y en verde el texto agregado</span>
+                                <div dangerouslySetInnerHTML={{__html: dmp.diff_prettyHtml(diff)}}/>
+                            </div> :
+                            <div className="flex flex-col">
+                                <span className="uppercase text-sm text-azul text-center my-3 mx-auto">En el texto anterior se destaca con rojo lo borrado. Debajo, en el vigente, se destaca con verde lo nuevo</span>
+
+                                <ReactDiffViewer
+                                oldValue={limpiarTexto(articulo.textoOriginal)}
+                                newValue={limpiarTexto(articulo.textoModificado)}
+                                showDiffOnly={true}
+                                splitView={false}
+                                hideLineNumbers={true}
+                                disableWordDiff={false}
+                                useDarkTheme={false}
+                                compareMethod={DiffMethod.WORDS}/>
+                            </div>
+                        }
                     </div>
                     :
                     <div className="mt-10">
