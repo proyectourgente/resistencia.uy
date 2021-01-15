@@ -4737,6 +4737,11 @@ didyoumean@^1.2.1:
   resolved "https://registry.yarnpkg.com/didyoumean/-/didyoumean-1.2.1.tgz#e92edfdada6537d484d73c0172fd1eba0c4976ff"
   integrity sha1-6S7f2tplN9SE1zwBcv0eugxJdv8=
 
+diff-match-patch-with-word@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/diff-match-patch-with-word/-/diff-match-patch-with-word-1.0.0.tgz#8d9ab2ad5cc6a1705f51647d4b0647b6e3d640ea"
+  integrity sha512-6DM4ax+XE4u8M14ZDljfQID+yUlddohSDvtSTjDSlJjAe7Hx8bUhbbUass+XU7CiQhZ9TWACN+8gBMuoxDodSg==
+
 diff-sequences@^25.2.6:
   version "25.2.6"
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-25.2.6.tgz#5f467c00edd35352b7bca46d7927d60e687a76dd"

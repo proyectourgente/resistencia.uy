@@ -6,7 +6,7 @@ import {
     TwitterShareButton,
     WhatsappShareButton,
 } from "react-share";
-import {FaTelegram, FaWhatsapp} from "react-icons/all"
+import {FaWhatsapp} from "react-icons/all"
 import {FaRegEnvelope, FaTelegramPlane} from "react-icons/fa"
 import {FiFacebook, FiTwitter} from "react-icons/fi"
 
@@ -16,9 +16,6 @@ const SocialShare = ({slug, title}) => {
 
     return (
         <div className={"flex flex-col text-center w-1/2 md:w-1/3 xl:w-1/4 mx-auto text-azul"}>
-{/*
-            <span className="font-black">Compartir</span>
-*/}
             <div className="flex justify-between mt-3 text-lg">
                 <div className="hover:text-amarillo"><EmailShareButton url={url}
                                                                        subject={title}><FaRegEnvelope/></EmailShareButton>

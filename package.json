@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "autoprefixer": "^10.1.0",
+    "diff-match-patch-with-word": "^1.0.0",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-google-gtag": "^2.5.0",

@@ -5,7 +5,6 @@ import {Link} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {useLunr} from "react-lunr";
-import {FaArrowDown} from "react-icons/all"; // Tell webpack this JS file uses this image
 import Accordion from "../components/accordion";
 
 function replaceAccents(text) {
@@ -58,7 +57,8 @@ const IndexPage = ({data}) => {
 
 
             <p className="w-100 text-center font-book text-sm md:text-lg lg:w-1/2 mx-auto">
-                Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que se pretenden anular via referéndum</p>
+                Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que
+                se pretenden anular via referéndum</p>
 
             <div className="mx-auto p-5 w-100 lg:w-1/2 ">
                 <input
@@ -80,28 +80,28 @@ const IndexPage = ({data}) => {
                             (art.NRO_SECCION === seccion)))
                         return secciones_filtradas.length > 0 ? (
                             <article key={seccion} className="border-b">
-                                <Accordion seccion={"SECCIÓN "+ seccion} articulos={
+                                <Accordion seccion={"SECCIÓN " + seccion} articulos={
                                     results.length > 0 ?
                                         (`artículos con "${query}"`) :
                                         (`${cant_articulos} artículos`)
                                 } title={secciones_desc[seccion]} alwaysOpen={results.length > 0}>
-                                        {captitulos.map((capitulo) => {
-                                            const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
-                                            return capitulos_filtrados.length > 0 ? (
-                                                <div key={capitulo} className="py-2 pl-4">
-                                                    <h4 className="mb-2">CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h4>
-                                                    {capitulos_filtrados.map((art) => (
-                                                        <ul key={"artt_"+art.NRO_ARTICULO} className="pl-4 py-0.5">
-                                                            <li key={art.NRO_ARTICULO}>
-                                                                <Link
-                                                                    to={art.NRO_ARTICULO.toString()}>
-                                                                    {art.NRO_ARTICULO.toString()} - {art.DESC_ARTICULO}</Link>
-                                                            </li>
-                                                        </ul>
-                                                    ))}
-                                                </div>
-                                            ) : (<div className="hidden"></div>)
-                                        })}
+                                    {captitulos.map((capitulo) => {
+                                        const capitulos_filtrados = secciones_filtradas.filter(art => (art.NRO_CAPITULO === capitulo))
+                                        return capitulos_filtrados.length > 0 ? (
+                                            <div key={capitulo} className="py-2 pl-4">
+                                                <h4 className="mb-2">CAPÍTULO {capitulo} - {capitulos_desc[seccion][capitulo]}</h4>
+                                                {capitulos_filtrados.map((art) => (
+                                                    <ul key={"artt_" + art.NRO_ARTICULO} className="pl-4 py-0.5">
+                                                        <li key={art.NRO_ARTICULO}>
+                                                            <Link
+                                                                to={art.NRO_ARTICULO.toString()}>
+                                                                {art.NRO_ARTICULO.toString()} - {art.DESC_ARTICULO}</Link>
+                                                        </li>
+                                                    </ul>
+                                                ))}
+                                            </div>
+                                        ) : (<div className="hidden"></div>)
+                                    })}
                                 </Accordion>
                             </article>
                         ) : (<div></div>)
