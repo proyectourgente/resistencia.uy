@@ -72,7 +72,7 @@ export default function Articulo({data}) {
                             className="font-black bg-azul my-5 text-amarillo uppercase p-1 w-1/2 mx-auto text-center rounded">comparación</span>
                         <button onClick={() => {
                             setVerCorregido(!verCorregido)
-                        }} className="uppercase text-sm mb-2 flex justify-center items-center rounded-full shadow-lg md:w-1/3 mt-3 border border-azul md:mt-0 mx-auto p-2">
+                        }} className="text-sm mb-2 text-azul flex justify-center items-center rounded-full shadow-lg md:w-1/3 mt-3 border border-azul md:mt-0 mx-auto p-2">
                             <span className="mr-2 hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaExchangeAlt/></span>
                             {verCorregido ?
                                 <span>Ver <span style={{background: "#fdb8c0"}}>ANTES</span> y <span
@@ -84,11 +84,11 @@ export default function Articulo({data}) {
 
                         {articulo.numeroArticulo === "404" || verCorregido ?
                             <div className="flex flex-col">
-                                <span className="uppercase text-sm text-azul text-center my-3 mx-auto">En tachado lo que la LUC eliminó y en verde el texto agregado</span>
+                                <span className="text-sm text-azul text-center my-3 mx-auto">Lo que la LUC eliminó se muestra tachado y en verde se destaca el texto agregado</span>
                                 <div dangerouslySetInnerHTML={{__html: dmp.diff_prettyHtml(diff)}}/>
                             </div> :
                             <div className="flex flex-col">
-                                <span className="uppercase text-sm text-azul text-center my-3 mx-auto">En el texto anterior se destaca con rojo lo borrado. Debajo, en el vigente, se destaca con verde lo nuevo</span>
+                                <span className="text-sm text-azul text-center my-3 mx-auto">En la redacción anterior se destaca con rojo lo borrado. Debajo, en la vigente, se destaca con verde lo nuevo</span>
 
                                 <ReactDiffViewer
                                 oldValue={limpiarTexto(articulo.textoOriginal)}
