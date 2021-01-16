@@ -10,8 +10,6 @@ module.exports = {
       },
     },
     fontFamily: {
-      serif: ['Roboto Slab', 'serif'],
-      sans: ['Roboto Condensed', 'sans-serif'],
       black: ['Gotham-Black'],
       book: ['Gotham-Book']
     }
