@@ -1,12 +1,19 @@
-@font-face {
-    font-family: 'Gotham-Black';
-    src: url('Gotham-Black.otf');
+@font-face {font-family: "Gotham-Book";
+    src: url("924ee4158324c02e3e0d62e54cafd14f.eot"); /* IE9*/
+    src: url("924ee4158324c02e3e0d62e54cafd14f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("924ee4158324c02e3e0d62e54cafd14f.woff2") format("woff2"), /* chrome、firefox */
+    url("924ee4158324c02e3e0d62e54cafd14f.woff") format("woff"), /* chrome、firefox */
+    url("924ee4158324c02e3e0d62e54cafd14f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("924ee4158324c02e3e0d62e54cafd14f.svg#Gotham Book") format("svg"); /* iOS 4.1- */
 }
 
-@font-face {
-    font-family: 'Gotham-Book';
-    src: url('Gotham-Book.otf');
-    font-style: italic;
+@font-face {font-family: "Gotham-Black";
+    src: url("51296ff9eb1e16185eb6a1000de5d345.eot"); /* IE9*/
+    src: url("51296ff9eb1e16185eb6a1000de5d345.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("51296ff9eb1e16185eb6a1000de5d345.woff2") format("woff2"), /* chrome、firefox */
+    url("51296ff9eb1e16185eb6a1000de5d345.woff") format("woff"), /* chrome、firefox */
+    url("51296ff9eb1e16185eb6a1000de5d345.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("51296ff9eb1e16185eb6a1000de5d345.svg#Gotham-Black") format("svg"); /* iOS 4.1- */
 }
 
 @tailwind base;
