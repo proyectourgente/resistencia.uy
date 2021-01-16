@@ -9,4 +9,11 @@
           notasArticulo
         }
       }
+
+      comentarios: allExplicacionesYaml {
+              nodes {
+                NRO_ARTICULO
+                EXPLICACION
+              }
+            }
     }

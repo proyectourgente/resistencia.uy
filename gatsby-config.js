@@ -57,18 +57,22 @@ module.exports = {
             'utf-8',
         ),
         ref: 'numeroArticulo',
-        index: ['textoModificado', 'tituloArticulo'],
-        store: ['seccionArticulo', 'capituloArticulo', 'numeroArticulo','tituloArticulo'],
-        normalizer: ({ data }) =>
-            data.articulos.nodes.map((node) => {
-              return {
-                numeroArticulo: node.numeroArticulo,
-                capituloArticulo: node.capituloArticulo,
-                seccionArticulo: node.seccionArticulo,
-                textoModificado: node.textoModificado ? node.textoModificado.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "",
-                tituloArticulo: node.tituloArticulo ? node.tituloArticulo.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : ""
-              }
-            }),
+        index: ['textoModificado', 'tituloArticulo', 'comentarioArticulo'],
+        store: ['seccionArticulo', 'capituloArticulo', 'numeroArticulo','tituloArticulo', 'comentarioArticulo'],
+        normalizer: ({ data }) => {
+          const comentarios = data.comentarios.nodes
+          return data.articulos.nodes.map((node) => {
+            const comentario = comentarios.filter(coment => coment.NRO_ARTICULO === parseInt(node.numeroArticulo))[0]
+            return {
+              numeroArticulo: node.numeroArticulo,
+              capituloArticulo: node.capituloArticulo,
+              seccionArticulo: node.seccionArticulo,
+              textoModificado: node.textoModificado ? node.textoModificado.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "",
+              tituloArticulo: node.tituloArticulo ? node.tituloArticulo.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "",
+              comentarioArticulo: comentario.EXPLICACION
+            }
+          })
+        }
       },
     },
     {
