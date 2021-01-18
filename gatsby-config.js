@@ -10,7 +10,7 @@ module.exports = {
     title: `Ley de Urgente Consideración Comparada`,
     description: `Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que se pretenden anular via referéndum`,
     author: `@raulsperoni`,
-    image: `images/camiloDosSantos01.png`,
+    image: `images/LUC.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
