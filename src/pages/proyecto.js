@@ -20,7 +20,7 @@ const Proyecto = () => {
                     los cambios introducidos por la LUC de una manera clara y accesible.</p>
 
                 <p className="mb-1">El primer paso fue <a
-                    href={"https://github.com/raulsperoni/resistencia.uy/blob/yofirmouy/src/content/luc/LUCScraper.ipynb"}
+                    href={"https://github.com/raulsperoni/resistencia.uy/blob/main/src/content/luc/LUCScraper.ipynb"}
                     target="_blank" title={"Script en Python"}
                     rel="noopener noreferrer">descargar los artículos</a> de la página del IMPO recuperando además, para
                     cada uno, el texto original.</p>
