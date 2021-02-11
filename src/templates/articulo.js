@@ -84,7 +84,7 @@ export default function Articulo({data}) {
 
                         {articulo.numeroArticulo === "404" || verCorregido ?
                             <div className="flex flex-col">
-                                <span className="text-sm text-azul text-center my-3 mx-auto">Lo que la LUC eliminó se muestra tachado y en verde se destaca el texto agregado</span>
+                                <span className="text-sm text-azul text-center my-3 mx-auto">Lo que la LUC eliminó se muestra en rojo tachado, y en verde se destaca el texto agregado</span>
                                 <div dangerouslySetInnerHTML={{__html: dmp.diff_prettyHtml(diff)}}/>
                             </div> :
                             <div className="flex flex-col">
