@@ -10,15 +10,10 @@ function Header({siteTitle}) {
     return (
         <header>
             <nav className="flex items-center justify-between flex-wrap bg-azul px-8 lg:px-20 py-6">
-                <div className="flex items-center flex-no-shrink text-white w-2/3 mr-6 xl:mr-0 items-center">
-                    <a title="Todos los Artículos" className="w-20 md:w-24 mr-5"
-                       href={'/'}>
-                        <img alt={'Todos los Artículos'}
-                             src={logo}/>
-                    </a>
+                <div className="flex items-center flex-no-shrink text-white  xl:mr-0 items-center">
                     <Link
                         to="/"
-                        className="font-black text-amarillo uppercase w-1/3 md:w-2/3 text-md md:text-xl"
+                        className="font-sans font-black text-amarillo uppercase text-md md:text-2xl"
                         style={{
                             color: `#FFCB05`,
                             textDecoration: `none`,
@@ -39,26 +34,16 @@ function Header({siteTitle}) {
                 <div
                     className={`${isExpanded ? `block` : `hidden`} w-full xl:w-1/3 block flex-grow xl:flex xl:items-center xl:w-auto`}>
                     <div className="flex-grow"></div>
-                    <div className="flex text-sm uppercase font-book justify-around flex-wrap">
+                    <div className="flex text-sm justify-around flex-wrap">
                         <a href="/proyecto"
-                           className="block mt-6 xl:inline-block xl:mt-0 no-underline text-white hover:text-amarillo hover:font-black xl:mr-4 w-full text-center">
+                           className="block mt-6 text-lg xl:inline-block xl:mt-0 font-sans font-medium no-underline text-white hover:text-amarillo hover:font-black xl:mr-4 w-full text-center">
                             Sobre este proyecto
                         </a>
-                        <a href="https://t.me/resistenciauy"
-                           className="block mt-2 xl:inline-block xl:mt-0 no-underline text-white hover:text-amarillo xl:mr-4 w-full text-center"
-                           target="_blank" title="Canal de Telegram"
-                           rel="noopener noreferrer">canal de telegram</a>
-                        <a href="https://yofirmo.uy" target="_blank" title="Página de la campaña"
-                           rel="noopener noreferrer"
-                           className="block mt-2 xl:inline-block xl:mt-0 font-black no-underline text-amarillo hover:text-white xl:mr-4 w-full text-center">
-                            yofirmo.uy
-                        </a>
+                       
 
                     </div>
-                    <div className="flex-grow"></div>
-                    <div className="mt-4 xl:mt-0 ">
-                        <Social/>
-                    </div>
+                   
+                   
                 </div>
             </nav>
         </header>

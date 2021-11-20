@@ -11,7 +11,7 @@ const Proyecto = () => {
     return (
         <Layout>
             <SEO title="Acerca del Proyecto"/>
-            <div className="mt-10 md:mt-20 flex flex-col w-10/12 md:w-2/3 text-justify mx-auto my-auto h-auto">
+            <div className="mt-10 md:mt-20 flex flex-col w-10/12 md:w-2/3 text-justify mx-auto my-auto h-auto font-sans">
 
                 <p className="mb-1">A partir de una <a
                     href={"https://twitter.com/raulsperoni/status/1336346053323395089?s=20"}
@@ -28,15 +28,14 @@ const Proyecto = () => {
                     utilizando <a
                         href="https://www.gatsbyjs.com" rel="noopener noreferrer" target={"_blank"}>Gatsby</a> y
                     hostearlo en Github para que no generara costos.</p>
-                <p className="mb-1">Resistencia.uy recibió comentarios y aportes de mucha gente y fue mejorando de a
+                <p className="mb-1">El proyecto recibió comentarios y aportes de mucha gente y fue mejorando de a
                     poco hasta que nos pusimos en contacto con la campaña por el referéndum para sumar esfuerzos.</p>
                 <p className="mb-1">El proyecto es de código abierto y lo podés encontrar, revisar, copiar y modificar
                     en <a href="https://github.com/raulsperoni/resistencia.uy" rel="noopener noreferrer"
                           target={"_blank"}>Github</a>.</p>
-                <p className="mb-1">Si encontraste algún error, tenés sugerencias o querés colaborar podés comunicarte
-                    por las redes de la campaña o por nuestro <a
-                        href="https://t.me/resistenciauy" target="_blank" title="Canal de Telegram"
-                        rel="noopener noreferrer">canal de telegram</a></p>
+                <p className="mb-1">Si encontraste algún error, tenés sugerencias o querés colaborar podés hacerlo mediante issues de <a
+                        href="https://github.com/raulsperoni/resistencia.uy/issues" target="_blank" title="Issues de Github"
+                        rel="noopener noreferrer">github</a></p>
                 <p className="text-center mt-5">{new Date().getFullYear()} <span role="img" aria-label="Closed fist emoji">✊</span></p>
 
             </div>

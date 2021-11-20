@@ -6,13 +6,69 @@
     font-weight: normal;
 }
 
-@font-face {font-family: "Gotham-Black";
-    src: url("51296ff9eb1e16185eb6a1000de5d345.eot"); /* IE9*/
-    src: url("51296ff9eb1e16185eb6a1000de5d345.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("51296ff9eb1e16185eb6a1000de5d345.woff2") format("woff2"), /* chrome、firefox */
-    url("51296ff9eb1e16185eb6a1000de5d345.woff") format("woff"), /* chrome、firefox */
-    url("51296ff9eb1e16185eb6a1000de5d345.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("51296ff9eb1e16185eb6a1000de5d345.svg#Gotham-Black") format("svg"); /* iOS 4.1- */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Thin.woff2') format('woff2'),
+		 url('Montserrat-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-ExtraLight.woff2') format('woff2'),
+		 url('Montserrat-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Light.woff2') format('woff2'),
+		 url('Montserrat-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Medium.woff2') format('woff2'),
+		 url('Montserrat-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-SemiBold.woff2') format('woff2'),
+		 url('Montserrat-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Bold.woff2') format('woff2'),
+		 url('Montserrat-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-ExtraBold.woff2') format('woff2'),
+		 url('Montserrat-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Black.woff2') format('woff2'),
+		 url('Montserrat-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
 }
 
 @tailwind base;

@@ -7,8 +7,8 @@ function replaceAccents(text) {
 
 module.exports = {
   siteMetadata: {
-    title: `Ley de Urgente Consideración Comparada`,
-    description: `Esta es una comparación basada en datos del IMPO de 135 artículos de la LUC, anteriores y vigentes, que se pretenden anular via referéndum`,
+    title: `LUC Comparada`,
+    description: `Esta es una comparación basada en datos del IMPO de los 135 artículos de la LUC que se pretenden anular via referéndum`,
     author: `@raulsperoni`,
     image: `images/LUC.png`,
   },

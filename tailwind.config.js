@@ -5,13 +5,20 @@ module.exports = {
     extend: {
       colors: {
         amarillo: '#FFCB05',
-        azul: '#034EA2',
+        azul: '#3f4bff',
         blanco: '#ffffff'
       },
     },
     fontFamily: {
-      black: ['Gotham-Black'],
+      sans: ['Montserrat', 'sans-serif'],
       book: ['Gotham-Book']
+    },
+    fontWeight: {
+      regular: 400,
+      medium: 500,
+      bold: 700,
+      extra: 800,
+      black: 900,
     }
   },
   variants: {
