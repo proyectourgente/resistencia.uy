@@ -1,0 +1,24 @@
+version: '3.3'
+
+services:
+
+  luc-uy:
+    build: .
+    image: democraciauy/articuloslucuy
+    ports:
+      - "8080"
+    networks:
+      - traefik_proxy
+    labels:
+      - "traefik.http.routers.luc-uy.rule=Host(`articulos.luc.com.uy`,`articulos.luc.uy`,`www.articulos.luc.com.uy`,`www.articulos.luc.uy`)"
+      - "traefik.http.routers.luc-uy.tls=true"
+      - "traefik.http.routers.luc-uy.tls.certresolver=le"
+      - "traefik.http.services.luc-uy.loadbalancer.server.port=8080"
+      - "traefik.enable=true"
+    restart: on-failure:5
+
+
+
+networks:
+  traefik_proxy:
+    external: true
