@@ -6,7 +6,7 @@ import { GiClick } from "react-icons/gi";
 function Footer() {
   return (
     <footer className="mt-10 bg-azul text-white font-book">
-      <a className="no-underline text-white " href="https://luc.com.uy">
+      {false && <a className="no-underline text-white " href="https://luc.com.uy">
         <div className="mx-auto p-5 w-100 font-sans text-center flex flex-col md:flex-row justify-center align-middle">
           <h1 className="text-center text-polisBlue text-xl md:text-2xl justify-center flex align-middle">
             <span className="mr-2">y vos, </span>
@@ -19,7 +19,7 @@ function Footer() {
             </span>
           </div>
         </div>
-      </a>
+      </a> }
     </footer>
   );
 }
