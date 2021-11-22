@@ -32,11 +32,11 @@ const Layout = ({children}) => {
                     <main>{children}</main>
                 </div>
                 <div className="block lg:hidden">
-                {false && <Footer/> }
+                 <Footer/> 
                 </div>
             </div>
             <div className="hidden lg:block">
-                {false && <Footer/>}
+                <Footer/>
             </div>
         </div>
     )
