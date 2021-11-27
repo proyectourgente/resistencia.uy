@@ -36,9 +36,9 @@ const Proyecto = () => {
                 <p className="mb-1">Si encontraste algún error, tenés sugerencias o querés colaborar podés hacerlo mediante issues de <a
                         href="https://github.com/raulsperoni/resistencia.uy/issues" target="_blank" title="Issues de Github"
                         rel="noopener noreferrer">github</a></p>
-                { false && <p className="mb-1">Con el equipo ampliado y muchas ideas, se empezó a trabajar en un cuestionario sobre la LUC 
+                { true && <p className="mb-1">Con el equipo ampliado y muchas ideas, se empezó a trabajar en un cuestionario sobre la LUC 
                 que ubica a las personas que contestan en grupos, o clústers: <a
-                        href="https://test.luc.uy" target="_blank" title="Issues de Github"
+                        href="https://luc.com.uy" target="_blank" title="Cuestionario LUC"
                         rel="noopener noreferrer">¿Qué Pensás?</a> </p>}
                 <p className="text-center mt-5">{new Date().getFullYear()} <span role="img" aria-label="Closed fist emoji">✊</span></p>
 
