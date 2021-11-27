@@ -13,11 +13,7 @@ function Header({siteTitle}) {
                 <div className="flex items-center flex-no-shrink text-white  xl:mr-0 items-center">
                     <Link
                         to="/"
-                        className="font-sans font-black text-white uppercase text-md md:text-2xl"
-                        style={{
-                            color: `#FFCB05`,
-                            textDecoration: `none`,
-                        }}
+                        className="font-sans font-black text-white text-md text-xl md:text-3xl no-underline"
                     >
                         {siteTitle}
                     </Link>
