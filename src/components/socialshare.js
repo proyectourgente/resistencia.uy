@@ -16,21 +16,21 @@ const SocialShare = ({ slug, title }) => {
   return (
     <div
       className={
-        "flex flex-col text-center w-1/2 md:w-1/3 xl:w-1/4 mx-auto text-azul"
+        "flex flex-col text-center w-1/2 md:w-1/3 xl:w-1/4 mx-auto text-gray-600"
       }
     >
       <div className="flex justify-between mt-3 text-lg">
-        <div className="hover:text-amarillo">
+        <div className="hover:text-black">
           <EmailShareButton url={url} subject={title}>
             <FaRegEnvelope />
           </EmailShareButton>
         </div>
-        <div className="hover:text-amarillo">
+        <div className="hover:text-black">
           <FacebookShareButton url={url} quoute={title} hashtag={"proyectourgente"}>
             <FiFacebook />
           </FacebookShareButton>
         </div>
-        <div className="hover:text-amarillo">
+        <div className="hover:text-black">
           <TwitterShareButton
             url={url}
             title={title}
@@ -39,12 +39,12 @@ const SocialShare = ({ slug, title }) => {
             <FiTwitter />
           </TwitterShareButton>
         </div>
-        <div className="hover:text-amarillo">
+        <div className="hover:text-black">
           <WhatsappShareButton url={url} title={title}>
             <FaWhatsapp />
           </WhatsappShareButton>
         </div>
-        <div className="hover:text-amarillo">
+        <div className="hover:text-black">
           <TelegramShareButton url={url} title={title}>
             <FaTelegramPlane />
           </TelegramShareButton>
