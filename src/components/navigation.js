@@ -28,26 +28,26 @@ function anteriorArticulo(lista, actual) {
 function Navigation({lista, actual, seccion, capitulo}) {
 
     return (
-        <div className="flex mx-auto mb-5 lg:mb-0">
+        <div className="flex mx-auto mb-5 lg:mb-0 text-gray-500">
             <Link
                 to={anteriorArticulo(lista, actual)}
-                className="w-1/4 flex flex-col text-center justify-center no-underline text-azul">
+                className="w-1/4 flex flex-col text-center justify-center no-underline  text-gray-600">
                 <span>Anterior</span><span
-                className="mx-auto hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaArrowLeft/></span>
+                className="mx-auto hover:bg-gray-800 hover:text-gray-200  text-gray-600  rounded-full border  w-7 h-7 flex items-center justify-center"><FaArrowLeft/></span>
             </Link>
-            <div className="w-2/4 flex text-center flex-col md:flex-row text-azul justify-center items-center">
+            <div className="w-2/4 flex text-center flex-col md:flex-row text-gray-500 justify-center items-center">
                 <span>SECCIÓN <b>{seccion}</b></span>
-                <span className="hidden md:block text-xl mx-3 text-amarillo"> > </span>
+                <span className="hidden md:block text-xl mx-3 "> > </span>
                 <span> CAPÍTULO <b>{capitulo}</b></span>
-                <span className="hidden md:block text-xl mx-3 text-amarillo"> > </span>
+                <span className="hidden md:block text-xl mx-3 "> > </span>
 
                 <span> ARTÍCULO <b>{actual}</b></span>
             </div>
             <Link
                 to={siguienteArticulo(lista, actual)}
-                className="w-1/4 flex flex-col text-center justify-center no-underline text-azul">
+                className="w-1/4 flex flex-col text-center justify-center no-underline text-gray-600">
                 <span>Siguiente</span><span
-                className="mx-auto hover:bg-amarillo hover:border-amarillo hover:text-azul bg-azul text-white rounded-full border border-azul w-7 h-7 flex items-center justify-center"><FaArrowRight/></span>
+                className="mx-auto hover:bg-gray-800 hover:text-gray-200  text-gray-600 rounded-full border  w-7 h-7 flex items-center justify-center"><FaArrowRight/></span>
             </Link>
 
         </div>

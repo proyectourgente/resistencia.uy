@@ -52,7 +52,7 @@ export default function Articulo({data}) {
             <SEO title={title}/>
             <Navigation actual={articulo.numeroArticulo} lista={lista_articulos} tituloActual={title}
                         seccion={meta.NRO_SECCION} capitulo={meta.NRO_CAPITULO}/>
-            <div className="flex flex-col md:w-8/12 mx-auto md:mt-5">
+            <div className="flex flex-col md:w-8/12 mx-auto md:mt-5 text-gray-600">
                 <span className="text-xl text-center my-2 text-azul font-black uppercase">{meta.DESC_ARTICULO}</span>
                 <SocialShare title={title} slug={articulo.numeroArticulo}/>
                 <span className="my-2 text-center">{articulo.notasArticulo}</span>
