@@ -9,7 +9,7 @@ function Header({siteTitle}) {
 
     return (
         <header>
-            <nav className="flex items-center justify-between flex-wrap bg-azul px-8 lg:px-20 py-6">
+            <nav className="flex items-center justify-between flex-wrap bg-gradient-to-b to-rosado from-azul px-8 lg:px-20 py-6">
                 <div className="flex items-center flex-no-shrink text-white  xl:mr-0 items-center">
                     <Link
                         to="/"

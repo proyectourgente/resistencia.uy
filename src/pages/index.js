@@ -56,14 +56,14 @@ const IndexPage = ({data}) => {
             <SEO title="Todos los artículos"/>
 
 
-            <p className="w-100 text-center font-book text-sm md:text-lg lg:w-1/2 mx-auto">
+            <p className="w-100 text-center text-gray-500 text-sm md:text-lg lg:w-2/3 mx-auto">
                 Esta es una comparación basada en datos del IMPO de los 135 artículos de la LUC que
                 se pretenden anular via referéndum</p>
 
             <div className="mx-auto p-5 w-100 lg:w-1/2 ">
                 <input
                     placeholder={"Buscá por palabra o elegí de la lista"}
-                    className="mx-auto w-full h-12 bg-blanco border-azul text-azul focus:outline-none focus:ring focus:border-blue-300 p-2 border-2 placeholder-azul"
+                    className="mx-auto w-full h-12 bg-blanco border-gray-300 border-0 border-b text-gray-500 focus:outline-none focus:ring focus:border-blue-300 p-2 placeholder-gray-700"
                     name="query"
                     value={query}
                     onChange={(event) => {
@@ -73,7 +73,7 @@ const IndexPage = ({data}) => {
                 />
             </div>
 
-            <section className="shadow font-book">
+            <section className="shadow text-gray-500">
                 {secc_articulos.map(({seccion, cant_articulos, captitulos}) => {
                         const secciones_filtradas = indice.nodes.filter(art => (
                             (results_array.length <= 0 || results_array.includes(art.NRO_ARTICULO.toString())) &&
@@ -94,6 +94,7 @@ const IndexPage = ({data}) => {
                                                     <ul key={"artt_" + art.NRO_ARTICULO} className="pl-4 py-0.5">
                                                         <li key={art.NRO_ARTICULO}>
                                                             <Link
+                                                                className="text-gray-600"
                                                                 to={art.NRO_ARTICULO.toString()}>
                                                                 {art.NRO_ARTICULO.toString()} - {art.DESC_ARTICULO}</Link>
                                                         </li>

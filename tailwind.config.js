@@ -5,8 +5,9 @@ module.exports = {
     extend: {
       colors: {
         amarillo: '#FFCB05',
-        azul: '#3f4bff',
-        blanco: '#ffffff'
+        azul: '#3F4BFF',
+        blanco: '#ffffff',
+        rosado: '#FC83EE',
       },
     },
     fontFamily: {
