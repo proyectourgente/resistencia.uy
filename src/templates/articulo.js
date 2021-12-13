@@ -57,16 +57,6 @@ export default function Articulo({data}) {
             <div className="flex flex-col md:w-8/12 mx-auto md:mt-5 text-gray-600">
                 <span className="text-xl text-center my-2 text-gray-600 font-black uppercase">{articulo.numeroArticulo + " - " + meta.DESC_ARTICULO}</span>
                 <span className="my-2 text-center">{articulo.notasArticulo}</span>
-                {explicacion ?
-                    <span
-                        className="font-black text-gray-600 uppercase mt-5 mb-5 border-b w-full mx-auto text-center rounded">{"Art. "+articulo.numeroArticulo + " - comentario"}</span>
-                    : <div className="hidden"></div>}
-                {explicacion ?
-                    <p className="mt-3">{explicacion.EXPLICACION}</p> : <div className="hidden"></div>
-                }
-                <span
-                    className="font-black text-gray-600 uppercase mt-5 mb-5 border-b mx-auto w-full text-center rounded">{"Art. "+articulo.numeroArticulo + " - texto actual"}</span>
-                <p className="mt-3">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
                 {articulo.textoModificado ?
                     <div className="flex flex-col">
                         <span
@@ -108,6 +98,18 @@ export default function Articulo({data}) {
                         <h3>No existe versión anterior con que comparar</h3>
                     </div>
                 }
+                 <span
+                    className="font-black text-gray-600 uppercase mt-5 mb-5 border-b mx-auto w-full text-center rounded">{"Art. "+articulo.numeroArticulo + " - texto actual"}</span>
+                <p className="mt-3">{articulo.textoModificado ? limpiarTexto(articulo.textoModificado) : limpiarTexto(articulo.textoOriginal)}</p>
+              
+                {explicacion ?
+                    <span
+                        className="font-black text-gray-600 uppercase mt-5 mb-5 border-b w-full mx-auto text-center rounded">{"Art. "+articulo.numeroArticulo + " - comentario"}</span>
+                    : <div className="hidden"></div>}
+                {explicacion ?
+                    <p className="mt-3">{explicacion.EXPLICACION}</p> : <div className="hidden"></div>
+                }
+                 
             </div>
 
         </Layout>
