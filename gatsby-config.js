@@ -10,7 +10,7 @@ module.exports = {
     title: `LUC Comparada`,
     description: `Esta es una comparación basada en datos del IMPO de los 135 artículos de la LUC que se pretenden anular via referéndum`,
     author: `@raulsperoni`,
-    image: `images/LUC.png`,
+    image: `images/LUC.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
