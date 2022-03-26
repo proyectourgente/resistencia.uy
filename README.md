@@ -2,6 +2,10 @@
 
 Un proyecto para difundir los impactos de la LUC y argumentos para la derogación de 135 artículos.
 
+[Artículo explicativo](https://medium.com/@raulsperoni/los-apuros-de-la-luc-una-forma-de-hacer-pol%C3%ADtica-y-la-opci%C3%B3n-de-resistirse-c0c28bf2715)
+
+## Proyecto
+
 A partir de una conversación de twitter surgió la idea de armar una web para difundir los cambios introducidos por la LUC de una manera clara y accesible.
 
 El primer paso fue descargar los artículos de la página del IMPO recuperando además, para cada uno, el texto original.
@@ -15,6 +19,7 @@ El proyecto es de código abierto y lo podés encontrar, revisar, copiar y modif
 Si encontraste algún error, tenés sugerencias o querés colaborar podés hacerlo mediante issues de github
 
 Con el equipo ampliado y muchas ideas, se empezó a trabajar en un cuestionario sobre la LUC que ubica a las personas que contestan en grupos, o clústers: ¿Qué Pensás?
+
 
 
 ## Datos
