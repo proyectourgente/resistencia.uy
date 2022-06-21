@@ -1,5 +1,7 @@
 # LUC Comparada
 
+[![Join the chat at https://gitter.im/resistencia-uy/community](https://badges.gitter.im/resistencia-uy/community.svg)](https://gitter.im/resistencia-uy/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Un proyecto para difundir los impactos de la LUC y argumentos para la derogación de 135 artículos.
 
 [Artículo explicativo](https://medium.com/@raulsperoni/los-apuros-de-la-luc-una-forma-de-hacer-pol%C3%ADtica-y-la-opci%C3%B3n-de-resistirse-c0c28bf2715)
